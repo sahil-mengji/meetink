@@ -1,0 +1,39 @@
+{
+    "meeting_id": "test-meeting-001",
+    "gist": "Sprint sync covering status and Q3 risks.",
+    "all_actions": [
+        {
+            "text": "Fix CI env vars",
+            "owner": "Bob"
+        }
+    ],
+    "all_decisions": [
+        {
+            "text": "Bob escalates API dep"
+        }
+    ],
+    "all_risks": [
+        {
+            "text": "Dashboard timeline tight"
+        }
+    ],
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish Sai Nimmagadda",
+            "Gurram Vamsi Krishna",
+            "Prisha Behera",
+            "Sahil Mengji",
+            "Sai Nishanth Segu"
+        ],
+        "participant_map": {
+            "Anish": "Anish Sai Nimmagadda",
+            "Gurram": "Gurram Vamsi Krishna",
+            "Prisha": "Prisha Behera",
+            "Sahil": "Sahil Mengji",
+            "Sai": "Sai Nishanth Segu"
+        }
+    }
+}

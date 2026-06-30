@@ -1,0 +1,39 @@
+{
+    "meeting_id": "test-meeting-001",
+    "actions": [
+        {
+            "text": "Escalate API dependency",
+            "owner": "Bob",
+            "deadline": "2026-06-22"
+        },
+        {
+            "text": "Reconvene Thursday",
+            "owner": "Alice",
+            "deadline": "2026-06-26"
+        }
+    ],
+    "decisions": [
+        {
+            "text": "Bob will escalate API dependency"
+        }
+    ],
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish Sai Nimmagadda",
+            "Gurram Vamsi Krishna",
+            "Prisha Behera",
+            "Sahil Mengji",
+            "Sai Nishanth Segu"
+        ],
+        "participant_map": {
+            "Anish": "Anish Sai Nimmagadda",
+            "Gurram": "Gurram Vamsi Krishna",
+            "Prisha": "Prisha Behera",
+            "Sahil": "Sahil Mengji",
+            "Sai": "Sai Nishanth Segu"
+        }
+    }
+}

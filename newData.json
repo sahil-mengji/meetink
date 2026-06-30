@@ -1,0 +1,2066 @@
+[
+    {
+        "speaker": "Prisha",
+        "text": "their own input, it's not like they'll tell that."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Oh."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, and then when they're testing or this one"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "To try something."
+    },
+    {
+        "speaker": "Anish",
+        "text": "they'll test it on the, like they'll test it on the inputs that"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we've told them the format or whatever that we're trying to use."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, like they said that they might ask"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "questions like, okay, if the format input is like this"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "then how will your product or like, , react, but then."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "They won't test it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So if they do ask, we don't have an answer for that, I know."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Just give me one second."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "She told about the nature of the input, like example"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "if there is a very long meeting, like expire 6 hours"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "how well it is doing its job."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "It told us to demonstrate that."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "I am not audible."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Do we have any idea about how we're going to break the multi-topic meetings into"
+    },
+    {
+        "speaker": "Anish",
+        "text": "themes or whatever they said in the problem statement?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So, for dividing into topics, I think I have only seen about LLM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Calling an LLM and dividing it into topics."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And there is no particular algorithm that can perfectly do this, so we can use LLM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think one, at least we should get a hint from the"
+    },
+    {
+        "speaker": "Anish",
+        "text": "meeting name, right? A lot of times meetings have at least"
+    },
+    {
+        "speaker": "Anish",
+        "text": "relevant names in order to further classify the topics, right?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Meeting name, OK."
+    },
+    {
+        "speaker": "Anish",
+        "text": "If it is useful, then we should have a, we should use it, correct?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Like if it says that, okay, hey, the meeting is going to be about this"
+    },
+    {
+        "speaker": "Anish",
+        "text": "then at least you can get a rough idea about what your meeting topics may be"
+    },
+    {
+        "speaker": "Anish",
+        "text": "even before any discussion has taken place."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, we can include that in our input, but what if they ask why did you include"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "in the in your input that you are already providing something like the meeting is"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "No, no, so, so you can have a, you can have a suppose"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "going to be?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "so like you can have like a whatever if state."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "There."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I I don't know how we'd code this"
+    },
+    {
+        "speaker": "Anish",
+        "text": "but suppose suppose the meeting name was useful enough"
+    },
+    {
+        "speaker": "Anish",
+        "text": "like suppose it's like 4:30 meeting, then obviously don't use it as an input"
+    },
+    {
+        "speaker": "Anish",
+        "text": "but suppose it had more depth."
+    },
+    {
+        "speaker": "Anish",
+        "text": "to it, then we could probably use it, right?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, yeah, using it is not a problem, but who provided it?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "S."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So if we provided that in our input, what if they ask"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Oh, okay, like that. Got it, got it. , understood, understood."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "why did you provide that in the input?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So we have only the transcription to the meeting itself, right?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Bing."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Maybe not other details about what time, when, who was invited, things like that"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "S."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, I know."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, okay, good. Bye-bye."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And also, he asked to..."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "We can't try it."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, yeah, speak."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "We can't write the whole transcript as input and tell the LLM to classify"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "because the transcript would be too much."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Yeah, so I like."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So, so maybe our first step should be to"
+    },
+    {
+        "speaker": "Anish",
+        "text": "compress the no, but compressing maybe you lose important"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Even though, even after, no, no, even after, even after compressing"
+    },
+    {
+        "speaker": "Anish",
+        "text": "stuff, right?"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "You might lose important information."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "it might be too easy, so we can do like a sliding with the kind"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Or we can do 2 passes."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "of thing. We would extract the, extract the points and check"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "identify that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "topic of discussion for those points and store the topic of discussion somewhere."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "And in the next upcoming thing, we will cheque from the topic of"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "discussion if those points are related to that thing. If nothing"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, okay."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "then we will create a newer topic."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so then, then in so."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Instead of having like a sliding window of maybe a fixed size"
+    },
+    {
+        "speaker": "Anish",
+        "text": "you can just start from the top and then you can work your way until the LLM can"
+    },
+    {
+        "speaker": "Anish",
+        "text": "figure out, okay, at least still here, this is the point of whatever the"
+    },
+    {
+        "speaker": "Anish",
+        "text": "conversation or the transcript. And as soon as we get one"
+    },
+    {
+        "speaker": "Anish",
+        "text": "maybe we can put a, we can resume from that point onwards to"
+    },
+    {
+        "speaker": "Anish",
+        "text": "the next."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Similarly, until you get a next point of topic or"
+    },
+    {
+        "speaker": "Anish",
+        "text": "next point of conversation."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "But like, how exactly would you demark it?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "But."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "When one topic ends and the other starts, 'cause like sometimes the..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "No, you can't perfectly do that, right? So when the LLM has enough confidence"
+    },
+    {
+        "speaker": "Anish",
+        "text": "that, okay, hey, I've understood that this still here till"
+    },
+    {
+        "speaker": "Anish",
+        "text": "this point in the meeting, they were probably talking about this."
+    },
+    {
+        "speaker": "Anish",
+        "text": "At some point it'll gather enough information."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "No, it can be like it can be like I will be"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Team."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "jumping to and throw towards two different topics."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Can you repeat your voice?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "No, it can be that I would be jumping across"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "to Enterprise to a remote topic."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Oh, yeah, yeah, you could."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So okay, what do you guys think we should do then"
+    },
+    {
+        "speaker": "Anish",
+        "text": "here?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Hello?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, I'm thinking something like in compilers"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "we will do multi-pass optimization, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So maybe we will try the same here."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "We will pass some context to the LLM in one pass."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Until the end of the means by breaking it, passing it multiple times until we reach"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "the end, and maybe second time we will do the same"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "thing from another point or from the same point somewhere like multi-pass."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, that's one option."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Maybe on every pass we will try to collect what is the gist of that context"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "and overall we can maybe try to collect something."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, just give me a second, I'll ask."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, the true dingy."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, I asked, so it gave a couple of... Okay, a transcript long sequence."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So."
+    },
+    {
+        "speaker": "Anish",
+        "text": "You need to detect boundaries, group segments, name topics, attached."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, approach one is sliding window. Split transcript into overlapping windows"
+    },
+    {
+        "speaker": "Anish",
+        "text": "of 10 to 15 turns or two to three minutes. Okay, one is, yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Okay, 10 to 15 times maybe, yeah, that's what it is, multi-pass."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Multipass correct approach to embedding plus clustering often better"
+    },
+    {
+        "speaker": "Anish",
+        "text": "but I think I could share this chat one sec."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "You can."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Maybe share your screen."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, wait, do you want me to just, yeah, I can do."
+    },
+    {
+        "speaker": "Anish",
+        "text": "One sec."
+    },
+    {
+        "speaker": "Anish",
+        "text": "How can you guys see?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, we can see."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Huh, so, so one was this right, which we said split transcript into"
+    },
+    {
+        "speaker": "Anish",
+        "text": "overlapping windows of 10 to 15 turns or two to three minutes"
+    },
+    {
+        "speaker": "Anish",
+        "text": "then approach to embedding plus clustering chunk by."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Speaker turns, not by fixed time, three to five consecutive turns per chunk"
+    },
+    {
+        "speaker": "Anish",
+        "text": "embed each chunk. Yes, it's back in, I..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "In."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think your team was one minute, like two bus. OK"
+    },
+    {
+        "speaker": "Anish",
+        "text": "what's strong submission? What do you want me to share like a bunch"
+    },
+    {
+        "speaker": "Anish",
+        "text": "of screenshots of the same, or do you are you guys?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Perfect."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, share it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, yeah, give me one second, I'll check. Okay"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Sure."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "so otherwise this is what we're thinking of, like one of these similar approaches."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Maybe we can try two to three of them by taking some sample inputs and we decide"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, yeah, good idea. Yep, we can do that."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "what to use."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "OK."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So, okay, what if, let's at least come up with what are the"
+    },
+    {
+        "speaker": "Anish",
+        "text": "potential issues we face in our project, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "One is definitely that, , we can break that transcripts into"
+    },
+    {
+        "speaker": "Anish",
+        "text": "different, like, if you can think..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "At least going into the next meeting, or.. ."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Like whenever the next time it is that we meet"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we can think about what potential solutions or we can do a little bit of"
+    },
+    {
+        "speaker": "Anish",
+        "text": "research, right? If not, assign anything to everyone today."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "May not be this contents in larger context."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Per."
+    },
+    {
+        "speaker": "Anish",
+        "text": "."
+    },
+    {
+        "speaker": "Anish",
+        "text": "OK, I've sent the screen, so I'm also reading it"
+    },
+    {
+        "speaker": "Anish",
+        "text": "just like we can probably take 5 minutes, just read about this, and then we can."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Discuss."
+    },
+    {
+        "speaker": "Anish",
+        "text": "See, I think."
+    },
+    {
+        "speaker": "Anish",
+        "text": "One other thing that we can keep in mind is, see, normally in a meeting"
+    },
+    {
+        "speaker": "Anish",
+        "text": "you'd have people who have different expertise, right? Like one person"
+    },
+    {
+        "speaker": "Anish",
+        "text": "for the most part, might talk about one topic, correct?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Maybe be giving an update about one topic, maybe speaking a lot about the same topic."
+    },
+    {
+        "speaker": "Anish",
+        "text": "But then..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "See again, like you may have two types of meetings"
+    },
+    {
+        "speaker": "Anish",
+        "text": "where everybody's like, it's like a brainstorming session and"
+    },
+    {
+        "speaker": "Anish",
+        "text": "everybody's speaking about the same thing. Then the topic would be only one, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "But then when you start to have multiple people speaking about different topics"
+    },
+    {
+        "speaker": "Anish",
+        "text": "maybe we can try to note the speaker change as like a change in topic or like."
+    },
+    {
+        "speaker": "Anish",
+        "text": "at least a hint in that direction, something like that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Does that make sense?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "I."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, but ultimately the input is going to be"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "ours. We can deal with either case. The worst case is everyone speaking."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "We have different terms."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, we should."
+    },
+    {
+        "speaker": "Anish",
+        "text": "If everyone speaking about different talk, oh, everyone speaking about now."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "No, not different, yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "About the same topic, right? Yeah, same."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "maybe they can switch in between the"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "topics, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, okay. Like A brainstorming session would be"
+    },
+    {
+        "speaker": "Anish",
+        "text": "very hard for this one to take care of, correct?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Where people are just throwing different ideas together and it becomes hard to"
+    },
+    {
+        "speaker": "Anish",
+        "text": "track."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "It is working for a multiple people speaking conversation."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Not a single speaker."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Outlook."
+    },
+    {
+        "speaker": "Anish",
+        "text": "To."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And also I think the first approach is something we can try."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "The sliding window and multiple parts."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, even I think so, right? Refine boundaries in a second pass on the"
+    },
+    {
+        "speaker": "Anish",
+        "text": "merge points, it seems."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, and also in the third screenshot, I think there is something called the"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "structured JSON format from the transcript."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Correct, yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Have you seen the the utterance ID and the text on the speaker?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ask for structured JSON, yes, yes."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yep."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, yeah, I have worked on something, means just cleaning the input."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, whenever we get a R transcript, it will convert into a structured JSON"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "containing the utterance ID, the speaker, and the text."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So I think we can clean it like that. And then we can"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so then, then..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "and then we can try the first approach."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So we could, sorry, yeah. Okay, so then our step one would be to convert"
+    },
+    {
+        "speaker": "Anish",
+        "text": "the input to like a structured JSON, right? And then..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yes."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Just sliding."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, I think I'm okay with that. What about the rest of me?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "I think second would be better, because we were also talking on the"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "knowledge liability thing that we are also implementing that"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "then that approach would be helpful to implement that in the future."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, I think after cleaning the input we can"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "try both of them. Or we can start with trying the second"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "one as well."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so then let's at least, okay, today we can keep"
+    },
+    {
+        "speaker": "Anish",
+        "text": "let's at least get a rough idea of, no, okay, this would be step one for us"
+    },
+    {
+        "speaker": "Anish",
+        "text": "given a transcript, try to clean it up, change it to the structured JSON format"
+    },
+    {
+        "speaker": "Anish",
+        "text": "and then, again, approach one, approach two"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we can finalise on such details, I think, once we start to write the code."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Does is that OK? Like, can we do we can come up with a plan"
+    },
+    {
+        "speaker": "Anish",
+        "text": "today, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Following again the same."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Flow that Sahil sent the other day."
+    },
+    {
+        "speaker": "Sai",
+        "text": "Yeah, we can."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Shah, see what's up?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Rishay, Rishay, you had taken some notes, right? Where in the note yesterday?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "So."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Wait, , they weren't really like nodes, just a few points."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "So."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Some, some, you can say."
+    },
+    {
+        "speaker": "Sai",
+        "text": "Did you try to cheque how the facilitator is working and what all"
+    },
+    {
+        "speaker": "Sai",
+        "text": "shortcomings we have in that thing? What have we mentioned?"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, wait. So yesterday in the meeting, he said, yeah, I think in the flow"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "We mentioned something like it should detect the intent. So if it"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "we have to define what exactly intentions are there. Like if it's like, okay"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "we need to schedule a meeting or we want to make a JIRA thing or make a ticket."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "So like, we can't just accept everything, any intent or like action item we"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "have to like define."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "like a couple and then stick to that. And yeah"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "he said in Microsoft facilitator, right now it doesn't"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "it only takes like the transcript from the meeting or like whatever"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "but it doesn't, if there's any like files or PPTs or"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "something shared in the chat, it can't."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "use that. So he was like, we should try to like use that as extra"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "context as well while making the summaries and."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Meeting points, whatever, and."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, and here's like when we're doing the"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "presentation, we should show the like use case"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "like we should take easy, medium, and complex use cases and just show that"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "on the day of the presentation so that it can show that it's handling any"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "input. It's not like only straightforward input"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "that's relatively easy to classify or whatever."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, that's all I've written."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh, one more thing. I think I think it should be important"
+    },
+    {
+        "speaker": "Anish",
+        "text": "like it's it's off topic, it's not related to what he is."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think any time or date or day or something along the lines of two weeks"
+    },
+    {
+        "speaker": "Anish",
+        "text": "two months is mentioned. RLM should just note it down and the"
+    },
+    {
+        "speaker": "Anish",
+        "text": "timestamp, and then grab information from"
+    },
+    {
+        "speaker": "Anish",
+        "text": "maybe like..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Five context, five turns before, five turns after"
+    },
+    {
+        "speaker": "Anish",
+        "text": "and try to figure out what date that is for, and then so"
+    },
+    {
+        "speaker": "Anish",
+        "text": "if it's extremely crucial, , you can add it to calendar if it's just a"
+    },
+    {
+        "speaker": "Anish",
+        "text": "discussion about, hey, within the next two weeks"
+    },
+    {
+        "speaker": "Anish",
+        "text": "let's try and complete this. Maybe you don't have the calendar."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, I think that's a good idea."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think the dates have to be noted that"
+    },
+    {
+        "speaker": "Anish",
+        "text": "been written."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, one more thing he mentioned was if there"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "are two meetings and if they have taken some decisions about the work to complete"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "it before the next meeting, and in the next meeting if they say the"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "work is completed, he asked us to track like the work is"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "completed, we should track it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "But then our thing is only..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Oh, so say something already exists on"
+    },
+    {
+        "speaker": "Anish",
+        "text": "somebody's calendar and then during the meeting they discussed that that work has"
+    },
+    {
+        "speaker": "Anish",
+        "text": "been completed. Oh."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, you should be able to capture that, and..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Change the status, yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So then remove it off of everyone's calendar who was part of that meeting or"
+    },
+    {
+        "speaker": "Anish",
+        "text": "like, dude, that's hard."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, he mentioned it as one of the points, but."
+    },
+    {
+        "speaker": "Gurram",
+        "text": ".."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "That's hard, OK."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, how would we do that?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "I don't have any idea, just he mentioned it"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "so that's why I mentioned it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "See, the thing is, this..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And also, another thing is..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ha, Delta."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "I don't think it was like, okay."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, in the facilitator, he told the action items will be captured"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "but there is no attribution to who it was assigned to. He told something like that."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So we can cheque on the pattern. So but it is already there in the problem"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "statement. We must attribute the speaker."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, sure, let's it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so this adding to the calendar part, right? Let's say two, three team meeting"
+    },
+    {
+        "speaker": "Anish",
+        "text": "like not just one, let's say two, three teams are in the same meeting."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Like maybe the AI team is on the meet with, let's say"
+    },
+    {
+        "speaker": "Anish",
+        "text": "a data and analytics team. And then in the call"
+    },
+    {
+        "speaker": "Anish",
+        "text": "they say for the AI team, , we have a deadline for this within two"
+    },
+    {
+        "speaker": "Anish",
+        "text": "weeks or something like that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Then..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "bro, this will need so much more access to be"
+    },
+    {
+        "speaker": "Anish",
+        "text": "able to add to calendar. Like that's how are we planning to do"
+    },
+    {
+        "speaker": "Anish",
+        "text": "that?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Hey, by the way, I sent something in the group, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "So based on whatever little we had discussed so far"
+    },
+    {
+        "speaker": "Anish",
+        "text": "I gave that input to Lord, and then I said"
+    },
+    {
+        "speaker": "Anish",
+        "text": "I gave the project statement also as well. I gave Sahil, and I said"
+    },
+    {
+        "speaker": "Anish",
+        "text": "give us a skeleton for as to how we can get started on the work and."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I don't think it's it seems pretty good to have thread till phase"
+    },
+    {
+        "speaker": "Anish",
+        "text": "four."
+    },
+    {
+        "speaker": "Anish",
+        "text": "If you guys can also take a look at it once, we can at least decide"
+    },
+    {
+        "speaker": "Anish",
+        "text": "whether we want to follow this, add some things, remove some things."
+    },
+    {
+        "speaker": "Anish",
+        "text": "And then we can get a rough idea of at least what we're going to do"
+    },
+    {
+        "speaker": "Anish",
+        "text": "how we're going to approach it, and then we can generally get started"
+    },
+    {
+        "speaker": "Anish",
+        "text": "pretty soon."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Hello?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Hello!"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, yeah, yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, yeah, the plan looks good, but I think we should start doing"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "something so that if we face any problems, we can think what to do."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "We have not started it. So the plan is good. Okay."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And, and also..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Oh, so you want to start earlier so that we"
+    },
+    {
+        "speaker": "Anish",
+        "text": "don't face any problems going forward, right?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Or else, if we face any problem, we can think what to do next. If we"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "if we just keep on planning, then yeah, in the implementation"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Again, okay, okay, yeah."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "maybe we can face some problems which do not plan, yeah, yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, fair enough, that's it."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, so that's what I was just trying to get"
+    },
+    {
+        "speaker": "Anish",
+        "text": "out a rough skeleton or whatever to give us an idea of how to start"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, that is good."
+    },
+    {
+        "speaker": "Anish",
+        "text": "where to start. So, , if this is okay with you all"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "then maybe we can generally get started. Again, today, tomorrow"
+    },
+    {
+        "speaker": "Anish",
+        "text": "that we'll need to decide."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, and before that, one thing we need to search how we can"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "inject the PDFs or something PPT and..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "how we can process them because he expected not only text but also PBTs and"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "PowerPoints and if the speakers mentioned something from them he expected that it"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "would be it should be able to capture those."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Hello!"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Wait, can you repeat that?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, he mentioned that if we upload any PDF or"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "PPT and if the speaker speaks something based on that PDF."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So he told that that should be taken care of."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I, yeah, my bad. I could not hear what happened last one."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, you could not hear. OK, yeah, I can repeat again."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Sorry, sorry, did you say hello it?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "No, no, no, no problem. OK, so what he mentioned was..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Don't take only text or raw transcript or raw speaking."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So if you take any file that is uploaded during the meeting and if any speaker."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "speaks based on the content in the PDF or PBT"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "then we should be able to capture that. So he's speaking based on that PDF."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ohh."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "And so he told something like that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Food."
+    },
+    {
+        "speaker": "Anish",
+        "text": "How would our, how would we even get access?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Let's say some, what does upload in a meeting mean?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Like he uploaded to that that Team chat or something?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, during a meeting, we..."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, yeah."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I don't think that's doable, dude."
+    },
+    {
+        "speaker": "Anish",
+        "text": "It seems very difficult, no?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Also, do it once."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So how to do that?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I'll ask, but that seems very difficult."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Teacher."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Support."
+    },
+    {
+        "speaker": "Anish",
+        "text": "The thing is for this to work specially, right"
+    },
+    {
+        "speaker": "Anish",
+        "text": "you'll need to have a lot more added permissions. That's all I'm thinking like."
+    },
+    {
+        "speaker": "Anish",
+        "text": "In implementation also, you'll need to sync what is being said to"
+    },
+    {
+        "speaker": "Anish",
+        "text": "maybe information deciding in the files. And unless someone explicitly mentions"
+    },
+    {
+        "speaker": "Anish",
+        "text": "it's hard to make that connexion even for humans, right? I don't know."
+    },
+    {
+        "speaker": "Anish",
+        "text": "How are LLM is going to be able to do that?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "See, I guess maybe he was trying to just guide"
+    },
+    {
+        "speaker": "Anish",
+        "text": "us, right? Is it necessary that we implement"
+    },
+    {
+        "speaker": "Anish",
+        "text": "everything he said in the meeting?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "It is not fully necessary, but maybe implementing some of them might"
+    },
+    {
+        "speaker": "Sai",
+        "text": "Then he just gave it as a suggestion."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "help."
+    },
+    {
+        "speaker": "Sai",
+        "text": "He just gave it a suggestion like we can tell him like we can schedule another"
+    },
+    {
+        "speaker": "Sai",
+        "text": "meeting and we can tell why this is impossible or something."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Hey, even I think he was probably just"
+    },
+    {
+        "speaker": "Anish",
+        "text": "suggesting how we can make our thing better. And once we start also"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we'll probably get an idea, like every time we implement a certain"
+    },
+    {
+        "speaker": "Anish",
+        "text": "part of this skeleton or the structure we're trying to follow"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we'll get obvious ideas like, hey, , we could also do this"
+    },
+    {
+        "speaker": "Anish",
+        "text": "maybe we could also do this, we can see that this, something like that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think for now, it's more important for us to get started."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I think like Vamsi said."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Are you guys there?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So do we get started today or do we procrastinate and start tomorrow?"
+    },
+    {
+        "speaker": "Sai",
+        "text": "We start today itself, I guess."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so one other thing I was thinking about"
+    },
+    {
+        "speaker": "Anish",
+        "text": "just instead of splitting work randomly, maybe we assign two guys or like we are"
+    },
+    {
+        "speaker": "Anish",
+        "text": "assigning work on the same phase so that we can just complete phase by phase"
+    },
+    {
+        "speaker": "Anish",
+        "text": "rather than just completing and then trying to put everything together."
+    },
+    {
+        "speaker": "Anish",
+        "text": "I feel that will be very, very haphazard at the end."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, integrating."
+    },
+    {
+        "speaker": "Anish",
+        "text": "T."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "All of those pieces would be hard. Like if we..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, yeah, so that's what, sorry to speak."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, yeah, that one we like, if we try to everyone works on a"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "different part and then in the end to integrate everyone's thing"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "it would be hard because the assumptions are something."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Might it be different?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Then, what do we start with? Let's say we're gonna follow this plan"
+    },
+    {
+        "speaker": "Anish",
+        "text": "only, then our phase one would ideally be to"
+    },
+    {
+        "speaker": "Anish",
+        "text": "ingest and normalise input to so input to our structured JSON."
+    },
+    {
+        "speaker": "Anish",
+        "text": "One sec, bye-bye."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, so how do we split the work?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "How do we, like, how do we get started?"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "So before that, do you have any idea about how?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "We should provide the input, yeah. , should we search any data sets that"
+    },
+    {
+        "speaker": "Gurram",
+        "text": "already contain some real world transcripts?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "wait, Sahil had started the transcript of this"
+    },
+    {
+        "speaker": "Anish",
+        "text": "meeting only, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Would we be able to access that? We should be able to access that, right?"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Yeah."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "This."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "I had done that using that."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So, we can..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "We can feed this as input, correct?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Can cheque how it's done."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "Yeah, but for the initial time, this is so long right for the moment."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Ha, okay, like that, maybe."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "To test, we need something small."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Honestly, bro, at that point we can just fake it, right?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "We can just use AI to create some short speech or some conversation between two"
+    },
+    {
+        "speaker": "Anish",
+        "text": "or three different people."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Decrease, describe, decrease the transcript size"
+    },
+    {
+        "speaker": "Sahil",
+        "text": "split it into half, so long."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, we could do that."
+    },
+    {
+        "speaker": "Gurram",
+        "text": "OK, we can OK."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Yeah, so , anyways, even though looking for data set up"
+    },
+    {
+        "speaker": "Anish",
+        "text": "in fact, if we can..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "We can look for how to test it or things to test it with after we've"
+    },
+    {
+        "speaker": "Anish",
+        "text": "written this or written the code or at least implemented something for this part"
+    },
+    {
+        "speaker": "Anish",
+        "text": "of the phase, right? Or this phase, what is it?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Hey, honestly, I think we we can take a little time"
+    },
+    {
+        "speaker": "Anish",
+        "text": "right? Our submission is 27th, correct?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "We can take a little time today, we can do a little bit more research"
+    },
+    {
+        "speaker": "Anish",
+        "text": "about how we can get started on phase one. Maybe tomorrow we can meet and we"
+    },
+    {
+        "speaker": "Anish",
+        "text": "generally split the work and get started tomorrow. Is that okay?"
+    },
+    {
+        "speaker": "Anish",
+        "text": "Hello?"
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Yeah, works."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, I also drop off."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "But should we decide to meet time now, or else it's hard to..."
+    },
+    {
+        "speaker": "Anish",
+        "text": "For tomorrow."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Sure, , I'm okay with anything. Too late in the night"
+    },
+    {
+        "speaker": "Anish",
+        "text": "I and around lunch is difficult. If you guys want to do morning, I can"
+    },
+    {
+        "speaker": "Anish",
+        "text": "we can do that. I want to say 8, 9."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "I think morning would be better so that like at least we can get started."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Like I feel like once we start, then it's easier to like work on it."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "But once so."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, , I'm okay with 830 or 9. You guys let me know."
+    },
+    {
+        "speaker": "Anish",
+        "text": "So I put a message in the group. You guys just either respond or say yes"
+    },
+    {
+        "speaker": "Anish",
+        "text": "no, say, , maybe this time and say something"
+    },
+    {
+        "speaker": "Anish",
+        "text": "at least if we start talking, maybe some, , we can get a response from this."
+    },
+    {
+        "speaker": "Anish",
+        "text": "Okay, fine then. Bye."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "MUM."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Bye."
+    },
+    {
+        "speaker": "Sahil",
+        "text": "Go."
+    },
+    {
+        "speaker": "Prisha",
+        "text": "Support."
+    }
+]

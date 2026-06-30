@@ -1,0 +1,94 @@
+{
+    "meeting_id": "test-meeting-001",
+    "meeting_title": "Sprint Sync",
+    "recorded_at": "2026-06-22T10:00:00Z",
+    "participants": [
+        "Alice",
+        "Bob",
+        "Carol"
+    ],
+    "topic": {
+        "segment_id": "seg-002",
+        "title": "Q3 Timeline & Dependencies",
+        "utterance_ids": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ],
+        "confidence": 0.88
+    },
+    "utterances": [
+        {
+            "id": [
+                0
+            ],
+            "speaker": "Alice",
+            "start": 24.5,
+            "end": 30.0,
+            "text": "Perfect. Let's also discuss the timeline for the Q3 features. We committed to delivering the dashboard by next Tuesday."
+        },
+        {
+            "id": [
+                1
+            ],
+            "speaker": "Carol",
+            "start": 30.5,
+            "end": 36.0,
+            "text": "I think that's tight. The design review hasn't happened yet and we have a dependency on the analytics API."
+        },
+        {
+            "id": [
+                2
+            ],
+            "speaker": "Alice",
+            "start": 36.5,
+            "end": 41.0,
+            "text": "That's a risk. Bob, can you escalate the API dependency to the platform team?"
+        },
+        {
+            "id": [
+                3
+            ],
+            "speaker": "Bob",
+            "start": 41.5,
+            "end": 45.0,
+            "text": "Will do. I'll set up a meeting with them this afternoon."
+        },
+        {
+            "id": [
+                4
+            ],
+            "speaker": "Alice",
+            "start": 45.5,
+            "end": 50.0,
+            "text": "Good. Let's reconvene on Thursday to check progress. Meeting adjourned."
+        }
+    ],
+    "temporal_hints": [],
+    "prior_topic_titles": [
+        "Sprint Status Update"
+    ],
+    "transcript_excerpt": "Alice: Perfect. Let's also discuss the timeline...\nCarol: I think that's tight...\nAlice: That's a risk...\nBob: Will do...\nAlice: Good. Let's reconvene on Thursday...",
+    "running_summary": "The team discussed sprint progress. Bob completed the auth module. Carol reported CI pipeline failures needing env variable fixes.",
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish Sai Nimmagadda",
+            "Gurram Vamsi Krishna",
+            "Prisha Behera",
+            "Sahil Mengji",
+            "Sai Nishanth Segu"
+        ],
+        "participant_map": {
+            "Anish": "Anish Sai Nimmagadda",
+            "Gurram": "Gurram Vamsi Krishna",
+            "Prisha": "Prisha Behera",
+            "Sahil": "Sahil Mengji",
+            "Sai": "Sai Nishanth Segu"
+        }
+    }
+}

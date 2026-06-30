@@ -1,0 +1,2472 @@
+WEBVTT
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/7-0
+00:00:03.274 --> 00:00:06.514
+<v Prisha Behera>their own input,
+it's not like they'll tell that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/8-0
+00:00:07.874 --> 00:00:08.434
+<v Prisha Behera>Oh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/10-0
+00:00:08.034 --> 00:00:10.500
+<v Anish Sai Nimmagadda>Okay,
+and then when they're testing or this one,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/9-0
+00:00:09.714 --> 00:00:10.674
+<v Prisha Behera>To try something.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/10-1
+00:00:10.500 --> 00:00:13.722
+<v Anish Sai Nimmagadda>they'll test it on the,
+like they'll test it on the inputs that</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/10-2
+00:00:13.722 --> 00:00:16.994
+<v Anish Sai Nimmagadda>we've told them the format or whatever
+that we're trying to use.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/11-0
+00:00:17.794 --> 00:00:20.274
+<v Prisha Behera>Yeah,
+like they said that they might ask</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/11-1
+00:00:20.274 --> 00:00:23.662
+<v Prisha Behera>questions like, okay,
+if the format input is like this,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/11-2
+00:00:23.662 --> 00:00:27.474
+<v Prisha Behera>then how will your product or like,
+you know, react, but then.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/12-0
+00:00:28.594 --> 00:00:30.434
+<v Prisha Behera>They won't actually test it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/13-0
+00:00:31.394 --> 00:00:34.114
+<v Anish Sai Nimmagadda>So if they do ask,
+we don't have an answer for that, I know.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/14-0
+00:00:35.074 --> 00:00:35.634
+<v Prisha Behera>No.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/15-0
+00:00:36.354 --> 00:00:36.674
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/16-0
+00:00:43.714 --> 00:00:45.114
+<v Anish Sai Nimmagadda>Just give me one second.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/17-0
+00:00:54.994 --> 00:00:58.935
+<v Sahil Mengji>She told about the nature of the input,
+like example,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/17-1
+00:00:58.935 --> 00:01:02.877
+<v Sahil Mengji>if there is a very long meeting,
+like expire 6 hours,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/17-2
+00:01:02.877 --> 00:01:04.994
+<v Sahil Mengji>how well it is doing its job.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/18-0
+00:01:06.474 --> 00:01:08.114
+<v Sahil Mengji>It told us to demonstrate that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/19-0
+00:01:09.434 --> 00:01:09.554
+<v Sahil Mengji>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/20-0
+00:01:12.394 --> 00:01:13.314
+<v Sahil Mengji>I am not audible.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/21-0
+00:01:16.314 --> 00:01:16.834
+<v Gurram Vamsi Krishna>Yes.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/22-0
+00:01:17.634 --> 00:01:17.954
+<v Sahil Mengji>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/49-0
+00:02:29.834 --> 00:02:34.622
+<v Anish Sai Nimmagadda>Do we have any idea about how we're going
+to break the multi-topic meetings into</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/49-1
+00:02:34.622 --> 00:02:37.874
+<v Anish Sai Nimmagadda>themes or whatever they said in the
+problem statement?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/50-0
+00:02:42.434 --> 00:02:42.554
+<v Anish Sai Nimmagadda>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/51-0
+00:02:50.114 --> 00:02:55.474
+<v Gurram Vamsi Krishna>So, for dividing into topics,
+I think I have only seen about LLM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/52-0
+00:02:56.434 --> 00:02:58.594
+<v Gurram Vamsi Krishna>Calling an LLM and dividing it into
+topics.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/53-0
+00:02:59.394 --> 00:02:59.954
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/55-0
+00:02:59.874 --> 00:03:05.874
+<v Gurram Vamsi Krishna>And there is no particular algorithm that
+can perfectly do this, so we can use LLM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/56-0
+00:03:06.914 --> 00:03:08.194
+<v Anish Sai Nimmagadda>Okay, okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/57-0
+00:03:09.234 --> 00:03:09.594
+<v Gurram Vamsi Krishna>No.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/58-0
+00:03:10.674 --> 00:03:11.154
+<v Anish Sai Nimmagadda>So...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/61-0
+00:03:12.114 --> 00:03:15.676
+<v Anish Sai Nimmagadda>I think one,
+at least we should get a hint from the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/61-1
+00:03:15.676 --> 00:03:19.718
+<v Anish Sai Nimmagadda>meeting name, right?
+A lot of times meetings have at least</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/60-0
+00:03:17.874 --> 00:03:18.034
+<v Gurram Vamsi Krishna>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/61-2
+00:03:19.718 --> 00:03:24.034
+<v Anish Sai Nimmagadda>relevant names in order to further
+classify the topics, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/62-0
+00:03:26.834 --> 00:03:31.954
+<v Gurram Vamsi Krishna>Meeting name, OK.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/63-0
+00:03:29.794 --> 00:03:33.168
+<v Anish Sai Nimmagadda>If it is useful, then we should have a,
+we should use it, correct?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/63-1
+00:03:33.168 --> 00:03:36.795
+<v Anish Sai Nimmagadda>Like if it says that, okay, hey,
+the meeting is going to be about this,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/63-2
+00:03:36.795 --> 00:03:40.724
+<v Anish Sai Nimmagadda>then at least you can get a rough idea
+about what your meeting topics may be,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/63-3
+00:03:40.724 --> 00:03:43.394
+<v Anish Sai Nimmagadda>even before any discussion has actually
+taken place.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/66-0
+00:03:43.794 --> 00:03:48.348
+<v Gurram Vamsi Krishna>Yeah, we can include that in our input,
+but what if they ask why did you include</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/64-0
+00:03:45.234 --> 00:03:45.394
+<v Sahil Mengji>No.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/66-1
+00:03:48.348 --> 00:03:52.959
+<v Gurram Vamsi Krishna>in the in your input that you are already
+providing something like the meeting is</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/65-0
+00:03:49.194 --> 00:03:49.314
+<v Sahil Mengji>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-0
+00:03:52.074 --> 00:03:55.443
+<v Anish Sai Nimmagadda>No, no, so, so you can have a,
+you can have a suppose,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/66-2
+00:03:52.959 --> 00:03:53.634
+<v Gurram Vamsi Krishna>going to be?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-1
+00:03:55.443 --> 00:03:58.812
+<v Anish Sai Nimmagadda>so like you can have like a whatever if
+state. I mean,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/67-0
+00:03:56.834 --> 00:03:57.154
+<v Gurram Vamsi Krishna>There.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-2
+00:03:58.812 --> 00:04:01.507
+<v Anish Sai Nimmagadda>I I don't know how we'd actually code
+this,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-3
+00:04:01.507 --> 00:04:04.938
+<v Anish Sai Nimmagadda>but suppose suppose the meeting name was
+useful enough,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-4
+00:04:04.938 --> 00:04:09.716
+<v Anish Sai Nimmagadda>like suppose it's like 4:30 meeting,
+then obviously don't use it as an input,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/68-5
+00:04:09.716 --> 00:04:11.554
+<v Anish Sai Nimmagadda>but suppose it had more depth.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/69-0
+00:04:11.714 --> 00:04:13.794
+<v Anish Sai Nimmagadda>to it, then we could probably use it,
+right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/71-0
+00:04:14.714 --> 00:04:18.306
+<v Gurram Vamsi Krishna>Yeah, yeah, using it is not a problem,
+but who provided it?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/70-0
+00:04:16.274 --> 00:04:16.514
+<v Sahil Mengji>S.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/71-1
+00:04:18.306 --> 00:04:21.598
+<v Gurram Vamsi Krishna>So if we provided that in our input,
+what if they ask,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/72-0
+00:04:20.114 --> 00:04:25.314
+<v Anish Sai Nimmagadda>Oh, okay, like that. Got it, got it. Hmm,
+understood, understood.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/71-2
+00:04:21.598 --> 00:04:23.874
+<v Gurram Vamsi Krishna>why did you provide that in the input?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/73-0
+00:04:26.674 --> 00:04:27.154
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/77-0
+00:04:26.754 --> 00:04:29.954
+<v Anish Sai Nimmagadda>So we have only the transcription to the
+meeting itself, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/74-0
+00:04:28.034 --> 00:04:28.274
+<v Sahil Mengji>Bing.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/77-1
+00:04:29.954 --> 00:04:34.054
+<v Anish Sai Nimmagadda>Maybe not other details about what time,
+when, who was invited, things like that,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/75-0
+00:04:31.154 --> 00:04:31.474
+<v Sahil Mengji>S.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/76-0
+00:04:32.834 --> 00:04:32.954
+<v Gurram Vamsi Krishna>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/77-2
+00:04:34.054 --> 00:04:34.354
+<v Anish Sai Nimmagadda>right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/78-0
+00:04:35.314 --> 00:04:36.594
+<v Gurram Vamsi Krishna>Yeah, I know.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/79-0
+00:04:36.194 --> 00:04:38.314
+<v Anish Sai Nimmagadda>Okay, okay, good. Bye-bye.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/80-0
+00:04:39.314 --> 00:04:41.154
+<v Gurram Vamsi Krishna>And also, he asked to...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/81-0
+00:04:40.354 --> 00:04:41.394
+<v Sahil Mengji>We can't try it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/82-0
+00:04:42.674 --> 00:04:43.634
+<v Gurram Vamsi Krishna>Yeah, yeah, speak.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/83-0
+00:04:44.354 --> 00:04:48.678
+<v Sahil Mengji>We can't write the whole transcript as
+input and tell the LLM to classify</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/83-1
+00:04:48.678 --> 00:04:51.074
+<v Sahil Mengji>because the transcript would be too much.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/84-0
+00:04:52.034 --> 00:04:52.594
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/85-0
+00:04:53.794 --> 00:04:56.434
+<v Sahil Mengji>Yeah, so I like.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/87-0
+00:04:54.834 --> 00:04:57.528
+<v Anish Sai Nimmagadda>So,
+so maybe our first step should be to</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/87-1
+00:04:57.528 --> 00:05:01.339
+<v Anish Sai Nimmagadda>compress the no,
+but compressing maybe you lose important</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/86-0
+00:04:57.554 --> 00:04:57.754
+<v Sahil Mengji>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/95-0
+00:05:00.914 --> 00:05:07.173
+<v Sahil Mengji>Even though, even after, no, no,
+even after, even after compressing,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/87-2
+00:05:01.339 --> 00:05:02.194
+<v Anish Sai Nimmagadda>stuff, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/89-0
+00:05:01.634 --> 00:05:04.034
+<v Prisha Behera>You might lose important information.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/88-0
+00:05:03.474 --> 00:05:04.034
+<v Anish Sai Nimmagadda>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/95-1
+00:05:07.173 --> 00:05:12.979
+<v Sahil Mengji>it might be too easy,
+so we can do like a sliding with the kind</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/91-0
+00:05:11.474 --> 00:05:11.954
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/92-0
+00:05:11.714 --> 00:05:13.554
+<v Gurram Vamsi Krishna>Or we can do 2 passes.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/95-2
+00:05:12.979 --> 00:05:18.603
+<v Sahil Mengji>of thing. We would extract the,
+extract the points and check,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/93-0
+00:05:16.994 --> 00:05:17.394
+<v Anish Sai Nimmagadda>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/95-3
+00:05:18.603 --> 00:05:19.874
+<v Sahil Mengji>identify that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/94-0
+00:05:18.634 --> 00:05:18.754
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/97-0
+00:05:20.354 --> 00:05:25.586
+<v Sahil Mengji>topic of discussion for those points and
+store the topic of discussion somewhere.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/97-1
+00:05:25.586 --> 00:05:29.733
+<v Sahil Mengji>And in the next upcoming thing,
+we will cheque from the topic of</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/97-2
+00:05:29.733 --> 00:05:33.944
+<v Sahil Mengji>discussion if those points are related to
+that thing. If nothing,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/96-0
+00:05:33.794 --> 00:05:34.674
+<v Anish Sai Nimmagadda>Okay, okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/97-3
+00:05:33.944 --> 00:05:36.114
+<v Sahil Mengji>then we will create a newer topic.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/98-0
+00:05:37.074 --> 00:05:41.794
+<v Anish Sai Nimmagadda>Okay, so then, then in so.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-0
+00:05:43.474 --> 00:05:47.137
+<v Anish Sai Nimmagadda>Instead of having like a sliding window
+of maybe a fixed size,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/99-0
+00:05:44.874 --> 00:05:44.994
+<v Sahil Mengji>Yes.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-1
+00:05:47.137 --> 00:05:51.847
+<v Anish Sai Nimmagadda>you can just start from the top and then
+you can work your way until the LLM can</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-2
+00:05:51.847 --> 00:05:56.092
+<v Anish Sai Nimmagadda>figure out, okay, at least still here,
+this is the point of whatever the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-3
+00:05:56.092 --> 00:05:59.523
+<v Anish Sai Nimmagadda>conversation or the transcript.
+And as soon as we get one,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-4
+00:05:59.523 --> 00:06:03.070
+<v Anish Sai Nimmagadda>maybe we can put a,
+we can resume from that point onwards to</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/100-5
+00:06:03.070 --> 00:06:03.594
+<v Anish Sai Nimmagadda>the next.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/101-0
+00:06:03.954 --> 00:06:06.655
+<v Anish Sai Nimmagadda>Similarly,
+until you get a next point of topic or</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/101-1
+00:06:06.655 --> 00:06:08.114
+<v Anish Sai Nimmagadda>next point of conversation.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/103-0
+00:06:11.314 --> 00:06:15.554
+<v Prisha Behera>But like, how exactly would you demark it?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/102-0
+00:06:12.474 --> 00:06:12.754
+<v Anish Sai Nimmagadda>But.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/106-0
+00:06:16.474 --> 00:06:20.834
+<v Prisha Behera>When one topic ends and the other starts,
+'cause like sometimes the...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/108-0
+00:06:20.034 --> 00:06:24.127
+<v Anish Sai Nimmagadda>No, you can't perfectly do that, right?
+So when the LLM has enough confidence</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/107-0
+00:06:22.074 --> 00:06:22.354
+<v Prisha Behera>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/108-1
+00:06:24.127 --> 00:06:27.223
+<v Anish Sai Nimmagadda>that, okay, hey,
+I've understood that this still here till</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/108-2
+00:06:27.223 --> 00:06:30.687
+<v Anish Sai Nimmagadda>this point in the meeting,
+they were probably talking about this.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/108-3
+00:06:30.687 --> 00:06:33.154
+<v Anish Sai Nimmagadda>At some point it'll gather enough
+information.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/110-0
+00:06:31.874 --> 00:06:35.801
+<v Sahil Mengji>No,
+it can be like it can be like I will be</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/109-0
+00:06:34.314 --> 00:06:34.434
+<v Anish Sai Nimmagadda>Team.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/110-1
+00:06:35.801 --> 00:06:40.354
+<v Sahil Mengji>jumping to and throw towards two
+different topics.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/111-0
+00:06:42.674 --> 00:06:43.794
+<v Anish Sai Nimmagadda>Can you repeat your voice?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/113-0
+00:06:45.354 --> 00:06:48.463
+<v Sahil Mengji>No,
+it can be that I would be jumping across</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/113-1
+00:06:48.463 --> 00:06:50.674
+<v Sahil Mengji>to Enterprise to a remote topic.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/112-0
+00:06:49.634 --> 00:06:50.274
+<v Anish Sai Nimmagadda>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/114-0
+00:06:51.474 --> 00:06:53.314
+<v Anish Sai Nimmagadda>Oh, yeah, yeah, you could.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/115-0
+00:06:56.434 --> 00:06:57.074
+<v Anish Sai Nimmagadda>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/116-0
+00:07:01.394 --> 00:07:01.954
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/117-0
+00:07:04.754 --> 00:07:07.299
+<v Anish Sai Nimmagadda>So okay,
+what do you guys think we should do then</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/117-1
+00:07:07.299 --> 00:07:07.554
+<v Anish Sai Nimmagadda>here?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/118-0
+00:07:09.034 --> 00:07:09.154
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/133-0
+00:07:58.354 --> 00:07:58.834
+<v Gurram Vamsi Krishna>Hello?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/134-0
+00:07:59.154 --> 00:07:59.554
+<v Anish Sai Nimmagadda>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/137-0
+00:08:00.514 --> 00:08:03.429
+<v Gurram Vamsi Krishna>Yeah,
+I'm thinking something like in compilers</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/137-1
+00:08:03.429 --> 00:08:06.034
+<v Gurram Vamsi Krishna>we will do multi-pass optimization, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/135-0
+00:08:04.234 --> 00:08:04.354
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/136-0
+00:08:06.594 --> 00:08:07.074
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/138-0
+00:08:08.194 --> 00:08:12.514
+<v Gurram Vamsi Krishna>So maybe we will try the same here.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/139-0
+00:08:13.954 --> 00:08:17.154
+<v Gurram Vamsi Krishna>We will pass some context to the LLM in
+one pass.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/144-0
+00:08:18.154 --> 00:08:23.738
+<v Gurram Vamsi Krishna>Until the end of the means by breaking it,
+passing it multiple times until we reach</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/140-0
+00:08:18.194 --> 00:08:18.674
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/141-0
+00:08:21.714 --> 00:08:21.874
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/142-0
+00:08:22.954 --> 00:08:23.074
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/144-1
+00:08:23.738 --> 00:08:27.128
+<v Gurram Vamsi Krishna>the end,
+and maybe second time we will do the same</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/144-2
+00:08:27.128 --> 00:08:32.114
+<v Gurram Vamsi Krishna>thing from another point or from the same
+point somewhere like multi-pass.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/143-0
+00:08:33.474 --> 00:08:34.034
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/145-0
+00:08:35.074 --> 00:08:36.674
+<v Anish Sai Nimmagadda>Yeah, that's one option.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/146-0
+00:08:35.314 --> 00:08:41.106
+<v Gurram Vamsi Krishna>Maybe on every pass we will try to
+collect what is the gist of that context</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/146-1
+00:08:41.106 --> 00:08:44.994
+<v Gurram Vamsi Krishna>and overall we can maybe try to collect
+something.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/147-0
+00:08:47.314 --> 00:08:50.514
+<v Anish Sai Nimmagadda>Okay, just give me a second, I'll ask.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/148-0
+00:08:49.754 --> 00:08:50.914
+<v Gurram Vamsi Krishna>Yeah, the true dingy.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/150-0
+00:08:52.274 --> 00:08:57.086
+<v Anish Sai Nimmagadda>Okay, I asked, so it gave a couple of...
+Okay, a transcript long sequence.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/149-0
+00:08:56.434 --> 00:08:56.754
+<v Gurram Vamsi Krishna>So.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/150-1
+00:08:57.086 --> 00:09:01.578
+<v Anish Sai Nimmagadda>You need to detect boundaries,
+group segments, name topics, attached.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/150-2
+00:09:01.578 --> 00:09:06.711
+<v Anish Sai Nimmagadda>Okay, approach one is sliding window.
+Split transcript into overlapping windows</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/150-3
+00:09:06.711 --> 00:09:10.754
+<v Anish Sai Nimmagadda>of 10 to 15 turns or two to three minutes.
+Okay, one is, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/151-0
+00:09:10.034 --> 00:09:14.274
+<v Gurram Vamsi Krishna>Okay, 10 to 15 times maybe, yeah,
+that's what it is, multi-pass.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/153-0
+00:09:14.754 --> 00:09:20.602
+<v Anish Sai Nimmagadda>Multipass correct approach to embedding
+plus clustering often better,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/152-0
+00:09:16.754 --> 00:09:17.234
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/153-1
+00:09:20.602 --> 00:09:25.114
+<v Anish Sai Nimmagadda>but I think I could share this chat
+actually one sec.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/155-0
+00:09:26.114 --> 00:09:27.074
+<v Gurram Vamsi Krishna>You can.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/154-0
+00:09:26.154 --> 00:09:26.274
+<v Anish Sai Nimmagadda>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/156-0
+00:09:27.954 --> 00:09:28.234
+<v Anish Sai Nimmagadda>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/157-0
+00:09:28.834 --> 00:09:30.034
+<v Gurram Vamsi Krishna>Maybe share your screen.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/158-0
+00:09:29.074 --> 00:09:31.074
+<v Anish Sai Nimmagadda>Okay, wait, do you want me to just, yeah,
+I can do.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/159-0
+00:09:33.394 --> 00:09:33.914
+<v Anish Sai Nimmagadda>One sec.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/161-0
+00:09:39.714 --> 00:09:40.754
+<v Anish Sai Nimmagadda>How can you guys see?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/160-0
+00:09:39.914 --> 00:09:40.034
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/162-0
+00:09:44.034 --> 00:09:44.994
+<v Gurram Vamsi Krishna>Yeah, we can see.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/163-0
+00:09:45.314 --> 00:09:52.587
+<v Anish Sai Nimmagadda>Huh, so, so one was this right,
+which we said split transcript into</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/163-1
+00:09:52.587 --> 00:09:59.325
+<v Anish Sai Nimmagadda>overlapping windows of 10 to 15 turns or
+two to three minutes,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/163-2
+00:09:59.325 --> 00:10:04.994
+<v Anish Sai Nimmagadda>then approach to embedding plus
+clustering chunk by.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/164-0
+00:10:05.034 --> 00:10:10.019
+<v Anish Sai Nimmagadda>Speaker turns, not by fixed time,
+three to five consecutive turns per chunk,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/164-1
+00:10:10.019 --> 00:10:12.674
+<v Anish Sai Nimmagadda>embed each chunk. Yes, it's back in, I...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/165-0
+00:10:12.874 --> 00:10:12.994
+<v Anish Sai Nimmagadda>In.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/169-0
+00:10:14.354 --> 00:10:17.812
+<v Anish Sai Nimmagadda>I think your team was one minute,
+like two bus. OK,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/169-1
+00:10:17.812 --> 00:10:22.335
+<v Anish Sai Nimmagadda>what's strong submission?
+What do you want me to share like a bunch</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/169-2
+00:10:22.335 --> 00:10:25.794
+<v Anish Sai Nimmagadda>of screenshots of the same,
+or do you are you guys?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/168-0
+00:10:24.674 --> 00:10:25.474
+<v Gurram Vamsi Krishna>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/167-0
+00:10:24.914 --> 00:10:25.474
+<v Sahil Mengji>Perfect.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/170-0
+00:10:27.234 --> 00:10:28.194
+<v Gurram Vamsi Krishna>Yeah, share it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/173-0
+00:10:28.994 --> 00:10:34.287
+<v Anish Sai Nimmagadda>Okay, yeah, give me one second,
+I'll check. Okay,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/171-0
+00:10:29.314 --> 00:10:29.714
+<v Sahil Mengji>Sure.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/172-0
+00:10:31.794 --> 00:10:31.914
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/173-1
+00:10:34.287 --> 00:10:43.074
+<v Anish Sai Nimmagadda>so otherwise this is what we're thinking
+of, like one of these similar approaches.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/174-0
+00:10:44.674 --> 00:10:44.834
+<v Anish Sai Nimmagadda>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/175-0
+00:10:51.554 --> 00:10:57.197
+<v Gurram Vamsi Krishna>Maybe we can try two to three of them by
+taking some sample inputs and we decide</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/177-0
+00:10:56.594 --> 00:10:59.954
+<v Anish Sai Nimmagadda>Okay, yeah, good idea. Yep,
+we can do that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/175-1
+00:10:57.197 --> 00:10:58.034
+<v Gurram Vamsi Krishna>what to use.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/176-0
+00:10:59.314 --> 00:10:59.674
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/178-0
+00:11:00.754 --> 00:11:00.874
+<v Gurram Vamsi Krishna>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/179-0
+00:11:03.074 --> 00:11:03.434
+<v Anish Sai Nimmagadda>OK.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/180-0
+00:11:07.794 --> 00:11:10.860
+<v Anish Sai Nimmagadda>So, okay, what if,
+let's at least come up with what are the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/180-1
+00:11:10.860 --> 00:11:13.314
+<v Anish Sai Nimmagadda>potential issues we face in our project,
+right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/181-0
+00:11:14.914 --> 00:11:18.594
+<v Anish Sai Nimmagadda>One is definitely that, you know,
+we can break that transcripts into</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/181-1
+00:11:18.594 --> 00:11:20.514
+<v Anish Sai Nimmagadda>different, like, if you can think...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/182-0
+00:11:21.714 --> 00:11:23.874
+<v Anish Sai Nimmagadda>At least going into the next meeting, or..
+.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/183-0
+00:11:25.194 --> 00:11:27.389
+<v Anish Sai Nimmagadda>Like whenever the next time it is that we
+meet,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/183-1
+00:11:27.389 --> 00:11:30.729
+<v Anish Sai Nimmagadda>we can think about what potential
+solutions or we can do a little bit of</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/183-2
+00:11:30.729 --> 00:11:33.474
+<v Anish Sai Nimmagadda>research, right? If not,
+assign anything to everyone today.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/185-0
+00:11:40.914 --> 00:11:44.194
+<v Sahil Mengji>May not be this contents in larger
+context.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/186-0
+00:11:46.354 --> 00:11:46.834
+<v Anish Sai Nimmagadda>Per.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/187-0
+00:11:51.434 --> 00:11:52.594
+<v Anish Sai Nimmagadda>Mhm.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/192-0
+00:12:00.034 --> 00:12:03.240
+<v Anish Sai Nimmagadda>OK, I've sent the screen,
+so I'm also reading it,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/192-1
+00:12:03.240 --> 00:12:08.434
+<v Anish Sai Nimmagadda>just like we can probably take 5 minutes,
+just read about this, and then we can.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/193-0
+00:12:10.954 --> 00:12:11.554
+<v Anish Sai Nimmagadda>Discuss.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/270-0
+00:15:47.794 --> 00:15:48.754
+<v Anish Sai Nimmagadda>See, I think.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/271-0
+00:15:49.794 --> 00:15:54.301
+<v Anish Sai Nimmagadda>One other thing that we can keep in mind
+is, see, normally in a meeting,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/271-1
+00:15:54.301 --> 00:15:58.747
+<v Anish Sai Nimmagadda>you'd have people who have different
+expertise, right? Like one person,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/271-2
+00:15:58.747 --> 00:16:02.204
+<v Anish Sai Nimmagadda>for the most part,
+might talk about one topic, correct?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/271-3
+00:16:02.204 --> 00:16:07.514
+<v Anish Sai Nimmagadda>Maybe be giving an update about one topic,
+maybe speaking a lot about the same topic.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/271-4
+00:16:07.514 --> 00:16:08.194
+<v Anish Sai Nimmagadda>But then...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/272-0
+00:16:09.634 --> 00:16:12.445
+<v Anish Sai Nimmagadda>See again,
+like you may have two types of meetings</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/272-1
+00:16:12.445 --> 00:16:15.863
+<v Anish Sai Nimmagadda>where everybody's like,
+it's like a brainstorming session and</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/272-2
+00:16:15.863 --> 00:16:20.493
+<v Anish Sai Nimmagadda>everybody's speaking about the same thing.
+Then the topic would be only one, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/272-3
+00:16:20.493 --> 00:16:24.959
+<v Anish Sai Nimmagadda>But then when you start to have multiple
+people speaking about different topics,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/272-4
+00:16:24.959 --> 00:16:29.314
+<v Anish Sai Nimmagadda>maybe we can try to note the speaker
+change as like a change in topic or like.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/273-0
+00:16:29.354 --> 00:16:32.834
+<v Anish Sai Nimmagadda>at least a hint in that direction,
+something like that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/274-0
+00:16:34.114 --> 00:16:35.154
+<v Anish Sai Nimmagadda>Does that make sense?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/275-0
+00:16:39.314 --> 00:16:39.354
+<v Anish Sai Nimmagadda>I.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/276-0
+00:16:43.954 --> 00:16:46.450
+<v Gurram Vamsi Krishna>Yeah,
+but ultimately the input is going to be</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/276-1
+00:16:46.450 --> 00:16:50.411
+<v Gurram Vamsi Krishna>ours. We can deal with either case.
+The worst case is everyone speaking.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/276-2
+00:16:50.411 --> 00:16:51.714
+<v Gurram Vamsi Krishna>We have different terms.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/277-0
+00:16:53.394 --> 00:16:53.714
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/278-0
+00:16:54.634 --> 00:16:55.074
+<v Gurram Vamsi Krishna>Yeah, we should.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/279-0
+00:16:54.834 --> 00:16:59.074
+<v Anish Sai Nimmagadda>If everyone speaking about different talk,
+oh, everyone speaking about now.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/280-0
+00:16:58.194 --> 00:17:00.114
+<v Gurram Vamsi Krishna>No, not different, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/281-0
+00:17:00.514 --> 00:17:02.274
+<v Anish Sai Nimmagadda>About the same topic, right? Yeah, same.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/283-0
+00:17:03.554 --> 00:17:05.700
+<v Gurram Vamsi Krishna>Uh,
+maybe they can switch in between the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/283-1
+00:17:05.700 --> 00:17:06.434
+<v Gurram Vamsi Krishna>topics, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/284-0
+00:17:07.154 --> 00:17:09.699
+<v Anish Sai Nimmagadda>Okay, okay.
+Like A brainstorming session would be</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/284-1
+00:17:09.699 --> 00:17:12.194
+<v Anish Sai Nimmagadda>very hard for this one to take care of,
+correct?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/285-0
+00:17:14.794 --> 00:17:19.961
+<v Anish Sai Nimmagadda>Where people are just throwing different
+ideas together and it becomes hard to</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/285-1
+00:17:19.961 --> 00:17:20.354
+<v Anish Sai Nimmagadda>track.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/286-0
+00:17:20.474 --> 00:17:25.154
+<v Gurram Vamsi Krishna>It is working for a multiple people
+speaking conversation.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/287-0
+00:17:26.354 --> 00:17:26.914
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/288-0
+00:17:26.354 --> 00:17:27.314
+<v Gurram Vamsi Krishna>Not a single speaker.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/289-0
+00:17:28.034 --> 00:17:28.434
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/290-0
+00:17:29.594 --> 00:17:29.954
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/291-0
+00:17:31.754 --> 00:17:32.354
+<v Anish Sai Nimmagadda>Outlook.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/292-0
+00:17:33.474 --> 00:17:33.874
+<v Anish Sai Nimmagadda>To.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/293-0
+00:17:35.074 --> 00:17:39.554
+<v Gurram Vamsi Krishna>And also I think the first approach is
+something we can try.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/294-0
+00:17:40.994 --> 00:17:42.954
+<v Gurram Vamsi Krishna>The sliding window and multiple parts.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/296-0
+00:17:41.554 --> 00:17:45.010
+<v Anish Sai Nimmagadda>Yeah, even I think so, right?
+Refine boundaries in a second pass on the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/295-0
+00:17:43.794 --> 00:17:44.234
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/296-1
+00:17:45.010 --> 00:17:46.114
+<v Anish Sai Nimmagadda>merge points, it seems.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/298-0
+00:17:46.274 --> 00:17:53.025
+<v Gurram Vamsi Krishna>Yeah, and also in the third screenshot,
+I think there is something called the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/298-1
+00:17:53.025 --> 00:17:56.834
+<v Gurram Vamsi Krishna>structured JSON format from the
+transcript.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/297-0
+00:17:57.954 --> 00:17:58.674
+<v Anish Sai Nimmagadda>Correct, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/300-0
+00:17:58.514 --> 00:18:02.514
+<v Gurram Vamsi Krishna>Have you seen the the utterance ID and
+the text on the speaker?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/299-0
+00:17:59.874 --> 00:18:02.194
+<v Anish Sai Nimmagadda>Ask for structured JSON, yes, yes.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/301-0
+00:18:03.074 --> 00:18:03.554
+<v Anish Sai Nimmagadda>Yep.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/302-0
+00:18:03.794 --> 00:18:09.074
+<v Gurram Vamsi Krishna>Yeah, yeah, I have worked on something,
+means just cleaning the input.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/303-0
+00:18:09.714 --> 00:18:10.194
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/305-0
+00:18:10.754 --> 00:18:17.212
+<v Gurram Vamsi Krishna>Yeah, whenever we get a R transcript,
+it will convert into a structured JSON</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/305-1
+00:18:17.212 --> 00:18:21.909
+<v Gurram Vamsi Krishna>containing the utterance ID, the speaker,
+and the text.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/305-2
+00:18:21.909 --> 00:18:26.522
+<v Gurram Vamsi Krishna>So I think we can clean it like that.
+And then we can,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/304-0
+00:18:24.034 --> 00:18:25.714
+<v Anish Sai Nimmagadda>Okay, so then, then...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/305-3
+00:18:26.522 --> 00:18:29.794
+<v Gurram Vamsi Krishna>and then we can try the first approach.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/310-0
+00:18:27.954 --> 00:18:33.522
+<v Anish Sai Nimmagadda>So we could, sorry, yeah. Okay,
+so then our step one would be to convert</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/306-0
+00:18:31.234 --> 00:18:31.714
+<v Gurram Vamsi Krishna>Nope.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/310-1
+00:18:33.522 --> 00:18:37.794
+<v Anish Sai Nimmagadda>the input to like a structured JSON,
+right? And then...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/307-0
+00:18:33.714 --> 00:18:33.834
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/308-0
+00:18:35.554 --> 00:18:35.674
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/309-0
+00:18:37.874 --> 00:18:38.354
+<v Gurram Vamsi Krishna>Yes.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/311-0
+00:18:39.394 --> 00:18:40.274
+<v Anish Sai Nimmagadda>Just sliding.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/312-0
+00:18:42.714 --> 00:18:46.354
+<v Anish Sai Nimmagadda>Yeah, I think I'm okay with that.
+What about the rest of me?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/313-0
+00:18:48.514 --> 00:18:52.655
+<v Sahil Mengji>I think second would be better,
+because we were also talking on the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/313-1
+00:18:52.655 --> 00:18:56.431
+<v Sahil Mengji>knowledge liability thing that we are
+also implementing that,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/313-2
+00:18:56.431 --> 00:19:00.634
+<v Sahil Mengji>then that approach would be helpful to
+implement that in the future.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/314-0
+00:19:07.794 --> 00:19:10.898
+<v Gurram Vamsi Krishna>Yeah,
+I think after cleaning the input we can</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/314-1
+00:19:10.898 --> 00:19:14.744
+<v Gurram Vamsi Krishna>try both of them.
+Or we can start with trying the second</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/314-2
+00:19:14.744 --> 00:19:15.554
+<v Gurram Vamsi Krishna>one as well.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/315-0
+00:19:17.234 --> 00:19:17.354
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/317-0
+00:19:26.114 --> 00:19:29.375
+<v Anish Sai Nimmagadda>Okay, so then let's at least, okay,
+today we can keep,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/317-1
+00:19:29.375 --> 00:19:33.941
+<v Anish Sai Nimmagadda>let's at least get a rough idea of, no,
+okay, this would be step one for us,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/317-2
+00:19:33.941 --> 00:19:38.744
+<v Anish Sai Nimmagadda>given a transcript, try to clean it up,
+change it to the structured JSON format,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/317-3
+00:19:38.744 --> 00:19:41.412
+<v Anish Sai Nimmagadda>and then, again, approach one,
+approach two,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/317-4
+00:19:41.412 --> 00:19:46.394
+<v Anish Sai Nimmagadda>we can finalise on such details, I think,
+once we actually start to write the code.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/318-0
+00:19:46.914 --> 00:19:50.004
+<v Anish Sai Nimmagadda>Does is that OK? Like,
+can we do we can come up with a plan</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/318-1
+00:19:50.004 --> 00:19:50.674
+<v Anish Sai Nimmagadda>today, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/319-0
+00:19:53.714 --> 00:19:55.634
+<v Anish Sai Nimmagadda>Following again the same.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/320-0
+00:19:56.514 --> 00:19:58.434
+<v Anish Sai Nimmagadda>Flow that Sahil sent the other day.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/321-0
+00:19:59.714 --> 00:20:00.594
+<v Sai Nishanth Segu>Yeah, we can.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/322-0
+00:20:01.634 --> 00:20:02.114
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/323-0
+00:20:03.794 --> 00:20:07.714
+<v Anish Sai Nimmagadda>Shah, see what's up?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/324-0
+00:20:08.834 --> 00:20:12.514
+<v Sahil Mengji>Rishay, Rishay, you had taken some notes,
+right? Where in the note yesterday?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/325-0
+00:20:15.634 --> 00:20:16.754
+<v Prisha Behera>Oh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/326-0
+00:20:17.154 --> 00:20:17.274
+<v Sahil Mengji>So.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/328-0
+00:20:17.794 --> 00:20:21.234
+<v Prisha Behera>Wait, uh, they weren't really like nodes,
+just a few points.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/327-0
+00:20:19.674 --> 00:20:19.874
+<v Sahil Mengji>So.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/330-0
+00:20:21.354 --> 00:20:25.594
+<v Sahil Mengji>Some, some, you can say.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/332-0
+00:20:24.754 --> 00:20:28.754
+<v Sai Nishanth Segu>Did you try to cheque how the facilitator
+is actually working and what all</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/332-1
+00:20:28.754 --> 00:20:31.954
+<v Sai Nishanth Segu>shortcomings we have in that thing?
+What have we mentioned?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/333-0
+00:20:40.434 --> 00:20:49.234
+<v Prisha Behera>Yeah, wait. So yesterday in the meeting,
+he said, yeah, I think in the flow,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/334-0
+00:20:50.354 --> 00:20:55.999
+<v Prisha Behera>We mentioned something like it should
+detect the intent. So if it,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/334-1
+00:20:55.999 --> 00:21:02.572
+<v Prisha Behera>we have to define what exactly intentions
+are there. Like if it's like, okay,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/334-2
+00:21:02.572 --> 00:21:09.314
+<v Prisha Behera>we need to schedule a meeting or we want
+to make a JIRA thing or make a ticket.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/335-0
+00:21:09.634 --> 00:21:15.255
+<v Prisha Behera>So like, we can't just accept everything,
+any kind of intent or like action item we</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/335-1
+00:21:15.255 --> 00:21:16.594
+<v Prisha Behera>have to like define.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/336-0
+00:21:17.714 --> 00:21:17.874
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/337-0
+00:21:17.754 --> 00:21:21.963
+<v Prisha Behera>like a couple and then stick to that.
+And yeah,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/337-1
+00:21:21.963 --> 00:21:26.874
+<v Prisha Behera>he said in Microsoft facilitator,
+right now it doesn't,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/337-2
+00:21:26.874 --> 00:21:32.925
+<v Prisha Behera>it only takes like the transcript from
+the meeting or like whatever,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/337-3
+00:21:32.925 --> 00:21:37.573
+<v Prisha Behera>but it doesn't,
+if there's any like files or PPTs or</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/337-4
+00:21:37.573 --> 00:21:40.994
+<v Prisha Behera>something shared in the chat, it can't.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/338-0
+00:21:41.034 --> 00:21:45.943
+<v Prisha Behera>use that. So he was like,
+we should try to like use that as extra</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/338-1
+00:21:45.943 --> 00:21:49.514
+<v Prisha Behera>context as well while making the
+summaries and.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/339-0
+00:21:50.834 --> 00:21:54.114
+<v Prisha Behera>Meeting points, whatever, and.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-0
+00:21:56.034 --> 00:21:58.914
+<v Prisha Behera>Yeah,
+and here's like when we're doing the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-1
+00:21:58.914 --> 00:22:02.128
+<v Prisha Behera>presentation,
+we should show the like use case,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-2
+00:22:02.128 --> 00:22:07.152
+<v Prisha Behera>like we should take easy, medium,
+and complex use cases and just show that</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-3
+00:22:07.152 --> 00:22:12.644
+<v Prisha Behera>on the day of the presentation so that it
+can show that it's handling any kind of</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-4
+00:22:12.644 --> 00:22:15.859
+<v Prisha Behera>input.
+It's not like only straightforward input</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/340-5
+00:22:15.859 --> 00:22:19.074
+<v Prisha Behera>that's relatively easy to classify or
+whatever.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/341-0
+00:22:19.874 --> 00:22:21.874
+<v Prisha Behera>Yeah, that's all I've written.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-0
+00:22:24.594 --> 00:22:28.254
+<v Anish Sai Nimmagadda>Ohh, one more thing.
+I think I think it should be important,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-1
+00:22:28.254 --> 00:22:31.734
+<v Anish Sai Nimmagadda>like it's it's off topic,
+it's not related to what he is.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-2
+00:22:31.734 --> 00:22:36.234
+<v Anish Sai Nimmagadda>I think any time or date or day or
+something along the lines of two weeks,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-3
+00:22:36.234 --> 00:22:39.954
+<v Anish Sai Nimmagadda>two months is mentioned.
+RLM should just note it down and the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-4
+00:22:39.954 --> 00:22:43.014
+<v Anish Sai Nimmagadda>timestamp,
+and then you know grab information from</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/342-5
+00:22:43.014 --> 00:22:43.794
+<v Anish Sai Nimmagadda>maybe like...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/344-0
+00:22:43.874 --> 00:22:46.633
+<v Anish Sai Nimmagadda>Five context, five turns before,
+five turns after,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/344-1
+00:22:46.633 --> 00:22:50.150
+<v Anish Sai Nimmagadda>and try to figure out what date that is
+for, and then so I mean,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/344-2
+00:22:50.150 --> 00:22:54.425
+<v Anish Sai Nimmagadda>if it's extremely crucial, you know,
+you can add it to calendar if it's just a</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/344-3
+00:22:54.425 --> 00:22:57.130
+<v Anish Sai Nimmagadda>discussion about, hey,
+within the next two weeks,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/344-4
+00:22:57.130 --> 00:23:00.594
+<v Anish Sai Nimmagadda>let's try and complete this.
+Maybe you don't have the calendar.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/345-0
+00:23:02.674 --> 00:23:04.114
+<v Prisha Behera>Yeah, I think that's a good idea.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/346-0
+00:23:07.634 --> 00:23:11.300
+<v Anish Sai Nimmagadda>Actually,
+I think the dates have to be noted that</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/346-1
+00:23:11.300 --> 00:23:12.914
+<v Anish Sai Nimmagadda>actually been written.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/358-0
+00:23:51.474 --> 00:23:54.644
+<v Gurram Vamsi Krishna>Yeah,
+one more thing he mentioned was if there</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/358-1
+00:23:54.644 --> 00:24:00.176
+<v Gurram Vamsi Krishna>are two meetings and if they have taken
+some decisions about the work to complete</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/358-2
+00:24:00.176 --> 00:24:04.764
+<v Gurram Vamsi Krishna>it before the next meeting,
+and in the next meeting if they say the</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/358-3
+00:24:04.764 --> 00:24:08.610
+<v Gurram Vamsi Krishna>work is completed,
+he asked us to track like the work is</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/358-4
+00:24:08.610 --> 00:24:10.634
+<v Gurram Vamsi Krishna>completed, we should track it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/359-0
+00:24:13.074 --> 00:24:15.154
+<v Anish Sai Nimmagadda>But then our thing is only...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/362-0
+00:24:17.314 --> 00:24:19.899
+<v Anish Sai Nimmagadda>Oh,
+so say something already exists on</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/362-1
+00:24:19.899 --> 00:24:25.334
+<v Anish Sai Nimmagadda>somebody's calendar and then during the
+meeting they discussed that that work has</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/360-0
+00:24:22.954 --> 00:24:23.434
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/362-2
+00:24:25.334 --> 00:24:26.594
+<v Anish Sai Nimmagadda>been completed. Oh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/363-0
+00:24:25.434 --> 00:24:28.954
+<v Gurram Vamsi Krishna>Yeah, you should be able to capture that,
+and...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/364-0
+00:24:31.154 --> 00:24:32.434
+<v Gurram Vamsi Krishna>Change the status, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/365-0
+00:24:31.634 --> 00:24:36.452
+<v Anish Sai Nimmagadda>So then remove it off of everyone's
+calendar who was part of that meeting or</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/365-1
+00:24:36.452 --> 00:24:37.954
+<v Anish Sai Nimmagadda>like, dude, that's hard.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/366-0
+00:24:39.274 --> 00:24:41.656
+<v Gurram Vamsi Krishna>Yeah,
+he mentioned it as one of the points, but.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/366-1
+00:24:41.656 --> 00:24:41.754
+<v Gurram Vamsi Krishna>..</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/367-0
+00:24:42.954 --> 00:24:43.274
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/369-0
+00:24:43.514 --> 00:24:46.114
+<v Anish Sai Nimmagadda>That's hard, OK.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/368-0
+00:24:45.394 --> 00:24:45.514
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/371-0
+00:24:50.594 --> 00:24:52.994
+<v Anish Sai Nimmagadda>Okay, how would we do that?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/370-0
+00:24:52.474 --> 00:24:53.034
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/372-0
+00:24:54.394 --> 00:24:57.021
+<v Gurram Vamsi Krishna>I don't have any idea,
+just he mentioned it,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/372-1
+00:24:57.021 --> 00:24:58.714
+<v Gurram Vamsi Krishna>so that's why I mentioned it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/373-0
+00:24:59.754 --> 00:25:01.234
+<v Anish Sai Nimmagadda>See, the thing is, this...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/374-0
+00:25:00.394 --> 00:25:01.754
+<v Gurram Vamsi Krishna>And also, another thing is...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/375-0
+00:25:02.274 --> 00:25:03.234
+<v Anish Sai Nimmagadda>Ha, Delta.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/377-0
+00:25:02.994 --> 00:25:04.514
+<v Prisha Behera>I don't think it was like, okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/376-0
+00:25:03.114 --> 00:25:03.514
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/378-0
+00:25:06.394 --> 00:25:11.517
+<v Gurram Vamsi Krishna>Yeah, in the facilitator,
+he told the action items will be captured,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/378-1
+00:25:11.517 --> 00:25:17.754
+<v Gurram Vamsi Krishna>but there is no attribution to who it was
+assigned to. He told something like that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/380-0
+00:25:18.714 --> 00:25:23.731
+<v Gurram Vamsi Krishna>So we can cheque on the pattern.
+So but it is already there in the problem</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/380-1
+00:25:23.731 --> 00:25:26.474
+<v Gurram Vamsi Krishna>statement. We must attribute the speaker.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/379-0
+00:25:24.594 --> 00:25:26.034
+<v Anish Sai Nimmagadda>Okay, sure, let's it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/381-0
+00:25:30.874 --> 00:25:31.354
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-0
+00:25:30.914 --> 00:25:35.967
+<v Anish Sai Nimmagadda>Okay, so this adding to the calendar part,
+right? Let's say two, three team meeting,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-1
+00:25:35.967 --> 00:25:40.188
+<v Anish Sai Nimmagadda>like not just one, let's say two,
+three teams are in the same meeting.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-2
+00:25:40.188 --> 00:25:43.458
+<v Anish Sai Nimmagadda>Like maybe the AI team is on the meet
+with, let's say,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-3
+00:25:43.458 --> 00:25:46.371
+<v Anish Sai Nimmagadda>a data and analytics team.
+And then in the call,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-4
+00:25:46.371 --> 00:25:50.829
+<v Anish Sai Nimmagadda>they say for the AI team, you know,
+we have a deadline for this within two</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/382-5
+00:25:50.829 --> 00:25:52.554
+<v Anish Sai Nimmagadda>weeks or something like that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/383-0
+00:25:53.794 --> 00:25:54.674
+<v Anish Sai Nimmagadda>Then...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/384-0
+00:25:57.154 --> 00:26:00.305
+<v Anish Sai Nimmagadda>I mean, bro,
+this will need so much more access to be</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/384-1
+00:26:00.305 --> 00:26:03.982
+<v Anish Sai Nimmagadda>able to add to calendar.
+Like that's how are we planning to do</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/384-2
+00:26:03.982 --> 00:26:04.274
+<v Anish Sai Nimmagadda>that?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/441-0
+00:28:46.074 --> 00:28:49.653
+<v Anish Sai Nimmagadda>Hey, by the way,
+I sent something in the group, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/441-1
+00:28:49.653 --> 00:28:53.102
+<v Anish Sai Nimmagadda>So based on whatever little we had
+discussed so far,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/441-2
+00:28:53.102 --> 00:28:56.616
+<v Anish Sai Nimmagadda>I gave that input to Lord,
+and then I said, you know,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/441-3
+00:28:56.616 --> 00:29:01.757
+<v Anish Sai Nimmagadda>I gave the project statement also as well.
+I gave Sahil, and I said, you know,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/441-4
+00:29:01.757 --> 00:29:06.834
+<v Anish Sai Nimmagadda>give us a skeleton for as to how we can
+actually get started on the work and.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/442-0
+00:29:07.234 --> 00:29:12.259
+<v Anish Sai Nimmagadda>I don't think it's actually it seems
+pretty good to have thread till phase</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/442-1
+00:29:12.259 --> 00:29:12.594
+<v Anish Sai Nimmagadda>four.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/443-0
+00:29:13.434 --> 00:29:17.376
+<v Anish Sai Nimmagadda>If you guys can also take a look at it
+once, we can at least decide, you know,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/443-1
+00:29:17.376 --> 00:29:20.819
+<v Anish Sai Nimmagadda>whether we want to follow this,
+add some things, remove some things.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/443-2
+00:29:20.819 --> 00:29:24.262
+<v Anish Sai Nimmagadda>And then we can get a rough idea of at
+least what we're going to do,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/443-3
+00:29:24.262 --> 00:29:27.755
+<v Anish Sai Nimmagadda>how we're going to approach it,
+and then we can generally get started</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/443-4
+00:29:27.755 --> 00:29:28.354
+<v Anish Sai Nimmagadda>pretty soon.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/465-0
+00:31:55.914 --> 00:31:56.474
+<v Gurram Vamsi Krishna>Hello?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/466-0
+00:32:00.874 --> 00:32:01.354
+<v Gurram Vamsi Krishna>Hello!</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/467-0
+00:32:00.874 --> 00:32:02.634
+<v Anish Sai Nimmagadda>Yeah, yeah, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/470-0
+00:32:02.794 --> 00:32:08.125
+<v Gurram Vamsi Krishna>Yeah, yeah, the plan looks good,
+but I think we should start doing</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/470-1
+00:32:08.125 --> 00:32:13.535
+<v Gurram Vamsi Krishna>something so that if we face any problems,
+we can think what to do.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/470-2
+00:32:13.535 --> 00:32:17.594
+<v Gurram Vamsi Krishna>We have not started it.
+So the plan is good. Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/469-0
+00:32:17.914 --> 00:32:18.474
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/471-0
+00:32:18.954 --> 00:32:20.634
+<v Gurram Vamsi Krishna>And, and also...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/473-0
+00:32:19.674 --> 00:32:21.786
+<v Anish Sai Nimmagadda>Oh,
+so you want to start earlier so that we</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/473-1
+00:32:21.786 --> 00:32:23.994
+<v Anish Sai Nimmagadda>don't face any problems going forward,
+right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/476-0
+00:32:25.194 --> 00:32:30.565
+<v Gurram Vamsi Krishna>Or else, if we face any problem,
+we can think what to do next. If we,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/476-1
+00:32:30.565 --> 00:32:35.399
+<v Gurram Vamsi Krishna>if we just keep on planning, then yeah,
+in the implementation,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/474-0
+00:32:33.034 --> 00:32:34.154
+<v Anish Sai Nimmagadda>Again, okay, okay, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/476-2
+00:32:35.399 --> 00:32:40.234
+<v Gurram Vamsi Krishna>maybe we can face some problems which do
+not plan, yeah, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/475-0
+00:32:37.634 --> 00:32:38.794
+<v Anish Sai Nimmagadda>Yeah, fair enough, that's it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/479-0
+00:32:41.034 --> 00:32:43.738
+<v Anish Sai Nimmagadda>Yeah,
+so that's what I was just trying to get</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/479-1
+00:32:43.738 --> 00:32:47.794
+<v Anish Sai Nimmagadda>out a rough skeleton or whatever to give
+us an idea of how to start,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/477-0
+00:32:46.154 --> 00:32:47.274
+<v Gurram Vamsi Krishna>Yeah, that is good.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/479-2
+00:32:47.794 --> 00:32:51.204
+<v Anish Sai Nimmagadda>where to start. So, I mean,
+if this is okay with you all,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/478-0
+00:32:49.394 --> 00:32:49.514
+<v Gurram Vamsi Krishna>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/479-3
+00:32:51.204 --> 00:32:55.025
+<v Anish Sai Nimmagadda>then maybe we can generally get started.
+Again, today, tomorrow,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/479-4
+00:32:55.025 --> 00:32:56.554
+<v Anish Sai Nimmagadda>that we'll need to decide.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/480-0
+00:32:57.034 --> 00:33:03.319
+<v Gurram Vamsi Krishna>Yeah, and before that,
+one thing we need to search how we can</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/480-1
+00:33:03.319 --> 00:33:07.274
+<v Gurram Vamsi Krishna>inject the PDFs or something PPT and...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/481-0
+00:33:09.914 --> 00:33:14.706
+<v Gurram Vamsi Krishna>how we can process them because he
+expected not only text but also PBTs and</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/481-1
+00:33:14.706 --> 00:33:19.876
+<v Gurram Vamsi Krishna>PowerPoints and if the speakers mentioned
+something from them he expected that it</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/481-2
+00:33:19.876 --> 00:33:22.714
+<v Gurram Vamsi Krishna>would be it should be able to capture
+those.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/482-0
+00:33:31.274 --> 00:33:31.754
+<v Gurram Vamsi Krishna>Hello!</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/483-0
+00:33:33.034 --> 00:33:34.314
+<v Prisha Behera>Wait, can you repeat that?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/484-0
+00:33:35.274 --> 00:33:39.006
+<v Gurram Vamsi Krishna>Yeah,
+he mentioned that if we upload any PDF or</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/484-1
+00:33:39.006 --> 00:33:43.594
+<v Gurram Vamsi Krishna>PPT and if the speaker speaks something
+based on that PDF.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/485-0
+00:33:45.194 --> 00:33:48.234
+<v Gurram Vamsi Krishna>So he told that that should be taken care
+of.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/486-0
+00:33:51.194 --> 00:33:51.554
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/487-0
+00:33:51.194 --> 00:33:56.954
+<v Anish Sai Nimmagadda>Uh, I, yeah, my bad.
+I could not hear what happened last one.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/488-0
+00:33:55.594 --> 00:33:59.114
+<v Gurram Vamsi Krishna>Yeah, you could not hear. OK, yeah,
+I can repeat again.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/489-0
+00:34:00.234 --> 00:34:01.834
+<v Anish Sai Nimmagadda>Sorry, sorry, did you say hello it?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/490-0
+00:34:01.354 --> 00:34:05.354
+<v Gurram Vamsi Krishna>No, no, no, no problem. OK,
+so what he mentioned was...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/492-0
+00:34:06.474 --> 00:34:11.481
+<v Gurram Vamsi Krishna>Don't take only text or raw transcript or
+raw speaking.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/491-0
+00:34:10.954 --> 00:34:11.514
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/492-1
+00:34:11.481 --> 00:34:18.634
+<v Gurram Vamsi Krishna>So if you take any file that is uploaded
+during the meeting and if any speaker.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/496-0
+00:34:19.434 --> 00:34:23.289
+<v Gurram Vamsi Krishna>speaks based on the content in the PDF or
+PBT,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/493-0
+00:34:20.074 --> 00:34:20.554
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/496-1
+00:34:23.289 --> 00:34:29.523
+<v Gurram Vamsi Krishna>then we should be able to capture that.
+So he's speaking based on that PDF.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/494-0
+00:34:24.234 --> 00:34:24.634
+<v Anish Sai Nimmagadda>Ohh.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/496-2
+00:34:29.523 --> 00:34:32.394
+<v Gurram Vamsi Krishna>And so he told something like that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/495-0
+00:34:30.874 --> 00:34:31.594
+<v Anish Sai Nimmagadda>Food.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/498-0
+00:34:35.434 --> 00:34:38.128
+<v Anish Sai Nimmagadda>How would our,
+how would we even get access?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/498-1
+00:34:38.128 --> 00:34:41.241
+<v Anish Sai Nimmagadda>Let's say some,
+what does upload in a meeting mean?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/498-2
+00:34:41.241 --> 00:34:44.474
+<v Anish Sai Nimmagadda>Like he uploaded to that that Team chat
+or something?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/497-0
+00:34:43.194 --> 00:34:44.474
+<v Gurram Vamsi Krishna>Yeah, during a meeting, we...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/499-0
+00:34:47.194 --> 00:34:47.834
+<v Gurram Vamsi Krishna>Yeah, yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/500-0
+00:34:50.874 --> 00:34:53.794
+<v Anish Sai Nimmagadda>I don't think that's doable, dude.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/501-0
+00:34:57.114 --> 00:35:00.314
+<v Anish Sai Nimmagadda>It seems very difficult, no?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/502-0
+00:34:58.634 --> 00:35:00.954
+<v Gurram Vamsi Krishna>Also, do it once.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/503-0
+00:35:02.074 --> 00:35:02.954
+<v Gurram Vamsi Krishna>So how to do that?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/504-0
+00:35:04.154 --> 00:35:04.714
+<v Gurram Vamsi Krishna>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/505-0
+00:35:04.714 --> 00:35:07.954
+<v Anish Sai Nimmagadda>I'll ask, but that seems very difficult.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/506-0
+00:35:10.354 --> 00:35:11.434
+<v Anish Sai Nimmagadda>Okay.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/507-0
+00:35:16.474 --> 00:35:16.874
+<v Anish Sai Nimmagadda>Teacher.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/515-0
+00:35:51.274 --> 00:35:51.914
+<v Anish Sai Nimmagadda>Support.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/552-0
+00:38:08.554 --> 00:38:11.254
+<v Anish Sai Nimmagadda>The thing is for this to work specially,
+right,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/552-1
+00:38:11.254 --> 00:38:15.754
+<v Anish Sai Nimmagadda>you'll need to have a lot more added
+permissions. That's all I'm thinking like.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/553-0
+00:38:17.274 --> 00:38:21.875
+<v Anish Sai Nimmagadda>In implementation also,
+you'll need to sync what is being said to</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/553-1
+00:38:21.875 --> 00:38:27.523
+<v Anish Sai Nimmagadda>maybe information deciding in the files.
+And unless someone explicitly mentions,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/553-2
+00:38:27.523 --> 00:38:32.474
+<v Anish Sai Nimmagadda>it's hard to make that connexion even for
+humans, right? I don't know.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/554-0
+00:38:33.674 --> 00:38:36.554
+<v Anish Sai Nimmagadda>How are LLM is going to be able to do
+that?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/555-0
+00:38:45.514 --> 00:38:48.020
+<v Anish Sai Nimmagadda>See,
+I guess maybe he was trying to just guide</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/555-1
+00:38:48.020 --> 00:38:50.420
+<v Anish Sai Nimmagadda>us, right?
+Is it necessary that we implement</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/555-2
+00:38:50.420 --> 00:38:52.234
+<v Anish Sai Nimmagadda>everything he said in the meeting?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/558-0
+00:39:02.194 --> 00:39:07.229
+<v Gurram Vamsi Krishna>It is not fully necessary,
+but maybe implementing some of them might</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/557-0
+00:39:03.914 --> 00:39:06.954
+<v Sai Nishanth Segu>Then he just gave it as a suggestion.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/558-1
+00:39:07.229 --> 00:39:07.594
+<v Gurram Vamsi Krishna>help.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/560-0
+00:39:08.394 --> 00:39:12.411
+<v Sai Nishanth Segu>He just gave it a suggestion like we can
+tell him like we can schedule another</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/559-0
+00:39:08.794 --> 00:39:08.954
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/560-1
+00:39:12.411 --> 00:39:15.514
+<v Sai Nishanth Segu>meeting and we can tell why this is
+impossible or something.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-0
+00:39:44.554 --> 00:39:46.439
+<v Anish Sai Nimmagadda>Hey,
+even I think he was probably just</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-1
+00:39:46.439 --> 00:39:49.775
+<v Anish Sai Nimmagadda>suggesting how we can make our thing
+better. And once we start also,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-2
+00:39:49.775 --> 00:39:53.015
+<v Anish Sai Nimmagadda>we'll probably get an idea,
+like every time we implement a certain</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-3
+00:39:53.015 --> 00:39:56.544
+<v Anish Sai Nimmagadda>part of this skeleton or the structure
+we're trying to follow, you know,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-4
+00:39:56.544 --> 00:39:59.832
+<v Anish Sai Nimmagadda>we'll get obvious ideas like, hey,
+you know, we could also do this,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/570-5
+00:39:59.832 --> 00:40:03.314
+<v Anish Sai Nimmagadda>maybe we could also do this,
+we can see that this, something like that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/571-0
+00:40:03.754 --> 00:40:06.839
+<v Anish Sai Nimmagadda>I think for now,
+it's more important for us to get started.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/571-1
+00:40:06.839 --> 00:40:08.074
+<v Anish Sai Nimmagadda>I think like Vamsi said.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/572-0
+00:40:17.674 --> 00:40:18.474
+<v Anish Sai Nimmagadda>Are you guys there?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/573-0
+00:40:21.674 --> 00:40:22.234
+<v Sai Nishanth Segu>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/574-0
+00:40:23.714 --> 00:40:23.994
+<v Anish Sai Nimmagadda>Mm.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/576-0
+00:40:25.194 --> 00:40:29.354
+<v Anish Sai Nimmagadda>So do we get started today or do we
+procrastinate and start tomorrow?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/577-0
+00:40:35.434 --> 00:40:36.954
+<v Sai Nishanth Segu>We start today itself, I guess.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/578-0
+00:40:38.394 --> 00:40:41.117
+<v Anish Sai Nimmagadda>Okay,
+so one other thing I was thinking about</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/578-1
+00:40:41.117 --> 00:40:45.913
+<v Anish Sai Nimmagadda>just instead of splitting work randomly,
+maybe we assign two guys or like we are</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/578-2
+00:40:45.913 --> 00:40:50.472
+<v Anish Sai Nimmagadda>assigning work on the same phase so that
+we can just complete phase by phase</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/578-3
+00:40:50.472 --> 00:40:54.735
+<v Anish Sai Nimmagadda>rather than just completing and then
+trying to put everything together.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/578-4
+00:40:54.735 --> 00:40:57.874
+<v Anish Sai Nimmagadda>I feel that will be very,
+very haphazard at the end.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/580-0
+00:41:00.874 --> 00:41:02.074
+<v Prisha Behera>Yeah, integrating.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/579-0
+00:41:01.834 --> 00:41:01.994
+<v Anish Sai Nimmagadda>T.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/582-0
+00:41:03.514 --> 00:41:06.714
+<v Prisha Behera>All of those pieces would be hard.
+Like if we...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/581-0
+00:41:04.314 --> 00:41:04.474
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/584-0
+00:41:05.914 --> 00:41:09.194
+<v Anish Sai Nimmagadda>Yeah, yeah, so that's what,
+sorry to speak.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/585-0
+00:41:09.274 --> 00:41:13.033
+<v Prisha Behera>Yeah, yeah, that one we like,
+if we try to everyone works on a</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/585-1
+00:41:13.033 --> 00:41:16.972
+<v Prisha Behera>different part and then in the end to
+integrate everyone's thing,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/585-2
+00:41:16.972 --> 00:41:20.314
+<v Prisha Behera>it would be hard because the assumptions
+are something.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/586-0
+00:41:21.354 --> 00:41:22.394
+<v Prisha Behera>Might it be different?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/587-0
+00:41:23.514 --> 00:41:24.394
+<v Anish Sai Nimmagadda>Okay, so...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/588-0
+00:41:26.714 --> 00:41:30.670
+<v Anish Sai Nimmagadda>Then, what do we start with?
+Let's say we're gonna follow this plan</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/588-1
+00:41:30.670 --> 00:41:33.288
+<v Anish Sai Nimmagadda>only,
+then our phase one would ideally be to</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/588-2
+00:41:33.288 --> 00:41:36.954
+<v Anish Sai Nimmagadda>ingest and normalise input to so input to
+our structured JSON.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/589-0
+00:41:38.114 --> 00:41:39.434
+<v Anish Sai Nimmagadda>One sec, bye-bye.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/616-0
+00:43:25.914 --> 00:43:28.071
+<v Anish Sai Nimmagadda>Okay,
+so how do we actually split the work?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/616-1
+00:43:28.071 --> 00:43:30.474
+<v Anish Sai Nimmagadda>How do we, like,
+how do we actually get started?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/620-0
+00:43:48.234 --> 00:43:52.234
+<v Gurram Vamsi Krishna>So before that,
+do you have any idea about how?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/619-0
+00:43:50.314 --> 00:43:50.474
+<v Anish Sai Nimmagadda>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/622-0
+00:43:53.274 --> 00:43:57.963
+<v Gurram Vamsi Krishna>We should provide the input, yeah. I mean,
+should we search any data sets that</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/622-1
+00:43:57.963 --> 00:44:00.634
+<v Gurram Vamsi Krishna>already contain some real world
+transcripts?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/623-0
+00:44:02.874 --> 00:44:06.100
+<v Anish Sai Nimmagadda>I mean, wait,
+Sahil had started the transcript of this</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/623-1
+00:44:06.100 --> 00:44:07.274
+<v Anish Sai Nimmagadda>meeting only, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/626-0
+00:44:08.354 --> 00:44:12.634
+<v Anish Sai Nimmagadda>Would we be able to access that?
+We should be able to access that, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/624-0
+00:44:09.114 --> 00:44:09.674
+<v Sahil Mengji>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/625-0
+00:44:13.034 --> 00:44:13.274
+<v Sahil Mengji>This.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/628-0
+00:44:14.514 --> 00:44:16.794
+<v Sahil Mengji>I had done that using that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/627-0
+00:44:14.714 --> 00:44:15.354
+<v Anish Sai Nimmagadda>So, we can...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/629-0
+00:44:17.674 --> 00:44:19.434
+<v Anish Sai Nimmagadda>We can feed this as input, correct?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/631-0
+00:44:21.034 --> 00:44:22.234
+<v Anish Sai Nimmagadda>Can cheque how it's done.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/632-0
+00:44:21.354 --> 00:44:25.794
+<v Gurram Vamsi Krishna>Yeah, but for the initial time,
+this is so long right for the moment.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/633-0
+00:44:26.794 --> 00:44:28.714
+<v Anish Sai Nimmagadda>Ha, okay, like that, maybe.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/634-0
+00:44:28.394 --> 00:44:30.394
+<v Gurram Vamsi Krishna>To test, we need something small.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/635-0
+00:44:31.674 --> 00:44:34.723
+<v Anish Sai Nimmagadda>Honestly, bro,
+at that point we can just fake it, right?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/635-1
+00:44:34.723 --> 00:44:39.003
+<v Anish Sai Nimmagadda>We can just use AI to create some short
+speech or some conversation between two</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/635-2
+00:44:39.003 --> 00:44:40.394
+<v Anish Sai Nimmagadda>or three different people.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/637-0
+00:44:42.074 --> 00:44:46.048
+<v Sahil Mengji>Decrease, describe,
+decrease the transcript size,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/636-0
+00:44:42.554 --> 00:44:42.954
+<v Gurram Vamsi Krishna>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/637-1
+00:44:46.048 --> 00:44:48.274
+<v Sahil Mengji>split it into half, so long.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/638-0
+00:44:49.634 --> 00:44:50.874
+<v Anish Sai Nimmagadda>Yeah, we could do that.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/639-0
+00:44:53.674 --> 00:44:54.954
+<v Gurram Vamsi Krishna>OK, we can OK.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/640-0
+00:45:01.274 --> 00:45:01.914
+<v Anish Sai Nimmagadda>So.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/641-0
+00:45:02.794 --> 00:45:06.694
+<v Anish Sai Nimmagadda>Yeah, so I mean, anyways,
+even though looking for data set up,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/641-1
+00:45:06.694 --> 00:45:07.994
+<v Anish Sai Nimmagadda>in fact, if we can...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/642-0
+00:45:08.954 --> 00:45:13.053
+<v Anish Sai Nimmagadda>We can look for how to test it or things
+to test it with after we've actually</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/642-1
+00:45:13.053 --> 00:45:17.311
+<v Anish Sai Nimmagadda>written this or written the code or at
+least implemented something for this part</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/642-2
+00:45:17.311 --> 00:45:19.834
+<v Anish Sai Nimmagadda>of the phase, right? Or this phase,
+what is it?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/692-0
+00:47:40.954 --> 00:47:44.756
+<v Anish Sai Nimmagadda>Hey, honestly,
+I think we we can take a little time,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/692-1
+00:47:44.756 --> 00:47:47.554
+<v Anish Sai Nimmagadda>right? Our submission is 27th, correct?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/693-0
+00:47:48.554 --> 00:47:51.803
+<v Anish Sai Nimmagadda>We can take a little time today,
+we can do a little bit more research</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/693-1
+00:47:51.803 --> 00:47:55.377
+<v Anish Sai Nimmagadda>about how we can get started on phase one.
+Maybe tomorrow we can meet and we</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/693-2
+00:47:55.377 --> 00:47:58.394
+<v Anish Sai Nimmagadda>generally split the work and get started
+tomorrow. Is that okay?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/694-0
+00:48:05.914 --> 00:48:06.394
+<v Anish Sai Nimmagadda>Hello?</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/695-0
+00:48:08.714 --> 00:48:10.474
+<v Prisha Behera>Yeah, works.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/696-0
+00:48:11.274 --> 00:48:13.674
+<v Anish Sai Nimmagadda>Okay, I also drop off.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/697-0
+00:48:15.594 --> 00:48:18.954
+<v Prisha Behera>But should we decide to meet time now,
+or else it's hard to...</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/698-0
+00:48:19.674 --> 00:48:20.554
+<v Anish Sai Nimmagadda>For tomorrow.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/699-0
+00:48:21.274 --> 00:48:21.514
+<v Prisha Behera>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/700-0
+00:48:22.634 --> 00:48:26.787
+<v Anish Sai Nimmagadda>Sure, I mean, I'm okay with anything.
+Too late in the night,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/700-1
+00:48:26.787 --> 00:48:31.690
+<v Anish Sai Nimmagadda>I and around lunch is difficult.
+If you guys want to do morning, I can,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/700-2
+00:48:31.690 --> 00:48:34.074
+<v Anish Sai Nimmagadda>we can do that. I want to say 8, 9.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/701-0
+00:48:33.994 --> 00:48:39.532
+<v Prisha Behera>I think morning would be better so that
+like at least we can get started.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/701-1
+00:48:39.532 --> 00:48:44.695
+<v Prisha Behera>Like I feel like once we start,
+then it's easier to like work on it.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/701-2
+00:48:44.695 --> 00:48:45.594
+<v Prisha Behera>But once so.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/706-0
+00:48:46.714 --> 00:48:50.273
+<v Anish Sai Nimmagadda>Okay, I mean, I'm okay with 830 or 9.
+You guys let me know.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/706-1
+00:48:50.273 --> 00:48:54.662
+<v Anish Sai Nimmagadda>So I put a message in the group.
+You guys just either respond or say yes,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/706-2
+00:48:54.662 --> 00:48:57.866
+<v Anish Sai Nimmagadda>no, say, you know,
+maybe this time and say something,</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/706-3
+00:48:57.866 --> 00:49:02.908
+<v Anish Sai Nimmagadda>at least if we start talking, maybe some,
+you know, we can get a response from this.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/702-0
+00:48:59.674 --> 00:49:00.074
+<v Prisha Behera>Yeah.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/706-4
+00:49:02.908 --> 00:49:04.154
+<v Anish Sai Nimmagadda>Okay, fine then. Bye.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/703-0
+00:49:03.474 --> 00:49:03.634
+<v Prisha Behera>MUM.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/705-0
+00:49:06.714 --> 00:49:07.114
+<v Prisha Behera>Bye.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/707-0
+00:49:09.994 --> 00:49:10.394
+<v Sahil Mengji>Go.</v>
+
+a2b317b5-8328-4909-95a6-3376d83bdd63/710-0
+00:49:14.874 --> 00:49:15.194
+<v Prisha Behera>Support.</v>

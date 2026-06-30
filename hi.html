@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Intelligence &amp; Action Item Orchestrator — System Blueprint</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0A0E14;
+      --panel: #111720;
+      --panel2: #0D1219;
+      --text: #E7EDF2;
+      --muted: #7E8C99;
+      --cyan: #5BC8D8;
+      --amber: #FF9F4D;
+      --line: rgba(126, 140, 153, 0.18);
+      --line-strong: rgba(126, 140, 153, 0.32);
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: 'Space Grotesk', sans-serif;
+      margin: 0;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    code,
+    .mono {
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    ::selection {
+      background: rgba(91, 200, 216, 0.25);
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--cyan);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10.5px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      display: inline-block;
+      flex: none;
+    }
+
+    .dot.cyan {
+      background: var(--cyan);
+      box-shadow: 0 0 8px rgba(91, 200, 216, 0.6);
+    }
+
+    .dot.amber {
+      background: var(--amber);
+      box-shadow: 0 0 8px rgba(255, 159, 77, 0.6);
+    }
+
+    /* ===== Layout shell ===== */
+    .shell {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid var(--line);
+      background: var(--panel2);
+      padding: 22px 18px 30px;
+    }
+
+    .brand {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .brand-sub {
+      font-size: 11.5px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .legend {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 10px 0 16px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 14px;
+    }
+
+    .legend .eyebrow {
+      font-size: 10px;
+    }
+
+    nav.toc {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    nav.toc a {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 7px 9px;
+      border-radius: 7px;
+      transition: background .15s, color .15s;
+      border-left: 2px solid transparent;
+    }
+
+    nav.toc a:hover {
+      color: var(--text);
+      background: rgba(126, 140, 153, 0.08);
+    }
+
+    nav.toc a.active {
+      color: var(--text);
+      background: rgba(91, 200, 216, 0.08);
+      border-left: 2px solid var(--cyan);
+    }
+
+    .toc-count {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+      float: right;
+    }
+
+    .main {
+      padding: 0;
+      min-width: 0;
+    }
+
+    .topbar {
+      display: none;
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: rgba(10, 14, 20, 0.92);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--line);
+      padding: 12px 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .topbar button {
+      background: none;
+      border: 1px solid var(--line-strong);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 64px 40px 100px;
+    }
+
+    /* ===== Header / Hero ===== */
+    .doc-header {
+      margin-bottom: 46px;
+    }
+
+    .doc-header .eyebrow {
+      margin-bottom: 14px;
+    }
+
+    .doc-header h1 {
+      font-size: 34px;
+      max-width: 760px;
+      margin-bottom: 14px;
+    }
+
+    .doc-header p {
+      color: var(--muted);
+      max-width: 620px;
+      font-size: 15px;
+    }
+
+    .hero {
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, var(--panel), var(--panel2));
+      border-radius: 16px;
+      padding: 30px 26px 22px;
+      margin-bottom: 64px;
+      overflow-x: auto;
+    }
+
+    .hero h3 {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 500;
+      margin-bottom: 18px;
+      font-family: 'IBM Plex Mono', monospace;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .hero svg {
+      display: block;
+      min-width: 760px;
+      width: 100%;
+      height: auto;
+    }
+
+    .flow-line {
+      stroke-dasharray: 6 7;
+      animation: flowdash 1.6s linear infinite;
+    }
+
+    @keyframes flowdash {
+      to {
+        stroke-dashoffset: -130;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .flow-line {
+        animation: none;
+      }
+    }
+
+    .hero-node-label {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 12.5px;
+      fill: var(--text);
+    }
+
+    .hero-node-sub {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9.5px;
+      fill: var(--muted);
+    }
+
+    /* ===== Sections ===== */
+    section.block {
+      margin-bottom: 74px;
+      scroll-margin-top: 24px;
+    }
+
+    .block-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .block-head h2 {
+      font-size: 23px;
+    }
+
+    .block-num {
+      font-family: 'IBM Plex Mono', monospace;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .block-desc {
+      color: var(--muted);
+      max-width: 680px;
+      margin-bottom: 28px;
+      font-size: 14px;
+    }
+
+    .group-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin: 30px 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .group-label::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .grid.cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid.cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      padding: 16px 17px;
+      position: relative;
+    }
+
+    .card.edge-cyan {
+      border-left: 2px solid var(--cyan);
+    }
+
+    .card.edge-amber {
+      border-left: 2px solid var(--amber);
+    }
+
+    .card h4 {
+      font-size: 14.5px;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .card ul {
+      margin: 8px 0 0;
+      padding-left: 16px;
+      font-size: 12.8px;
+      color: var(--muted);
+    }
+
+    .card ul li {
+      margin-bottom: 4px;
+    }
+
+    .card .tagrow {
+      margin-bottom: 8px;
+    }
+
+    .pill {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 2px 7px;
+      border-radius: 5px;
+      border: 1px solid var(--line-strong);
+      color: var(--muted);
+    }
+
+    .pill.req {
+      color: var(--cyan);
+      border-color: rgba(91, 200, 216, 0.4);
+    }
+
+    .pill.added {
+      color: var(--amber);
+      border-color: rgba(255, 159, 77, 0.4);
+    }
+
+    .field-chip {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      color: var(--text);
+      padding: 2px 6px;
+      border-radius: 5px;
+      margin: 2px 3px 0 0;
+    }
+
+    /* details / accordion */
+    details.table-card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      padding: 0;
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
+
+    details.table-card summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 13px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13.5px;
+    }
+
+    details.table-card summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.table-card summary .t-name {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    details.table-card summary .t-meta {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    details.table-card summary .chev {
+      transition: transform .18s;
+      color: var(--muted);
+      flex: none;
+    }
+
+    details.table-card[open] summary .chev {
+      transform: rotate(90deg);
+    }
+
+    details.table-card .t-body {
+      padding: 0 16px 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    details.table-card .t-body p {
+      color: var(--muted);
+      font-size: 12.5px;
+      margin: 12px 0 8px;
+    }
+
+    details.api-group {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    details.api-group summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+      font-size: 14.5px;
+    }
+
+    details.api-group summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.api-group summary .chev {
+      color: var(--muted);
+      transition: transform .18s;
+    }
+
+    details.api-group[open] summary .chev {
+      transform: rotate(90deg);
+    }
+
+    .api-row {
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      gap: 14px;
+      padding: 10px 16px;
+      border-top: 1px solid var(--line);
+      align-items: baseline;
+    }
+
+    .api-row .path {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12.8px;
+      color: var(--text);
+    }
+
+    .api-row .desc {
+      font-size: 12px;
+      color: var(--muted);
+      display: block;
+      margin-top: 2px;
+    }
+
+    .method {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+      text-align: center;
+      padding: 3px 0;
+      border-radius: 5px;
+      height: fit-content;
+    }
+
+    .method.GET {
+      background: rgba(91, 200, 216, 0.14);
+      color: var(--cyan);
+    }
+
+    .method.POST {
+      background: rgba(255, 159, 77, 0.14);
+      color: var(--amber);
+    }
+
+    .method.PATCH {
+      background: rgba(186, 148, 255, 0.14);
+      color: #BA94FF;
+    }
+
+    .method.DELETE {
+      background: rgba(255, 107, 107, 0.14);
+      color: #FF6B6B;
+    }
+
+    /* timeline */
+    .timeline {
+      position: relative;
+      padding-left: 34px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 6px;
+      bottom: 6px;
+      width: 1px;
+      background: var(--line-strong);
+    }
+
+    .t-step {
+      position: relative;
+      padding-bottom: 26px;
+    }
+
+    .t-step:last-child {
+      padding-bottom: 0;
+    }
+
+    .t-step::before {
+      content: attr(data-n);
+      position: absolute;
+      left: -34px;
+      top: 0;
+      width: 21px;
+      height: 21px;
+      border-radius: 50%;
+      background: var(--panel2);
+      border: 1px solid var(--line-strong);
+      color: var(--cyan);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .t-step h4 {
+      font-size: 14.5px;
+      margin-bottom: 4px;
+    }
+
+    .t-step p {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+      max-width: 600px;
+    }
+
+    /* traceability diagram */
+    .trace-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+      margin: 26px 0;
+    }
+
+    .trace-box {
+      flex: 1;
+      min-width: 150px;
+      border: 1px solid var(--line-strong);
+      background: var(--panel);
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+
+    .trace-box .eyebrow {
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+
+    .trace-box strong {
+      font-size: 13px;
+      display: block;
+    }
+
+    .trace-arrow {
+      flex: none;
+      width: 34px;
+      text-align: center;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 30px 40px 60px;
+      color: var(--muted);
+      font-size: 12.5px;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    /* mobile */
+    @media (max-width: 900px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 240px;
+        transform: translateX(-100%);
+        transition: transform .2s;
+        z-index: 40;
+      }
+
+      .sidebar.open {
+        transform: translateX(0);
+        box-shadow: 20px 0 40px rgba(0, 0, 0, 0.5);
+      }
+
+      .topbar {
+        display: flex;
+      }
+
+      .container {
+        padding: 36px 18px 80px;
+      }
+
+      .grid.cols-3,
+      .grid.cols-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .doc-header h1 {
+        font-size: 25px;
+      }
+
+      .hero {
+        padding: 20px 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">Meeting Intelligence<br>Orchestrator</div>
+      <div class="brand-sub">System blueprint · v1</div>
+      <div class="legend">
+        <span class="eyebrow"><span class="dot cyan"></span> From original architecture</span>
+        <span class="eyebrow"><span class="dot amber"></span> Recommended addition</span>
+      </div>
+      <nav class="toc" id="toc">
+        <a href="#hero">Overview</a>
+        <a href="#pages">Frontend Pages <span class="toc-count">19</span></a>
+        <a href="#agents">Agents <span class="toc-count">15</span></a>
+        <a href="#features">Differentiators <span class="toc-count">16</span></a>
+        <a href="#schema">Database Schema <span class="toc-count">30</span></a>
+        <a href="#api">API Surface</a>
+        <a href="#deps">External Dependencies</a>
+        <a href="#trace">Traceability</a>
+        <a href="#flow">Processing Flow</a>
+        <a href="#edge">Edge Cases</a>
+      </nav>
+    </aside>
+
+    <div class="main">
+      <div class="topbar">
+        <span class="eyebrow">Blueprint</span>
+        <button id="navToggle">Sections ▾</button>
+      </div>
+
+      <div class="container">
+        <div class="doc-header">
+          <span class="eyebrow"><span class="dot cyan"></span>Meeting Intelligence &amp; Action Item Orchestrator</span>
+          <h1>Every screen, agent, table, and endpoint this system needs — mapped against what your original diagram
+            already had.</h1>
+          <p>Cyan marks what came from your architecture diagram. Amber marks what this blueprint adds. Scroll, or jump
+            to a section on the left.</p>
+        </div>
+
+        <section id="hero" class="hero">
+          <h3>End-to-end pipeline, at a glance</h3>
+          <svg id="heroSvg" viewBox="0 0 1180 220" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6"
+                orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 z" fill="rgba(126,140,153,0.5)"></path>
+              </marker>
+            </defs>
+            <!-- connecting line -->
+            <line x1="120" y1="110" x2="1060" y2="110" stroke="rgba(126,140,153,0.25)" stroke-width="1.4"></line>
+            <line class="flow-line" x1="120" y1="110" x2="1060" y2="110" stroke="var(--cyan)" stroke-width="1.4"
+              stroke-dasharray="6 7"></line>
+
+            <!-- nodes -->
+            <g>
+              <circle cx="120" cy="110" r="34" fill="#111720" stroke="var(--cyan)" stroke-width="1.4"></circle>
+              <text x="120" y="106" text-anchor="middle" class="hero-node-label">Capture</text>
+              <text x="120" y="120" text-anchor="middle" class="hero-node-sub">upload · live · ext</text>
+            </g>
+            <g>
+              <circle cx="308" cy="110" r="34" fill="#111720" stroke="var(--cyan)" stroke-width="1.4"></circle>
+              <text x="308" y="106" text-anchor="middle" class="hero-node-label">Transcribe</text>
+              <text x="308" y="120" text-anchor="middle" class="hero-node-sub">STT · diarize · clean</text>
+            </g>
+            <g>
+              <circle cx="496" cy="110" r="34" fill="#111720" stroke="var(--amber)" stroke-width="1.4"></circle>
+              <text x="496" y="106" text-anchor="middle" class="hero-node-label">Understand</text>
+              <text x="496" y="120" text-anchor="middle" class="hero-node-sub">intent · topics · domain</text>
+            </g>
+            <g>
+              <circle cx="684" cy="110" r="34" fill="#111720" stroke="var(--amber)" stroke-width="1.4"></circle>
+              <text x="684" y="106" text-anchor="middle" class="hero-node-label">Analyze</text>
+              <text x="684" y="120" text-anchor="middle" class="hero-node-sub">4 specialist agents</text>
+            </g>
+            <g>
+              <circle cx="872" cy="110" r="34" fill="#111720" stroke="var(--cyan)" stroke-width="1.4"></circle>
+              <text x="872" y="106" text-anchor="middle" class="hero-node-label">Report</text>
+              <text x="872" y="120" text-anchor="middle" class="hero-node-sub">summary · index</text>
+            </g>
+            <g>
+              <circle cx="1060" cy="110" r="34" fill="#111720" stroke="var(--amber)" stroke-width="1.4"></circle>
+              <text x="1060" y="106" text-anchor="middle" class="hero-node-label">Distribute</text>
+              <text x="1060" y="120" text-anchor="middle" class="hero-node-sub">tasks · calendar · digest</text>
+            </g>
+
+            <text x="120" y="170" text-anchor="middle" class="hero-node-sub" fill="rgba(126,140,153,0.7)">step
+              1–3</text>
+            <text x="496" y="170" text-anchor="middle" class="hero-node-sub" fill="rgba(126,140,153,0.7)">step
+              4–7</text>
+            <text x="872" y="170" text-anchor="middle" class="hero-node-sub" fill="rgba(126,140,153,0.7)">step
+              8–10</text>
+            <text x="1060" y="170" text-anchor="middle" class="hero-node-sub" fill="rgba(126,140,153,0.7)">step
+              11–12</text>
+          </svg>
+        </section>
+        <section id="diag" class="block">
+
+        </section>
+        <!-- ============ FRONTEND PAGES ============ -->
+        <section id="pages" class="block">
+          <div class="block-head">
+            <h2>Frontend pages</h2><span class="block-num">01 / 19 screens</span>
+          </div>
+          <p class="block-desc">Grouped by what the person is trying to do in the moment, not by data type. Every screen
+            below maps to one or more tables and endpoints further down the page.</p>
+          <div id="pagesMount"></div>
+        </section>
+
+        <!-- ============ AGENTS ============ -->
+        <section id="agents" class="block">
+          <div class="block-head">
+            <h2>Agents</h2><span class="block-num">02 / 15 agents</span>
+          </div>
+          <p class="block-desc">The four required agents only run on what's left after five quieter agents have already
+            cleaned, classified, and routed the transcript. Each card shows what goes in, how it decides, and what comes
+            out.</p>
+          <div id="agentsMount"></div>
+        </section>
+
+        <!-- ============ FEATURES ============ -->
+        <section id="features" class="block">
+          <div class="block-head">
+            <h2>Differentiators</h2><span class="block-num">03 / 16 ideas</span>
+          </div>
+          <p class="block-desc">What would make this feel different from a generic "AI meeting notes" tool — mostly
+            about memory across meetings, not just within one.</p>
+          <div class="grid cols-3" id="featuresMount"></div>
+        </section>
+
+        <!-- ============ DB SCHEMA ============ -->
+        <section id="schema" class="block">
+          <div class="block-head">
+            <h2>Database schema</h2><span class="block-num">04 / 30 tables</span>
+          </div>
+          <p class="block-desc">Relational store for structured data. Embeddings live in a separate vector store,
+            referenced by ID rather than duplicated. Click a table to see its fields.</p>
+          <div id="schemaMount"></div>
+        </section>
+
+        <!-- ============ API ============ -->
+        <section id="api" class="block">
+          <div class="block-head">
+            <h2>API surface</h2><span class="block-num">05 / by resource</span>
+          </div>
+          <p class="block-desc">Grouped by resource. All endpoints are scoped to the authenticated org/user unless noted
+            otherwise.</p>
+          <div id="apiMount"></div>
+        </section>
+
+        <!-- ============ EXTERNAL DEPENDENCIES ============ -->
+        <section id="deps" class="block">
+          <div class="block-head">
+            <h2>External dependencies</h2><span class="block-num">06 / integrations &amp; infra</span>
+          </div>
+          <p class="block-desc">What's bought vs. built. Most of the differentiation lives in how these are orchestrated
+            together, not in any single one.</p>
+          <div class="grid cols-3" id="depsMount"></div>
+        </section>
+
+        <!-- ============ TRACEABILITY ============ -->
+        <section id="trace" class="block">
+          <div class="block-head">
+            <h2>Traceability</h2><span class="block-num">07 / transcript ↔ doc ↔ timestamp</span>
+          </div>
+          <p class="block-desc">This is the join that makes every AI claim checkable against the original moment —
+            audio, words, and whatever was on screen at the time.</p>
+
+          <div class="trace-wrap">
+            <div class="trace-box"><span class="eyebrow"><span class="dot cyan"></span>1</span><strong>Transcript
+                segment</strong>
+              <p style="color:var(--muted);font-size:12px;margin-top:4px;">start_time_ms → end_time_ms</p>
+            </div>
+            <div class="trace-arrow">→</div>
+            <div class="trace-box"><span class="eyebrow"><span class="dot cyan"></span>2</span><strong>Timestamp
+                range</strong>
+              <p style="color:var(--muted);font-size:12px;margin-top:4px;">resolved from the segment(s) cited</p>
+            </div>
+            <div class="trace-arrow">→</div>
+            <div class="trace-box"><span class="eyebrow"><span class="dot amber"></span>3</span><strong>Document
+                snapshot match</strong>
+              <p style="color:var(--muted);font-size:12px;margin-top:4px;">any slide/doc captured inside that range</p>
+            </div>
+            <div class="trace-arrow">→</div>
+            <div class="trace-box"><span class="eyebrow"><span class="dot amber"></span>4</span><strong>Agent
+                output</strong>
+              <p style="color:var(--muted);font-size:12px;margin-top:4px;">summary point, action item, decision, or risk
+              </p>
+            </div>
+          </div>
+
+          <ul style="color:var(--muted); font-size:13.5px; padding-left:18px; max-width:680px;">
+            <li>Every agent output stores the array of <code>source_segment_ids</code> it was derived from — never just
+              a confidence number on its own.</li>
+            <li>At render time, the UI resolves segments → timestamp range → any snapshot inside that range → shows
+              transcript, slide, and cued audio together.</li>
+            <li>The same join powers the Agent Activity page and the human-review queue, so a reviewer always sees
+              evidence, not an isolated claim.</li>
+          </ul>
+        </section>
+
+        <!-- ============ PROCESSING FLOW ============ -->
+        <section id="flow" class="block">
+          <div class="block-head">
+            <h2>End-to-end processing flow</h2><span class="block-num">08 / 12 steps</span>
+          </div>
+          <p class="block-desc">A real sequence — each step depends on the one before it. This is the detail behind the
+            six macro-stages in the overview diagram above.</p>
+          <div class="timeline" id="flowMount"></div>
+        </section>
+
+        <!-- ============ EDGE CASES ============ -->
+        <section id="edge" class="block">
+          <div class="block-head">
+            <h2>Edge cases to design for</h2><span class="block-num">09 / 13 scenarios</span>
+          </div>
+          <p class="block-desc">The difference between a demo and something a team trusts daily.</p>
+          <div class="grid cols-3" id="edgeMount"></div>
+        </section>
+
+      </div>
+
+      <footer>
+        Meeting Intelligence &amp; Action Item Orchestrator — system blueprint. Cyan = present in the original
+        architecture diagram. Amber = added in this spec.
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    /* ---------------------------------------------------------------
+       DATA
+    --------------------------------------------------------------- */
+
+    const pages = [
+      {
+        group: "Capture", items: [
+          { name: "Meeting Upload / Capture Screen", tag: "existing", desc: "Three intake modes: upload audio, upload an existing transcript, or start a live recording.", bullets: ["Pre-meeting metadata: title, attendees, meeting type", "Attach shared documents/slides for later OCR + time-alignment", "Recording consent toggle"] },
+          { name: "Live Meeting View", tag: "new", desc: "Needed for true live analysis, not just post-meeting processing.", bullets: ["Rolling partial transcript with live speaker labels", "Manual \u201cflag as decision/action\u201d tagging", "Live risk flags + agenda-progress tracker"] },
+          { name: "Processing / Pipeline Status Screen", tag: "new", desc: "STT → diarization → cleanup → multi-agent analysis isn't instant.", bullets: ["Stepper: Uploading → Transcribing → Diarizing → Agents → Indexing → Ready", "Partial results unlock as each stage completes"] },
+          { name: "Browser Extension Popup", tag: "new", desc: "Lightweight UI shown inside a Zoom/Meet/Teams web tab.", bullets: ["Start/stop capture, live status", "Quick-tag button", "Mic / tab-audio permission state"] },
+        ]
+      },
+      {
+        group: "Review & understand", items: [
+          { name: "Transcript Viewer", tag: "existing", desc: "Transcript synced word-by-word with the audio/video player.", bullets: ["Speaker labels + intent badges per line", "Highlighted vs full-context toggle", "Slide thumbnail wherever a doc was on screen"] },
+          { name: "Summary View Screen", tag: "existing", desc: "Structured, MDX-rendered post-meeting report.", bullets: ["Overview, key points, decisions, action items, risks", "Embedded Q&A box scoped to this meeting", "Every sentence links back to its source timestamp"] },
+          { name: "Decisions Log Screen", tag: "new", desc: "Decision Detection Agent had no dedicated screen in the original diagram.", bullets: ["Chronological + per-topic decision log", "Decided-by, alternatives considered, confidence", "Flags when a later meeting reverses a decision"] },
+          { name: "Risks & Dependencies Dashboard", tag: "new", desc: "Risk register with persistence across meetings.", bullets: ["Severity × likelihood matrix", "Owner, mitigation notes, status", "Linked dependency chains (blocks / blocked by)"] },
+          { name: "Topics Analysis Screen", tag: "existing", desc: "How a discussion has evolved across meetings.", bullets: ["Per-topic timeline across meetings", "Unresolved follow-ups carried forward", "Topic-level risk highlighting"] },
+        ]
+      },
+      {
+        group: "Action & tracking", items: [
+          { name: "Action Items Overview", tag: "existing", desc: "List / kanban / calendar views of extracted items.", bullets: ["Owner, due date, confidence, source agent", "Verify / edit / reject / merge", "Bulk dispatch to Jira / Asana / Linear / ClickUp"] },
+          { name: "Agent Activity / Audit Trail Page", tag: "new", desc: "Directly answers \u201cshow which agent identified each output.\u201d", bullets: ["Agent name, version, confidence, timing per output", "Exact source transcript span used as evidence", "Log of human edits/overrides afterward"] },
+          { name: "Notifications / Follow-up Center", tag: "new", desc: "Where reminders and nudges live.", bullets: ["Overdue action item nudges", "Pending follow-up reminders", "Digest delivery settings (daily/weekly)"] },
+        ]
+      },
+      {
+        group: "Insight & people", items: [
+          { name: "Team / Participation Analytics", tag: "existing", desc: "Per-person and per-meeting effectiveness signal.", bullets: ["Talk-time, contribution balance, ownership load", "Meeting effectiveness score", "Trend view over time"] },
+          { name: "Knowledge Library / Cross-Meeting Search", tag: "existing", desc: "Natural-language search across the org's meeting history.", bullets: ["Vector search + RAG with citations", "\u201cExplore by topic\u201d browsing mode"] },
+          { name: "Meeting Dashboard / Home", tag: "new", desc: "The entry point that was missing from the original flow.", bullets: ["List/calendar of all meetings", "Filter by team, topic, participant", "Quick processing status per meeting"] },
+          { name: "Meeting Detail Page", tag: "new", desc: "Umbrella container tying every meeting-level view together.", bullets: ["Tabs: Transcript · Summary · Action Items · Decisions · Risks · Topics · Participants · Agent Activity"] },
+        ]
+      },
+      {
+        group: "Admin & setup", items: [
+          { name: "Integrations & Settings", tag: "new", desc: "Connect external tools and map fields.", bullets: ["Jira / Asana / Linear / ClickUp / Calendar / Slack", "Per-integration default project/field mapping"] },
+          { name: "Org & Role Management", tag: "new", desc: "Who can see what.", bullets: ["Workspace/team structure", "Role-based visibility for sensitive meetings", "Data retention settings"] },
+          { name: "Onboarding / Auth", tag: "new", desc: "Table-stakes, but worth specifying.", bullets: ["SSO login, workspace creation", "Calendar connect during onboarding for auto-ingest"] },
+        ]
+      },
+    ];
+
+    const agents = [
+      { tag: "required", name: "Meeting Summarization Agent", input: "Cleaned, speaker-attributed, topic-segmented transcript + aligned slide OCR text.", process: "Summarizes per topic first, then composes an overview so multi-topic meetings don't flatten into one blob.", output: "Overview + per-topic summary + key points, each sentence tagged with its source segment IDs.", confidence: "Semantic similarity between generated sentence and cited source span." },
+      { tag: "required", name: "Action Item Extraction Agent", input: "Segments tagged \u201ccommitment/assignment\u201d by Intent Detection, plus speaker identity.", process: "Extracts task, owner, due date, priority signal. Resolves vague ownership from context. Checks Knowledge Library for duplicates.", output: "Action item record with owner, due date, source span, duplicate/merge flag.", confidence: "Higher when owner and deadline are explicit vs. inferred." },
+      { tag: "required", name: "Decision Detection Agent", input: "Full topic-segmented transcript.", process: "Distinguishes a finalized decision from a mere suggestion or open question. Cross-checks Knowledge Library for contradictions.", output: "Decision text, decided-by, alternatives considered, supersedes/contradicts links.", confidence: "Lower when authority/closure language is ambiguous." },
+      { tag: "required", name: "Risk & Dependency Analysis Agent", input: "Transcript + already-extracted action items + decisions.", process: "Identifies blockers and unresolved dependencies; builds a lightweight dependency graph.", output: "Risk register entry: severity, likelihood, linked dependencies, mitigation suggestion.", confidence: "Tied to explicitness of risk language and corroborating segments." },
+      { tag: "added", name: "Transcribe Cleanup Agent", input: "Raw STT output.", process: "Removes filler/false starts (configurable), fixes recognition errors using org vocabulary, re-attributes low-confidence speaker turns.", output: "Cleaned transcript ready for intent/topic analysis.", confidence: "Per-segment edit-distance vs. original, surfaced for audit." },
+      { tag: "added", name: "Intent Detection Agent", input: "Cleaned transcript, per utterance.", process: "Classifies each line: statement, question, commitment, decision-signal, risk-signal, small talk.", output: "Intent label + confidence per segment — the routing backbone for every downstream agent.", confidence: "Classifier probability per label." },
+      { tag: "added", name: "Topic Segregating Agent", input: "Intent-tagged transcript.", process: "Segments the meeting into topic blocks even when topics interleave, matching against the org's topic taxonomy.", output: "Topic blocks with start/end timestamps, mapped to existing or new topics.", confidence: "Boundary-detection confidence + taxonomy match score." },
+      { tag: "added", name: "Orchestrator / Domain Routing Agent", input: "Topic blocks.", process: "Classifies each block by domain (engineering / product / business / other) and selects which agent variant runs.", output: "Domain label per topic block, routing instructions for the analysis fan-out.", confidence: "Domain classifier confidence." },
+      { tag: "added", name: "SWOT Analysis Agent", input: "Strategic/planning meeting topic blocks.", process: "Produces a lightweight strengths/weaknesses/opportunities/threats breakdown.", output: "SWOT summary attached to the relevant topic.", confidence: "Coverage of each quadrant found in the discussion." },
+      { tag: "added", name: "Follow-Up Recommendation Agent", input: "Unresolved threads, open risks, explicitly deferred items.", process: "Proposes an agenda for the next meeting on this topic.", output: "Suggested next-meeting agenda items.", confidence: "Based on explicitness of deferral language." },
+      { tag: "added", name: "Knowledge Library Updating Agent", input: "All of this meeting's outputs.", process: "Chunks and embeds summary/decisions/action items/transcript; updates topic taxonomy and participation aggregates; deduplicates.", output: "Updated vector index + cross-meeting aggregates.", confidence: "Dedup-match score against existing entries." },
+      { tag: "added", name: "Cross-Meeting Query / RAG Agent", input: "Natural-language question + org vector index.", process: "Retrieves relevant chunks, re-ranks, composes a grounded answer.", output: "Answer with citation to source meeting + timestamp.", confidence: "Retrieval similarity + answer groundedness check." },
+      { tag: "added", name: "Participation Analytics Agent", input: "Speaker-attributed transcript + turn timing.", process: "Computes talk-time, turn-taking balance, interruptions, and a meeting-effectiveness heuristic.", output: "Per-person and per-meeting participation metrics.", confidence: "Directly computed, not generative — no confidence flag needed." },
+      { tag: "added", name: "Confidence / Verification Agent", input: "Every other agent's outputs.", process: "Re-checks each output against its cited source span; routes anything below threshold to human review.", output: "Final confidence score + review-queue flag.", confidence: "Cross-cutting — this agent produces the confidence score, not consumes it." },
+      { tag: "added", name: "Calendar & Task Dispatch Agent", input: "Confirmed action items.", process: "Creates calendar events/reminders, pushes to the connected task tool, keeps a sync link for status flowing back.", output: "External ticket reference + sync status.", confidence: "Not applicable — deterministic dispatch step." },
+    ];
+
+    const features = [
+      "Full traceability: every output links to its transcript span, audio timestamp, and whatever was on screen at that second.",
+      "Cross-meeting memory: action items, decisions, and risks persist and link across a project's whole history.",
+      "Domain-aware agent routing: engineering vs. business vs. product parts of the same meeting get analyzed differently.",
+      "Meeting-type-aware pipelines: a standup, retro, sales call, and planning session weight extraction differently.",
+      "Bot-free capture via browser extension — no visible recording bot joining the call.",
+      "Slide auto-capture via motion-diff triggering, OCR'd and time-aligned automatically.",
+      "Voice fingerprinting across recurring meetings — speakers auto-attributed without re-labeling each time.",
+      "Persistent, deduplicated risk & action-item tracking across meetings instead of duplicate noise.",
+      "Decision contradiction detection — flags when a new decision reverses a prior one.",
+      "Meeting health score: participation balance + decision/action density + overrun, trended by team.",
+      "Human-in-the-loop confidence queue instead of silently publishing low-confidence claims.",
+      "Org-wide natural-language search across the entire meeting history, with citations.",
+      "Ownership-load awareness — flags when one person is accumulating too many open items.",
+      "Two-way task sync: closing it in Jira/Asana closes it here too.",
+      "Auto-generated next-meeting agenda from unresolved threads, attached to the recurring invite.",
+      "Configurable redaction/access control for sensitive meetings, with exclusion from the org-wide library.",
+    ];
+
+    const schema = [
+      { name: "organizations", note: "Top-level tenant.", fields: ["id", "name", "plan_tier", "data_retention_days", "created_at"] },
+      { name: "users", note: "Org members, optionally voice-fingerprinted.", fields: ["id", "org_id", "name", "email", "role", "voice_fingerprint_id", "department", "created_at"] },
+      { name: "teams", note: "", fields: ["id", "org_id", "name"] },
+      { name: "team_members", note: "", fields: ["team_id", "user_id"] },
+      { name: "meetings", note: "Core record for every capture.", fields: ["id", "org_id", "title", "meeting_type", "scheduled_start", "actual_start", "actual_end", "status", "recording_consent_given", "visibility", "source", "created_by"] },
+      { name: "meeting_participants", note: "Includes external guests with no account.", fields: ["id", "meeting_id", "user_id", "external_name", "talk_time_seconds", "turn_count"] },
+      { name: "audio_files", note: "", fields: ["id", "meeting_id", "storage_url", "duration_seconds", "channel_type", "format"] },
+      { name: "transcripts", note: "", fields: ["id", "meeting_id", "raw_text_storage_url", "language", "stt_provider", "diarization_provider", "status"] },
+      { name: "transcript_segments", note: "The atomic unit everything else cites.", fields: ["id", "transcript_id", "speaker_user_id", "start_time_ms", "end_time_ms", "text", "intent_label", "intent_confidence", "topic_id", "cleaned_text"] },
+      { name: "shared_documents", note: "Manually uploaded docs/slides.", fields: ["id", "meeting_id", "file_storage_url", "file_type", "uploaded_by"] },
+      { name: "document_snapshots", note: "Auto-captured via motion-diff, or linked to an upload.", fields: ["id", "meeting_id", "document_id", "captured_at_ms", "image_storage_url", "ocr_text", "trigger_type"] },
+      { name: "topics", note: "Org-wide taxonomy.", fields: ["id", "org_id", "name", "first_seen_meeting_id", "created_at"] },
+      { name: "meeting_topics", note: "Per-meeting topic occurrence + domain classification.", fields: ["id", "meeting_id", "topic_id", "start_time_ms", "end_time_ms", "domain_classification"] },
+      { name: "summaries", note: "", fields: ["id", "meeting_id", "overview_text", "mdx_content_storage_url", "generated_by_agent", "confidence"] },
+      { name: "summary_points", note: "", fields: ["id", "summary_id", "text", "source_segment_ids", "topic_id"] },
+      { name: "action_items", note: "", fields: ["id", "meeting_id", "topic_id", "description", "owner_user_id", "owner_external_name", "due_date", "priority", "status", "confidence", "source_segment_ids", "duplicate_of_action_item_id", "generated_by_agent", "integration_ref"] },
+      { name: "decisions", note: "", fields: ["id", "meeting_id", "topic_id", "decision_text", "decided_by_user_id", "alternatives_considered", "supersedes_decision_id", "confidence", "source_segment_ids"] },
+      { name: "risks", note: "linked_risk_id enables cross-meeting persistence.", fields: ["id", "meeting_id", "topic_id", "description", "severity", "likelihood", "status", "owner_user_id", "mitigation_notes", "confidence", "source_segment_ids", "linked_risk_id"] },
+      { name: "dependencies", note: "Generic blocking-item graph.", fields: ["id", "blocking_item_type", "blocking_item_id", "blocked_item_type", "blocked_item_id"] },
+      { name: "follow_ups", note: "", fields: ["id", "meeting_id", "topic_id", "description", "target_next_meeting_id", "status"] },
+      { name: "agent_runs", note: "Audit trail backing the Agent Activity page.", fields: ["id", "meeting_id", "agent_name", "agent_version", "input_ref", "output_ref", "confidence", "started_at", "completed_at", "status"] },
+      { name: "human_overrides", note: "Every manual correction, for trust + future fine-tuning.", fields: ["id", "target_type", "target_id", "original_value", "edited_value", "edited_by_user_id", "edited_at"] },
+      { name: "knowledge_library_chunks", note: "Pointer table into the vector store.", fields: ["id", "org_id", "source_type", "source_id", "vector_id", "embedding_model", "created_at"] },
+      { name: "integrations", note: "", fields: ["id", "org_id", "provider", "auth_token_encrypted", "config_json", "connected_by", "status"] },
+      { name: "integration_sync_logs", note: "", fields: ["id", "integration_id", "action_item_id", "external_ref", "sync_status", "last_synced_at"] },
+      { name: "notifications", note: "", fields: ["id", "user_id", "type", "payload", "read_status", "created_at"] },
+      { name: "participation_metrics", note: "", fields: ["id", "meeting_id", "user_id", "talk_time_seconds", "contribution_score", "interruption_count"] },
+      { name: "meeting_effectiveness_scores", note: "", fields: ["id", "meeting_id", "score", "components_json"] },
+      { name: "search_queries", note: "Logs RAG queries for quality review.", fields: ["id", "org_id", "user_id", "query_text", "retrieved_chunk_ids", "answer_text", "created_at"] },
+      { name: "roles_permissions", note: "", fields: ["id", "org_id", "role_name", "permissions_json"] },
+    ];
+
+    const apiGroups = [
+      {
+        name: "Auth & Org", rows: [
+          ["POST", "/auth/login", "Authenticate a user."],
+          ["POST", "/auth/sso/callback", "Complete SSO handshake."],
+          ["GET", "/org/settings", "Read org-level settings."],
+          ["PATCH", "/org/settings", "Update org-level settings."],
+          ["GET", "/roles", "List roles."],
+          ["POST", "/roles", "Create a role."],
+        ]
+      },
+      {
+        name: "Meetings", rows: [
+          ["POST", "/meetings", "Create a meeting record (upload or schedule a live one)."],
+          ["GET", "/meetings", "List meetings, filterable by team/topic/participant/date/status."],
+          ["GET", "/meetings/{id}", "Full meeting detail."],
+          ["PATCH", "/meetings/{id}", "Update metadata or visibility."],
+          ["DELETE", "/meetings/{id}", "Delete a meeting."],
+          ["POST", "/meetings/{id}/live/start", "Begin a live capture session."],
+          ["POST", "/meetings/{id}/live/stop", "End a live capture session."],
+          ["GET", "/meetings/{id}/status", "Pipeline processing status."],
+        ]
+      },
+      {
+        name: "Transcripts", rows: [
+          ["GET", "/meetings/{id}/transcript", "Full transcript with segments."],
+          ["PATCH", "/transcript-segments/{id}", "Manually correct speaker or text."],
+          ["GET", "/meetings/{id}/snapshots", "Document/slide snapshots with timestamps."],
+        ]
+      },
+      {
+        name: "Summary", rows: [
+          ["GET", "/meetings/{id}/summary", "Structured summary."],
+          ["POST", "/meetings/{id}/summary/ask", "Natural-language Q&A scoped to this meeting."],
+        ]
+      },
+      {
+        name: "Action Items", rows: [
+          ["GET", "/action-items", "Across meetings, filterable by owner/status/team."],
+          ["GET", "/meetings/{id}/action-items", "Action items for one meeting."],
+          ["PATCH", "/action-items/{id}", "Edit, verify, reassign, or change status."],
+          ["POST", "/action-items/{id}/dispatch", "Push to a connected integration."],
+          ["POST", "/action-items/{id}/merge", "Merge with a duplicate."],
+        ]
+      },
+      {
+        name: "Decisions", rows: [
+          ["GET", "/meetings/{id}/decisions", "Decisions for one meeting."],
+          ["GET", "/decisions", "Org-wide, with contradiction flags."],
+        ]
+      },
+      {
+        name: "Risks", rows: [
+          ["GET", "/meetings/{id}/risks", "Risks for one meeting."],
+          ["GET", "/risks", "Org-wide risk register, filterable by severity/status."],
+        ]
+      },
+      {
+        name: "Topics", rows: [
+          ["GET", "/topics", "List the org's topic taxonomy."],
+          ["GET", "/topics/{id}/history", "Cross-meeting timeline for a topic."],
+        ]
+      },
+      {
+        name: "Knowledge Library / Search", rows: [
+          ["POST", "/search", "Semantic query across org meeting history, with citations."],
+        ]
+      },
+      {
+        name: "Agent Activity", rows: [
+          ["GET", "/meetings/{id}/agent-runs", "Which agent produced what, with confidence and timing."],
+          ["POST", "/agent-runs/{id}/rerun", "Manually trigger a re-run of one agent."],
+        ]
+      },
+      {
+        name: "Analytics", rows: [
+          ["GET", "/analytics/participation", "Per-person participation trends."],
+          ["GET", "/analytics/meeting-effectiveness", "Effectiveness trend by team."],
+        ]
+      },
+      {
+        name: "Integrations", rows: [
+          ["GET", "/integrations", "List connected integrations."],
+          ["POST", "/integrations/{provider}/connect", "Connect a provider."],
+          ["DELETE", "/integrations/{provider}", "Disconnect a provider."],
+          ["POST", "/integrations/{provider}/webhook", "Receive inbound status updates."],
+        ]
+      },
+      {
+        name: "Notifications", rows: [
+          ["GET", "/notifications", "List notifications."],
+          ["PATCH", "/notifications/{id}/read", "Mark as read."],
+        ]
+      },
+      {
+        name: "Extension", rows: [
+          ["POST", "/extension/capture/start", "Begin a browser-extension capture session."],
+          ["POST", "/extension/capture/audio-chunk", "Stream an audio chunk."],
+          ["POST", "/extension/capture/stop", "End the capture session."],
+        ]
+      },
+    ];
+
+    const deps = [
+      { name: "Speech-to-text", tools: "Deepgram · Whisper", use: "Transcription. For online meetings, pull per-participant tracks directly from the platform's recording API when available — far more accurate than blind separation." },
+      { name: "Diarization", tools: "pyannote.audio · Deepgram", use: "Speaker separation for single-channel uploaded recordings before transcription." },
+      { name: "OCR", tools: "Tesseract · Google Vision · AWS Textract", use: "Reads uploaded documents and auto-captured slide snapshots." },
+      { name: "Motion-diff capture", tools: "Custom frame-differencing", use: "Detects meaningful slide changes during screen share so snapshots aren't taken every frame." },
+      { name: "Vector database", tools: "pgvector · Pinecone · Qdrant · Weaviate", use: "Backs the Knowledge Library and RAG retrieval." },
+      { name: "Embeddings", tools: "OpenAI · Cohere · Voyage", use: "Generates vectors for transcript chunks, summaries, and decisions." },
+      { name: "Orchestration", tools: "LangGraph", use: "Models the multi-agent pipeline as a graph — fan-out to specialist agents, then a join node assembles the report." },
+      { name: "Browser extension", tools: "Custom (tab audio + DOM)", use: "Captures audio and participant names from Zoom/Meet/Teams web clients without a visible bot joining." },
+      { name: "Calendar", tools: "Google Calendar · Microsoft Graph", use: "Pulls meeting metadata beforehand, pushes follow-up events/reminders after." },
+      { name: "Task tools", tools: "Jira · Asana · Linear · ClickUp", use: "One- or two-way sync of action items via REST APIs and webhooks." },
+      { name: "Notifications", tools: "Slack/Teams webhooks · SendGrid", use: "Digests, nudges, and email summaries." },
+      { name: "Async queue", tools: "Celery/RQ · BullMQ", use: "Keeps STT + diarization + multi-agent analysis off the request path for long meetings." },
+      { name: "Object storage", tools: "S3 · GCS", use: "Raw audio/video, document uploads, and snapshot images — the relational DB only stores references." },
+    ];
+
+    const flow = [
+      { t: "Ingest", d: "Audio, transcript, or live stream arrives via upload, extension, or live recording." },
+      { t: "Preprocess", d: "Speaker/channel separation for offline audio; pull per-participant tracks directly for online meetings when available." },
+      { t: "Speech-to-text", d: "Generates the raw transcript with attributed speakers." },
+      { t: "Cleanup", d: "Transcribe Cleanup Agent fixes recognition errors and normalizes text." },
+      { t: "Intent detection", d: "Tags each segment: statement, question, commitment, decision-signal, risk-signal." },
+      { t: "Topic segregation", d: "Splits the meeting into topic blocks, matched against the org's topic taxonomy." },
+      { t: "Domain routing", d: "Classifies each topic block by domain and selects which specialist agent variants run." },
+      { t: "Parallel agent analysis", d: "Summarization, Action Item, Decision, Risk (and SWOT/Follow-Up where relevant) run per topic block." },
+      { t: "Confidence verification", d: "Cross-checks every output against its source span; low-confidence items go to human review." },
+      { t: "Report assembly", d: "Combines all outputs into the structured summary, action item list, decision log, and risk register." },
+      { t: "Knowledge Library update", d: "Embeds and indexes new content, updates topic history, deduplicates, updates participation metrics." },
+      { t: "Dispatch", d: "Confirmed action items/calendar events sync to integrations; notifications and digests go out." },
+    ];
+
+    const edgeCases = [
+      { t: "Multi-language meetings", d: "Per-segment language detection with translation before agent analysis." },
+      { t: "Crosstalk / overlapping speech", d: "Low diarization confidence gets flagged rather than silently mis-attributed." },
+      { t: "Audio-only calls", d: "Pipeline simply skips document-snapshot linkage — nothing else breaks." },
+      { t: "External guests, no account", d: "Stored as external_name; can't be an action-item owner without an email stand-in." },
+      { t: "Recurring meeting series", d: "Linked into a series so follow-ups and open risks carry forward automatically." },
+      { t: "Duplicate items across tools", d: "Checked against both the Knowledge Library and the connected task tool's API before creating a new one." },
+      { t: "Low-confidence extractions", d: "Routed to human review — never published as confirmed fact without sign-off." },
+      { t: "Sensitive meetings", d: "Visibility flag restricts viewers and can exclude it from the org-wide library entirely." },
+      { t: "Very long meetings (2h+)", d: "Chaptered by topic block so neither agents nor UI process it as one blob." },
+      { t: "Cancelled / rescheduled", d: "Distinct status keeps these out of dashboards and analytics." },
+      { t: "Decision reversed mid-meeting", d: "Most recent statement is authoritative; the reversal is logged, not silently overwritten." },
+      { t: "No agenda provided", d: "Topic Segregation infers structure from content; meeting-type falls back to a generic pipeline." },
+      { t: "Org-wide scale", d: "Async queue + per-agent parallelism keep per-meeting processing time roughly constant under load." },
+    ];
+
+    /* ---------------------------------------------------------------
+       RENDER
+    --------------------------------------------------------------- */
+    function tagPill(tag) {
+      if (tag === "existing") return '<span class="pill req">existing</span>';
+      if (tag === "required") return '<span class="pill req">required</span>';
+      return '<span class="pill added">added</span>';
+    }
+    function edgeClass(tag) { return (tag === "existing" || tag === "required") ? "edge-cyan" : "edge-amber"; }
+    function dot(tag) { return (tag === "existing" || tag === "required") ? '<span class="dot cyan"></span>' : '<span class="dot amber"></span>'; }
+
+    function renderPages() {
+      let html = "";
+      pages.forEach(g => {
+        html += `<div class="group-label">${g.group}</div><div class="grid cols-3">`;
+        g.items.forEach(p => {
+          html += `<div class="card ${edgeClass(p.tag)}">
+        <div class="tagrow eyebrow">${dot(p.tag)} ${p.tag}</div>
+        <h4>${p.name}</h4>
+        <p>${p.desc}</p>
+        <ul>${p.bullets.map(b => `<li>${b}</li>`).join("")}</ul>
+      </div>`;
+        });
+        html += `</div>`;
+      });
+      document.getElementById("pagesMount").innerHTML = html;
+    }
+
+    function renderAgents() {
+      let html = `<div class="group-label">Required by the brief</div><div class="grid cols-2">`;
+      agents.filter(a => a.tag === "required").forEach(a => html += agentCard(a));
+      html += `</div><div class="group-label">Added to make the pipeline work end-to-end</div><div class="grid cols-2">`;
+      agents.filter(a => a.tag === "added").forEach(a => html += agentCard(a));
+      html += `</div>`;
+      document.getElementById("agentsMount").innerHTML = html;
+    }
+    function agentCard(a) {
+      return `<div class="card ${edgeClass(a.tag)}">
+    <div class="tagrow eyebrow">${dot(a.tag)} ${a.tag}</div>
+    <h4>${a.name}</h4>
+    <ul>
+      <li><strong style="color:var(--text)">In —</strong> ${a.input}</li>
+      <li><strong style="color:var(--text)">Does —</strong> ${a.process}</li>
+      <li><strong style="color:var(--text)">Out —</strong> ${a.output}</li>
+      <li><strong style="color:var(--text)">Confidence —</strong> ${a.confidence}</li>
+    </ul>
+  </div>`;
+    }
+
+    function renderFeatures() {
+      document.getElementById("featuresMount").innerHTML = features.map((f, i) => `
+    <div class="card edge-amber">
+      <div class="tagrow eyebrow"><span class="dot amber"></span> idea ${String(i + 1).padStart(2, "0")}</div>
+      <p style="color:var(--text); font-size:13.5px;">${f}</p>
+    </div>`).join("");
+    }
+
+    function renderSchema() {
+      document.getElementById("schemaMount").innerHTML = schema.map(t => `
+    <details class="table-card">
+      <summary>
+        <span><span class="t-name">${t.name}</span> <span class="t-meta">· ${t.fields.length} fields</span></span>
+        <span class="chev">▸</span>
+      </summary>
+      <div class="t-body">
+        ${t.note ? `<p>${t.note}</p>` : ""}
+        <div>${t.fields.map(f => `<span class="field-chip">${f}</span>`).join("")}</div>
+      </div>
+    </details>`).join("");
+    }
+
+    function renderApi() {
+      document.getElementById("apiMount").innerHTML = apiGroups.map(g => `
+    <details class="api-group">
+      <summary><span>${g.name}</span><span class="chev">▸</span></summary>
+      ${g.rows.map(r => `
+        <div class="api-row">
+          <span class="method ${r[0]}">${r[0]}</span>
+          <span><span class="path">${r[1]}</span><span class="desc">${r[2]}</span></span>
+        </div>`).join("")}
+    </details>`).join("");
+    }
+
+    function renderDeps() {
+      document.getElementById("depsMount").innerHTML = deps.map(d => `
+    <div class="card edge-cyan">
+      <h4>${d.name}</h4>
+      <div class="eyebrow" style="margin:4px 0 8px;">${d.tools}</div>
+      <p>${d.use}</p>
+    </div>`).join("");
+    }
+
+    function renderFlow() {
+      document.getElementById("flowMount").innerHTML = flow.map((s, i) => `
+    <div class="t-step" data-n="${i + 1}">
+      <h4>${s.t}</h4>
+      <p>${s.d}</p>
+    </div>`).join("");
+    }
+
+    function renderEdge() {
+      document.getElementById("edgeMount").innerHTML = edgeCases.map(e => `
+    <div class="card edge-cyan">
+      <h4 style="font-size:13.5px;">${e.t}</h4>
+      <p>${e.d}</p>
+    </div>`).join("");
+    }
+
+    renderPages(); renderAgents(); renderFeatures(); renderSchema(); renderApi(); renderDeps(); renderFlow(); renderEdge();
+
+    /* ---------------------------------------------------------------
+       INTERACTIVITY: scrollspy + mobile nav
+    --------------------------------------------------------------- */
+    const tocLinks = Array.from(document.querySelectorAll("#toc a"));
+    const sectionIds = tocLinks.map(a => a.getAttribute("href").slice(1));
+    const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          tocLinks.forEach(a => a.classList.remove("active"));
+          const link = tocLinks.find(a => a.getAttribute("href") === "#" + entry.target.id);
+          if (link) link.classList.add("active");
+        }
+      });
+    }, { rootMargin: "-15% 0px -75% 0px" });
+    sections.forEach(s => observer.observe(s));
+
+    const sidebar = document.getElementById("sidebar");
+    const navToggle = document.getElementById("navToggle");
+    if (navToggle) {
+      navToggle.addEventListener("click", () => sidebar.classList.toggle("open"));
+    }
+    tocLinks.forEach(a => a.addEventListener("click", () => sidebar.classList.remove("open")));
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+import { useState, useEffect } from "react"
+import { Link, useLocation, useNavigate } from "react-router-dom"
+import { useTheme } from "@/components/theme-provider"
+import {
+  Home,
+  Upload,
+  Library,
+  Settings,
+  MessageSquare,
+  Sun,
+  Moon,
+  PanelLeftClose,
+  Search,
+  Calendar,
+  FlaskConical,
+  Trash2,
+  Users,
+} from "lucide-react"
+
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
+  SidebarHeader,
+  SidebarFooter,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarSeparator,
+  useSidebar
+} from "@/components/ui/sidebar"
+import { Skeleton } from "@/components/ui/skeleton"
+import { useAppStore } from "@/store/app-store"
+import { fetchMeetings, deleteMeeting } from "@/lib/api"
+
+const MAIN_NAV = [
+  { title: "Dashboard", url: "/app", icon: Home },
+  { title: "Calendar", url: "/app/calendar", icon: Calendar },
+  { title: "Knowledge Library", url: "/app/knowledge-library", icon: Library },
+  { title: "User Management", url: "/app/users", icon: Users },
+]
+
+const MEETING_CONTEXT = [
+  { title: "Action Workspace", url: "/app/action-workspace", icon: MessageSquare },
+  // { title: "Team Analytics", url: "/app/participation-analytics", icon: BarChart2 },
+  { title: "Pipeline Testing", url: "/app/pipeline-testing", icon: FlaskConical },
+]
+
+export function AppSidebar() {
+  const location = useLocation()
+  const navigate = useNavigate()
+  const { theme, setTheme } = useTheme()
+  const { toggleSidebar, state } = useSidebar()
+  const { setUploadDialogOpen } = useAppStore()
+  const nextTheme = theme === "dark" ? "light" : "dark"
+  const isCollapsed = state === "collapsed"
+
+  const [realMeetings, setRealMeetings] = useState<{ id: string; title: string; url: string }[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    fetchMeetings().then(res => {
+      setRealMeetings(res.map(m => ({ id: m.id, title: m.title || "Untitled Meeting", url: `/app/meeting-detail?meetingId=${m.id}` })))
+      setLoading(false)
+    }).catch(err => {
+      console.error(err)
+      setError(true)
+      setLoading(false)
+    })
+  }, [])
+
+  const handleDelete = async (e: React.MouseEvent, id: string) => {
+    e.preventDefault()
+    e.stopPropagation()
+    try {
+      await deleteMeeting(id)
+      setRealMeetings(realMeetings.filter(m => m.id !== id))
+      if (location.search.includes(id)) {
+        navigate("/app")
+      }
+    } catch (err) {
+      console.error("Failed to delete meeting", err)
+    }
+  }
+
+  return (
+    <Sidebar variant="floating" collapsible="icon" className="pr-0 bg-none shadow-none" >
+      <SidebarHeader className="p-4 ">
+        <Link to="/" className="flex items-center gap-2  font-bold tracking-tight text-lg text-sidebar-foreground">
+          <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-5 shrink-0">
+            <path d="M9.56211 18.51C7.87398 18.4869 6.16273 18.4175 4.52085 18.2094C3.89647 18.1169 3.2721 18.0013 2.69397 17.8394C2.41647 17.7469 2.13897 17.6544 1.93084 17.5156C1.72272 17.4 1.60709 17.2844 1.58397 17.2381C1.58397 17.2381 1.60709 17.0069 1.65334 16.8913C1.72272 16.7756 1.81522 16.6831 2.00022 16.5906C2.37022 16.3825 2.9946 16.29 3.61897 16.2206C4.24335 16.1513 4.91398 16.105 5.60773 15.9894C5.9546 15.92 6.32461 15.8506 6.71773 15.735C7.08773 15.5963 7.52711 15.4113 7.89711 15.0413C8.26711 14.6713 8.49836 14.1163 8.52149 13.6306C8.59086 13.145 8.40586 12.5206 8.03586 12.1275C7.31898 11.3644 6.55586 11.2025 5.90835 10.9944C5.26085 10.8094 4.59023 10.6706 4.1971 10.4625C4.0121 10.37 3.9196 10.2544 3.89647 10.185C3.87335 10.1156 3.89647 9.97688 3.98897 9.79188C4.22022 9.42188 4.72898 9.05188 5.26085 8.7975C5.79273 8.54313 6.39398 8.335 7.01836 8.17313C7.27273 8.10375 7.43461 7.84938 7.38836 7.595C7.34211 7.3175 7.06461 7.10937 6.78711 7.15562C6.11648 7.27125 5.42273 7.43312 4.77523 7.6875C4.1046 7.965 3.43397 8.28875 2.87897 9.00563C2.6246 9.3525 2.39335 9.88438 2.50897 10.4856C2.6246 11.0638 3.04085 11.48 3.43397 11.7113C4.1971 12.1506 4.8446 12.2663 5.44585 12.4744C6.02398 12.6594 6.60211 12.9369 6.78711 13.145C6.85648 13.2606 6.87961 13.33 6.87961 13.4919C6.85648 13.6769 6.81023 13.7694 6.71773 13.8619C6.50961 14.07 5.9546 14.255 5.35335 14.3244C4.7521 14.4169 4.1046 14.44 3.41085 14.5325C2.7171 14.625 2.00022 14.7175 1.21397 15.1106C0.820841 15.3188 0.40459 15.6888 0.196465 16.1975C0.0808395 16.4288 0.0345894 16.7063 0.0114644 16.9144C-0.0116607 17.1225 -0.0116607 17.5157 0.12709 17.7932C0.381465 18.3944 0.820841 18.6488 1.19084 18.8569C1.56084 19.0419 1.93084 19.1575 2.27772 19.25C2.97147 19.435 3.66522 19.5275 4.35898 19.5969C6.18585 19.7588 7.98961 19.7357 9.79336 19.62C9.74711 19.5275 9.72399 19.4119 9.72399 19.3194L9.56211 18.51Z" fill="#7C93FB" />
+            <path d="M20.755 1.30491L17.8874 0.148662C16.8699 -0.267589 15.6906 0.218037 15.2743 1.25866L10.2331 13.6074C10.1868 13.7462 10.1637 13.8849 10.1868 14.0468L11.1349 19.065C11.1812 19.3193 11.3662 19.5275 11.5974 19.6431C11.8287 19.7356 12.1062 19.7125 12.3374 19.5506L16.5231 16.6137C16.6387 16.5212 16.7312 16.4056 16.8006 16.2668L21.8418 3.89492C22.2812 2.90054 21.7725 1.72117 20.755 1.30491ZM12.4531 17.6081L11.7824 14.1393L15.3437 15.5962L12.4531 17.6081ZM16.0143 14.1856L12.2912 12.6824L15.6212 4.49617L19.3443 5.9993L16.0143 14.1856Z" fill="currentColor" />
+          </svg>
+          <span className="truncate "><span>Meet</span> <span className="text-[#7C93FB]">Ink</span> </span>
+        </Link>
+      </SidebarHeader>
+
+      <SidebarContent className="overflow-x-hidden ">
+        {/* Capture Meeting — top, separated */}
+        <SidebarGroup>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton
+                  tooltip="Capture Meeting"
+                  render={
+                    <button
+                      type="button"
+                      onClick={() => setUploadDialogOpen(true)}
+                      className="flex items-center gap-2 w-full text-left"
+                    >
+                      <Upload className="w-4 h-4" />
+                      <span>Capture Meeting</span>
+                    </button>
+                  }
+                />
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarSeparator className="w-[80%] mx-auto" />
+
+        <SidebarGroup>
+          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {MAIN_NAV.map((item) => (
+                <SidebarMenuItem key={item.title}>
+                  <SidebarMenuButton
+                    isActive={location.pathname === item.url}
+                    tooltip={item.title}
+                    render={
+                      <Link to={item.url}>
+                        <item.icon className="w-4 h-4" />
+                        <span>{item.title}</span>
+                      </Link>
+                    }
+                  />
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarSeparator className="w-[80%] mx-auto" />
+
+        <SidebarGroup>
+          <SidebarGroupLabel>Insights & Data</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {MEETING_CONTEXT.map((item) => (
+                <SidebarMenuItem key={item.title}>
+                  <SidebarMenuButton
+                    isActive={location.pathname === item.url}
+                    tooltip={item.title}
+                    render={
+                      <Link to={item.url}>
+                        <item.icon className="w-4 h-4" />
+                        <span>{item.title}</span>
+                      </Link>
+                    }
+                  />
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarSeparator className="w-[80%] mx-auto" />
+
+        {/* Meetings section — search always visible, list only when expanded */}
+        <SidebarGroup>
+          {!isCollapsed && <SidebarGroupLabel>Meetings</SidebarGroupLabel>}
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Search Meetings">
+                  <Search className="w-4 h-4" />
+                  <span>Search Meetings</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              {!isCollapsed && loading && (
+                <div className="space-y-2 px-2 py-1">
+                  <Skeleton className="h-8 w-full rounded-lg bg-muted/60" />
+                  <Skeleton className="h-8 w-full rounded-lg bg-muted/60" />
+                  <Skeleton className="h-8 w-full rounded-lg bg-muted/60" />
+                </div>
+              )}
+              {!isCollapsed && error && (
+                <div className="px-2 py-3 text-xs text-destructive text-center font-medium">
+                  Failed to load meetings.
+                </div>
+              )}
+              {!isCollapsed && !loading && !error && realMeetings.length === 0 && (
+                <div className="px-2 py-3 text-xs text-muted-foreground text-center">
+                  No meetings found.
+                </div>
+              )}
+              {!isCollapsed && !loading && !error && realMeetings.map((item) => (
+                <SidebarMenuItem key={item.id}>
+                  <SidebarMenuButton
+                    isActive={location.pathname + location.search === item.url}
+                    tooltip={item.title}
+                    render={
+                      <Link to={item.url} className="flex items-center w-full pr-1">
+                        <MessageSquare className="w-4 h-4 text-muted-foreground shrink-0 mr-2" />
+                        <span className="truncate flex-1">{item.title}</span>
+                        <button
+                          type="button"
+                          onClick={(e) => handleDelete(e, item.id)}
+                          className="p-1 text-muted-foreground hover:text-destructive hover:bg-destructive/10 rounded transition-colors shrink-0 ml-1"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      </Link>
+                    }
+                  />
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+      </SidebarContent>
+
+
+      <SidebarSeparator className="w-[80%] mx-auto" />
+
+      <SidebarFooter>
+        <SidebarGroup>
+          <SidebarMenu>
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                tooltip="Settings"
+                render={
+                  <Link to="/" className={`flex items-center gap-2 w-full ${isCollapsed ? "justify-center" : ""}`}>
+                    <Settings className="w-4 h-4 shrink-0" />
+                    <span>Settings</span>
+                  </Link>
+                }
+              />
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton tooltip="Toggle Theme" onClick={() => setTheme(nextTheme)} className={isCollapsed ? "justify-center" : ""}>
+                {theme === "dark" ? <Sun className="w-4 h-4 shrink-0" /> : <Moon className="w-4 h-4 shrink-0" />}
+                <span>Toggle Theme</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton tooltip="Collapse Sidebar" onClick={toggleSidebar} className={isCollapsed ? "justify-center" : ""}>
+                <PanelLeftClose className="w-4 h-4 shrink-0" />
+                <span>Collapse Sidebar</span>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+          </SidebarMenu>
+        </SidebarGroup>
+      </SidebarFooter>
+
+    </Sidebar>
+  )
+}

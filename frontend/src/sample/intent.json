@@ -1,0 +1,4674 @@
+{
+    "utterances": [
+        {
+            "speaker": "Prisha Behera",
+            "start": 3.274,
+            "end": 6.514,
+            "text": "their own input, it's not like they'll tell that.",
+            "id": [
+                0
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 7.874,
+            "end": 8.434,
+            "text": "Oh.",
+            "id": [
+                1
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 8.034,
+            "end": 10.5,
+            "text": "Okay, and then when they're testing or this one",
+            "id": [
+                2
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 9.714,
+            "end": 10.674,
+            "text": "To try something.",
+            "id": [
+                3
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 10.5,
+            "end": 13.722,
+            "text": "they'll test it on the, like they'll test it on the inputs that",
+            "id": [
+                4
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 13.722,
+            "end": 16.994,
+            "text": "we've told them the format or whatever that we're trying to use.",
+            "id": [
+                5
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 17.794,
+            "end": 20.274,
+            "text": "Yeah, like they said that they might ask",
+            "id": [
+                6
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 20.274,
+            "end": 23.662,
+            "text": "questions like, okay, if the format input is like this",
+            "id": [
+                7
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 23.662,
+            "end": 27.474,
+            "text": "then how will your product or like, , react, but then.",
+            "id": [
+                8
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 28.594,
+            "end": 30.434,
+            "text": "They won't test it.",
+            "id": [
+                9
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 31.394,
+            "end": 34.114,
+            "text": "So if they do ask, we don't have an answer for that, I know.",
+            "id": [
+                10
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 36.354,
+            "end": 36.674,
+            "text": "Okay.",
+            "id": [
+                11
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 43.714,
+            "end": 45.114,
+            "text": "Just give me one second.",
+            "id": [
+                12
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 54.994,
+            "end": 58.935,
+            "text": "She told about the nature of the input, like example",
+            "id": [
+                13
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 58.935,
+            "end": 62.877,
+            "text": "if there is a very long meeting, like expire 6 hours",
+            "id": [
+                14
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 62.877,
+            "end": 64.994,
+            "text": "how well it is doing its job.",
+            "id": [
+                15
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 66.474,
+            "end": 68.114,
+            "text": "It told us to demonstrate that.",
+            "id": [
+                16
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 69.434,
+            "end": 69.554,
+            "text": "Yeah.",
+            "id": [
+                17
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 72.394,
+            "end": 73.314,
+            "text": "I am not audible.",
+            "id": [
+                18
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 77.634,
+            "end": 77.954,
+            "text": "Yeah.",
+            "id": [
+                19
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 149.834,
+            "end": 154.622,
+            "text": "Do we have any idea about how we're going to break the multi-topic meetings into",
+            "id": [
+                20
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 154.622,
+            "end": 157.874,
+            "text": "themes or whatever they said in the problem statement?",
+            "id": [
+                21
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 162.434,
+            "end": 162.554,
+            "text": "Yeah.",
+            "id": [
+                22
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 170.114,
+            "end": 175.474,
+            "text": "So, for dividing into topics, I think I have only seen about LLM.",
+            "id": [
+                23
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 176.434,
+            "end": 178.594,
+            "text": "Calling an LLM and dividing it into topics.",
+            "id": [
+                24
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 179.874,
+            "end": 185.874,
+            "text": "And there is no particular algorithm that can perfectly do this, so we can use LLM.",
+            "id": [
+                25
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 186.914,
+            "end": 188.194,
+            "text": "Okay, okay.",
+            "id": [
+                26
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 190.674,
+            "end": 191.154,
+            "text": "So...",
+            "id": [
+                27
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 192.114,
+            "end": 195.676,
+            "text": "I think one, at least we should get a hint from the",
+            "id": [
+                28
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 195.676,
+            "end": 199.718,
+            "text": "meeting name, right? A lot of times meetings have at least",
+            "id": [
+                29
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 199.718,
+            "end": 204.034,
+            "text": "relevant names in order to further classify the topics, right?",
+            "id": [
+                30
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 206.834,
+            "end": 211.954,
+            "text": "Meeting name, OK.",
+            "id": [
+                31
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 209.794,
+            "end": 213.168,
+            "text": "If it is useful, then we should have a, we should use it, correct?",
+            "id": [
+                32
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 213.168,
+            "end": 216.795,
+            "text": "Like if it says that, okay, hey, the meeting is going to be about this",
+            "id": [
+                33
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 216.795,
+            "end": 220.724,
+            "text": "then at least you can get a rough idea about what your meeting topics may be",
+            "id": [
+                34
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 220.724,
+            "end": 223.394,
+            "text": "even before any discussion has taken place.",
+            "id": [
+                35
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 223.794,
+            "end": 228.348,
+            "text": "Yeah, we can include that in our input, but what if they ask why did you include",
+            "id": [
+                36
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 228.348,
+            "end": 232.959,
+            "text": "in the in your input that you are already providing something like the meeting is",
+            "id": [
+                37
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 229.194,
+            "end": 229.314,
+            "text": "Yeah.",
+            "id": [
+                38
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 232.074,
+            "end": 235.443,
+            "text": "No, no, so, so you can have a, you can have a suppose",
+            "id": [
+                39
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 232.959,
+            "end": 233.634,
+            "text": "going to be?",
+            "id": [
+                40
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 235.443,
+            "end": 238.812,
+            "text": "so like you can have like a whatever if state.",
+            "id": [
+                41
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 236.834,
+            "end": 237.154,
+            "text": "There.",
+            "id": [
+                42
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 238.812,
+            "end": 241.507,
+            "text": "I I don't know how we'd code this",
+            "id": [
+                43
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 241.507,
+            "end": 244.938,
+            "text": "but suppose suppose the meeting name was useful enough",
+            "id": [
+                44
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 244.938,
+            "end": 249.716,
+            "text": "like suppose it's like 4:30 meeting, then obviously don't use it as an input",
+            "id": [
+                45
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 249.716,
+            "end": 251.554,
+            "text": "but suppose it had more depth.",
+            "id": [
+                46
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 251.714,
+            "end": 253.794,
+            "text": "to it, then we could probably use it, right?",
+            "id": [
+                47
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 254.714,
+            "end": 258.306,
+            "text": "Yeah, yeah, using it is not a problem, but who provided it?",
+            "id": [
+                48
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 256.274,
+            "end": 256.514,
+            "text": "S.",
+            "id": [
+                49
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 258.306,
+            "end": 261.598,
+            "text": "So if we provided that in our input, what if they ask",
+            "id": [
+                50
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 260.114,
+            "end": 265.314,
+            "text": "Oh, okay, like that. Got it, got it. , understood, understood.",
+            "id": [
+                51
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 261.598,
+            "end": 263.874,
+            "text": "why did you provide that in the input?",
+            "id": [
+                52
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 266.674,
+            "end": 267.154,
+            "text": "Yeah.",
+            "id": [
+                53
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 266.754,
+            "end": 269.954,
+            "text": "So we have only the transcription to the meeting itself, right?",
+            "id": [
+                54
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 268.034,
+            "end": 268.274,
+            "text": "Bing.",
+            "id": [
+                55
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 269.954,
+            "end": 274.054,
+            "text": "Maybe not other details about what time, when, who was invited, things like that",
+            "id": [
+                56
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 271.154,
+            "end": 271.474,
+            "text": "S.",
+            "id": [
+                57
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 272.834,
+            "end": 272.954,
+            "text": "MUM.",
+            "id": [
+                58
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 275.314,
+            "end": 276.594,
+            "text": "Yeah, I know.",
+            "id": [
+                59
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 276.194,
+            "end": 278.314,
+            "text": "Okay, okay, good. Bye-bye.",
+            "id": [
+                60
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 279.314,
+            "end": 281.154,
+            "text": "And also, he asked to...",
+            "id": [
+                61
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 280.354,
+            "end": 281.394,
+            "text": "We can't try it.",
+            "id": [
+                62
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 282.674,
+            "end": 283.634,
+            "text": "Yeah, yeah, speak.",
+            "id": [
+                63
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 284.354,
+            "end": 288.678,
+            "text": "We can't write the whole transcript as input and tell the LLM to classify",
+            "id": [
+                64
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 288.678,
+            "end": 291.074,
+            "text": "because the transcript would be too much.",
+            "id": [
+                65
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 293.794,
+            "end": 296.434,
+            "text": "Yeah, so I like.",
+            "id": [
+                66
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 294.834,
+            "end": 297.528,
+            "text": "So, so maybe our first step should be to",
+            "id": [
+                67
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 297.528,
+            "end": 301.339,
+            "text": "compress the no, but compressing maybe you lose important",
+            "id": [
+                68
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 297.554,
+            "end": 297.754,
+            "text": "Okay.",
+            "id": [
+                69
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 300.914,
+            "end": 307.173,
+            "text": "Even though, even after, no, no, even after, even after compressing",
+            "id": [
+                70
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 301.339,
+            "end": 302.194,
+            "text": "stuff, right?",
+            "id": [
+                71
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 301.634,
+            "end": 304.034,
+            "text": "You might lose important information.",
+            "id": [
+                72
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 303.474,
+            "end": 304.034,
+            "text": "Yeah.",
+            "id": [
+                73
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 307.173,
+            "end": 312.979,
+            "text": "it might be too easy, so we can do like a sliding with the kind",
+            "id": [
+                74
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 311.474,
+            "end": 311.954,
+            "text": "Okay.",
+            "id": [
+                75
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 311.714,
+            "end": 313.554,
+            "text": "Or we can do 2 passes.",
+            "id": [
+                76
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 312.979,
+            "end": 318.603,
+            "text": "of thing. We would extract the, extract the points and check",
+            "id": [
+                77
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 316.994,
+            "end": 317.394,
+            "text": "Ohh.",
+            "id": [
+                78
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 318.603,
+            "end": 319.874,
+            "text": "identify that.",
+            "id": [
+                79
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 318.634,
+            "end": 318.754,
+            "text": "MUM.",
+            "id": [
+                80
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 320.354,
+            "end": 325.586,
+            "text": "topic of discussion for those points and store the topic of discussion somewhere.",
+            "id": [
+                81
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 325.586,
+            "end": 329.733,
+            "text": "And in the next upcoming thing, we will cheque from the topic of",
+            "id": [
+                82
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 329.733,
+            "end": 333.944,
+            "text": "discussion if those points are related to that thing. If nothing",
+            "id": [
+                83
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 333.794,
+            "end": 334.674,
+            "text": "Okay, okay.",
+            "id": [
+                84
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 333.944,
+            "end": 336.114,
+            "text": "then we will create a newer topic.",
+            "id": [
+                85
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 337.074,
+            "end": 341.794,
+            "text": "Okay, so then, then in so.",
+            "id": [
+                86
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 343.474,
+            "end": 347.137,
+            "text": "Instead of having like a sliding window of maybe a fixed size",
+            "id": [
+                87
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 347.137,
+            "end": 351.847,
+            "text": "you can just start from the top and then you can work your way until the LLM can",
+            "id": [
+                88
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 351.847,
+            "end": 356.092,
+            "text": "figure out, okay, at least still here, this is the point of whatever the",
+            "id": [
+                89
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 356.092,
+            "end": 359.523,
+            "text": "conversation or the transcript. And as soon as we get one",
+            "id": [
+                90
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 359.523,
+            "end": 363.07,
+            "text": "maybe we can put a, we can resume from that point onwards to",
+            "id": [
+                91
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 363.07,
+            "end": 363.594,
+            "text": "the next.",
+            "id": [
+                92
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 363.954,
+            "end": 366.655,
+            "text": "Similarly, until you get a next point of topic or",
+            "id": [
+                93
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 366.655,
+            "end": 368.114,
+            "text": "next point of conversation.",
+            "id": [
+                94
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 371.314,
+            "end": 375.554,
+            "text": "But like, how exactly would you demark it?",
+            "id": [
+                95
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 372.474,
+            "end": 372.754,
+            "text": "But.",
+            "id": [
+                96
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 376.474,
+            "end": 380.834,
+            "text": "When one topic ends and the other starts, 'cause like sometimes the...",
+            "id": [
+                97
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 380.034,
+            "end": 384.127,
+            "text": "No, you can't perfectly do that, right? So when the LLM has enough confidence",
+            "id": [
+                98
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 384.127,
+            "end": 387.223,
+            "text": "that, okay, hey, I've understood that this still here till",
+            "id": [
+                99
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 387.223,
+            "end": 390.687,
+            "text": "this point in the meeting, they were probably talking about this.",
+            "id": [
+                100
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 390.687,
+            "end": 393.154,
+            "text": "At some point it'll gather enough information.",
+            "id": [
+                101
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 391.874,
+            "end": 395.801,
+            "text": "No, it can be like it can be like I will be",
+            "id": [
+                102
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 394.314,
+            "end": 394.434,
+            "text": "Team.",
+            "id": [
+                103
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 395.801,
+            "end": 400.354,
+            "text": "jumping to and throw towards two different topics.",
+            "id": [
+                104
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 402.674,
+            "end": 403.794,
+            "text": "Can you repeat your voice?",
+            "id": [
+                105
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 405.354,
+            "end": 408.463,
+            "text": "No, it can be that I would be jumping across",
+            "id": [
+                106
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 408.463,
+            "end": 410.674,
+            "text": "to Enterprise to a remote topic.",
+            "id": [
+                107
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 409.634,
+            "end": 410.274,
+            "text": "Ohh.",
+            "id": [
+                108
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 411.474,
+            "end": 413.314,
+            "text": "Oh, yeah, yeah, you could.",
+            "id": [
+                109
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 416.434,
+            "end": 417.074,
+            "text": "Ohh.",
+            "id": [
+                110
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 421.394,
+            "end": 421.954,
+            "text": "MUM.",
+            "id": [
+                111
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 424.754,
+            "end": 427.299,
+            "text": "So okay, what do you guys think we should do then",
+            "id": [
+                112
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 427.299,
+            "end": 427.554,
+            "text": "here?",
+            "id": [
+                113
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 429.034,
+            "end": 429.154,
+            "text": "MUM.",
+            "id": [
+                114
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 478.354,
+            "end": 478.834,
+            "text": "Hello?",
+            "id": [
+                115
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 480.514,
+            "end": 483.429,
+            "text": "Yeah, I'm thinking something like in compilers",
+            "id": [
+                116
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 483.429,
+            "end": 486.034,
+            "text": "we will do multi-pass optimization, right?",
+            "id": [
+                117
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 484.234,
+            "end": 484.354,
+            "text": "MUM.",
+            "id": [
+                118
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 486.594,
+            "end": 487.074,
+            "text": "Okay.",
+            "id": [
+                119
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 488.194,
+            "end": 492.514,
+            "text": "So maybe we will try the same here.",
+            "id": [
+                120
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 493.954,
+            "end": 497.154,
+            "text": "We will pass some context to the LLM in one pass.",
+            "id": [
+                121
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 498.154,
+            "end": 503.738,
+            "text": "Until the end of the means by breaking it, passing it multiple times until we reach",
+            "id": [
+                122
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 498.194,
+            "end": 498.674,
+            "text": "Okay.",
+            "id": [
+                123
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 501.714,
+            "end": 501.874,
+            "text": "MUM.",
+            "id": [
+                124
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 502.954,
+            "end": 503.074,
+            "text": "MUM.",
+            "id": [
+                125
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 503.738,
+            "end": 507.128,
+            "text": "the end, and maybe second time we will do the same",
+            "id": [
+                126
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 507.128,
+            "end": 512.114,
+            "text": "thing from another point or from the same point somewhere like multi-pass.",
+            "id": [
+                127
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 513.474,
+            "end": 514.034,
+            "text": "Okay.",
+            "id": [
+                128
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 515.074,
+            "end": 516.674,
+            "text": "Yeah, that's one option.",
+            "id": [
+                129
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 515.314,
+            "end": 521.106,
+            "text": "Maybe on every pass we will try to collect what is the gist of that context",
+            "id": [
+                130
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 521.106,
+            "end": 524.994,
+            "text": "and overall we can maybe try to collect something.",
+            "id": [
+                131
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 527.314,
+            "end": 530.514,
+            "text": "Okay, just give me a second, I'll ask.",
+            "id": [
+                132
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 529.754,
+            "end": 530.914,
+            "text": "Yeah, the true dingy.",
+            "id": [
+                133
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 532.274,
+            "end": 537.086,
+            "text": "Okay, I asked, so it gave a couple of... Okay, a transcript long sequence.",
+            "id": [
+                134
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 536.434,
+            "end": 536.754,
+            "text": "So.",
+            "id": [
+                135
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 537.086,
+            "end": 541.578,
+            "text": "You need to detect boundaries, group segments, name topics, attached.",
+            "id": [
+                136
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 541.578,
+            "end": 546.711,
+            "text": "Okay, approach one is sliding window. Split transcript into overlapping windows",
+            "id": [
+                137
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 546.711,
+            "end": 550.754,
+            "text": "of 10 to 15 turns or two to three minutes. Okay, one is, yeah.",
+            "id": [
+                138
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 550.034,
+            "end": 554.274,
+            "text": "Okay, 10 to 15 times maybe, yeah, that's what it is, multi-pass.",
+            "id": [
+                139
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 554.754,
+            "end": 560.602,
+            "text": "Multipass correct approach to embedding plus clustering often better",
+            "id": [
+                140
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 560.602,
+            "end": 565.114,
+            "text": "but I think I could share this chat one sec.",
+            "id": [
+                141
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 566.114,
+            "end": 567.074,
+            "text": "You can.",
+            "id": [
+                142
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 566.154,
+            "end": 566.274,
+            "text": "Yeah.",
+            "id": [
+                143
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 567.954,
+            "end": 568.234,
+            "text": "Ohh.",
+            "id": [
+                144
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 568.834,
+            "end": 570.034,
+            "text": "Maybe share your screen.",
+            "id": [
+                145
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 569.074,
+            "end": 571.074,
+            "text": "Okay, wait, do you want me to just, yeah, I can do.",
+            "id": [
+                146
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 573.394,
+            "end": 573.914,
+            "text": "One sec.",
+            "id": [
+                147
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 579.714,
+            "end": 580.754,
+            "text": "How can you guys see?",
+            "id": [
+                148
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 579.914,
+            "end": 580.034,
+            "text": "Yeah.",
+            "id": [
+                149
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 584.034,
+            "end": 584.994,
+            "text": "Yeah, we can see.",
+            "id": [
+                150
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 585.314,
+            "end": 592.587,
+            "text": "Huh, so, so one was this right, which we said split transcript into",
+            "id": [
+                151
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 592.587,
+            "end": 599.325,
+            "text": "overlapping windows of 10 to 15 turns or two to three minutes",
+            "id": [
+                152
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 599.325,
+            "end": 604.994,
+            "text": "then approach to embedding plus clustering chunk by.",
+            "id": [
+                153
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 605.034,
+            "end": 610.019,
+            "text": "Speaker turns, not by fixed time, three to five consecutive turns per chunk",
+            "id": [
+                154
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 610.019,
+            "end": 612.674,
+            "text": "embed each chunk. Yes, it's back in, I...",
+            "id": [
+                155
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 612.874,
+            "end": 612.994,
+            "text": "In.",
+            "id": [
+                156
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 614.354,
+            "end": 617.812,
+            "text": "I think your team was one minute, like two bus. OK",
+            "id": [
+                157
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 617.812,
+            "end": 622.335,
+            "text": "what's strong submission? What do you want me to share like a bunch",
+            "id": [
+                158
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 622.335,
+            "end": 625.794,
+            "text": "of screenshots of the same, or do you are you guys?",
+            "id": [
+                159
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 624.674,
+            "end": 625.474,
+            "text": "Ohh.",
+            "id": [
+                160
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 624.914,
+            "end": 625.474,
+            "text": "Perfect.",
+            "id": [
+                161
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 627.234,
+            "end": 628.194,
+            "text": "Yeah, share it.",
+            "id": [
+                162
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 628.994,
+            "end": 634.287,
+            "text": "Okay, yeah, give me one second, I'll check. Okay",
+            "id": [
+                163
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 629.314,
+            "end": 629.714,
+            "text": "Sure.",
+            "id": [
+                164
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 631.794,
+            "end": 631.914,
+            "text": "Yeah.",
+            "id": [
+                165
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 634.287,
+            "end": 643.074,
+            "text": "so otherwise this is what we're thinking of, like one of these similar approaches.",
+            "id": [
+                166
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 644.674,
+            "end": 644.834,
+            "text": "Yeah.",
+            "id": [
+                167
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 651.554,
+            "end": 657.197,
+            "text": "Maybe we can try two to three of them by taking some sample inputs and we decide",
+            "id": [
+                168
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 656.594,
+            "end": 659.954,
+            "text": "Okay, yeah, good idea. Yep, we can do that.",
+            "id": [
+                169
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 657.197,
+            "end": 658.034,
+            "text": "what to use.",
+            "id": [
+                170
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 659.314,
+            "end": 659.674,
+            "text": "Yeah.",
+            "id": [
+                171
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 660.754,
+            "end": 660.874,
+            "text": "MUM.",
+            "id": [
+                172
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 663.074,
+            "end": 663.434,
+            "text": "OK.",
+            "id": [
+                173
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 667.794,
+            "end": 670.86,
+            "text": "So, okay, what if, let's at least come up with what are the",
+            "id": [
+                174
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 670.86,
+            "end": 673.314,
+            "text": "potential issues we face in our project, right?",
+            "id": [
+                175
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 674.914,
+            "end": 678.594,
+            "text": "One is definitely that, , we can break that transcripts into",
+            "id": [
+                176
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 678.594,
+            "end": 680.514,
+            "text": "different, like, if you can think...",
+            "id": [
+                177
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 681.714,
+            "end": 683.874,
+            "text": "At least going into the next meeting, or.. .",
+            "id": [
+                178
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 685.194,
+            "end": 687.389,
+            "text": "Like whenever the next time it is that we meet",
+            "id": [
+                179
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 687.389,
+            "end": 690.729,
+            "text": "we can think about what potential solutions or we can do a little bit of",
+            "id": [
+                180
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 690.729,
+            "end": 693.474,
+            "text": "research, right? If not, assign anything to everyone today.",
+            "id": [
+                181
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 700.914,
+            "end": 704.194,
+            "text": "May not be this contents in larger context.",
+            "id": [
+                182
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 706.354,
+            "end": 706.834,
+            "text": "Per.",
+            "id": [
+                183
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 711.434,
+            "end": 712.594,
+            "text": ".",
+            "id": [
+                184
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 720.034,
+            "end": 723.24,
+            "text": "OK, I've sent the screen, so I'm also reading it",
+            "id": [
+                185
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 723.24,
+            "end": 728.434,
+            "text": "just like we can probably take 5 minutes, just read about this, and then we can.",
+            "id": [
+                186
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 730.954,
+            "end": 731.554,
+            "text": "Discuss.",
+            "id": [
+                187
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 947.794,
+            "end": 948.754,
+            "text": "See, I think.",
+            "id": [
+                188
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 949.794,
+            "end": 954.301,
+            "text": "One other thing that we can keep in mind is, see, normally in a meeting",
+            "id": [
+                189
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 954.301,
+            "end": 958.747,
+            "text": "you'd have people who have different expertise, right? Like one person",
+            "id": [
+                190
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 958.747,
+            "end": 962.204,
+            "text": "for the most part, might talk about one topic, correct?",
+            "id": [
+                191
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 962.204,
+            "end": 967.514,
+            "text": "Maybe be giving an update about one topic, maybe speaking a lot about the same topic.",
+            "id": [
+                192
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 967.514,
+            "end": 968.194,
+            "text": "But then...",
+            "id": [
+                193
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 969.634,
+            "end": 972.445,
+            "text": "See again, like you may have two types of meetings",
+            "id": [
+                194
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 972.445,
+            "end": 975.863,
+            "text": "where everybody's like, it's like a brainstorming session and",
+            "id": [
+                195
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 975.863,
+            "end": 980.493,
+            "text": "everybody's speaking about the same thing. Then the topic would be only one, right?",
+            "id": [
+                196
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 980.493,
+            "end": 984.959,
+            "text": "But then when you start to have multiple people speaking about different topics",
+            "id": [
+                197
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 984.959,
+            "end": 989.314,
+            "text": "maybe we can try to note the speaker change as like a change in topic or like.",
+            "id": [
+                198
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 989.354,
+            "end": 992.834,
+            "text": "at least a hint in that direction, something like that.",
+            "id": [
+                199
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 994.114,
+            "end": 995.154,
+            "text": "Does that make sense?",
+            "id": [
+                200
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 999.314,
+            "end": 999.354,
+            "text": "I.",
+            "id": [
+                201
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1003.954,
+            "end": 1006.45,
+            "text": "Yeah, but ultimately the input is going to be",
+            "id": [
+                202
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1006.45,
+            "end": 1010.411,
+            "text": "ours. We can deal with either case. The worst case is everyone speaking.",
+            "id": [
+                203
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1010.411,
+            "end": 1011.714,
+            "text": "We have different terms.",
+            "id": [
+                204
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1013.394,
+            "end": 1013.714,
+            "text": "MUM.",
+            "id": [
+                205
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1014.634,
+            "end": 1015.074,
+            "text": "Yeah, we should.",
+            "id": [
+                206
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1014.834,
+            "end": 1019.074,
+            "text": "If everyone speaking about different talk, oh, everyone speaking about now.",
+            "id": [
+                207
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1018.194,
+            "end": 1020.114,
+            "text": "No, not different, yeah.",
+            "id": [
+                208
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1020.514,
+            "end": 1022.274,
+            "text": "About the same topic, right? Yeah, same.",
+            "id": [
+                209
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1023.554,
+            "end": 1025.7,
+            "text": "maybe they can switch in between the",
+            "id": [
+                210
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1025.7,
+            "end": 1026.434,
+            "text": "topics, right?",
+            "id": [
+                211
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1027.154,
+            "end": 1029.699,
+            "text": "Okay, okay. Like A brainstorming session would be",
+            "id": [
+                212
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1029.699,
+            "end": 1032.194,
+            "text": "very hard for this one to take care of, correct?",
+            "id": [
+                213
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1034.794,
+            "end": 1039.961,
+            "text": "Where people are just throwing different ideas together and it becomes hard to",
+            "id": [
+                214
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1039.961,
+            "end": 1040.354,
+            "text": "track.",
+            "id": [
+                215
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1040.474,
+            "end": 1045.154,
+            "text": "It is working for a multiple people speaking conversation.",
+            "id": [
+                216
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1046.354,
+            "end": 1047.314,
+            "text": "Not a single speaker.",
+            "id": [
+                217
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1051.754,
+            "end": 1052.354,
+            "text": "Outlook.",
+            "id": [
+                218
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1053.474,
+            "end": 1053.874,
+            "text": "To.",
+            "id": [
+                219
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1055.074,
+            "end": 1059.554,
+            "text": "And also I think the first approach is something we can try.",
+            "id": [
+                220
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1060.994,
+            "end": 1062.954,
+            "text": "The sliding window and multiple parts.",
+            "id": [
+                221
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1061.554,
+            "end": 1065.01,
+            "text": "Yeah, even I think so, right? Refine boundaries in a second pass on the",
+            "id": [
+                222
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1065.01,
+            "end": 1066.114,
+            "text": "merge points, it seems.",
+            "id": [
+                223
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1066.274,
+            "end": 1073.025,
+            "text": "Yeah, and also in the third screenshot, I think there is something called the",
+            "id": [
+                224
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1073.025,
+            "end": 1076.834,
+            "text": "structured JSON format from the transcript.",
+            "id": [
+                225
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1077.954,
+            "end": 1078.674,
+            "text": "Correct, yeah.",
+            "id": [
+                226
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1078.514,
+            "end": 1082.514,
+            "text": "Have you seen the the utterance ID and the text on the speaker?",
+            "id": [
+                227
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1079.874,
+            "end": 1082.194,
+            "text": "Ask for structured JSON, yes, yes.",
+            "id": [
+                228
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1083.074,
+            "end": 1083.554,
+            "text": "Yep.",
+            "id": [
+                229
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1083.794,
+            "end": 1089.074,
+            "text": "Yeah, yeah, I have worked on something, means just cleaning the input.",
+            "id": [
+                230
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1090.754,
+            "end": 1097.212,
+            "text": "Yeah, whenever we get a R transcript, it will convert into a structured JSON",
+            "id": [
+                231
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1097.212,
+            "end": 1101.909,
+            "text": "containing the utterance ID, the speaker, and the text.",
+            "id": [
+                232
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1101.909,
+            "end": 1106.522,
+            "text": "So I think we can clean it like that. And then we can",
+            "id": [
+                233
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1104.034,
+            "end": 1105.714,
+            "text": "Okay, so then, then...",
+            "id": [
+                234
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1106.522,
+            "end": 1109.794,
+            "text": "and then we can try the first approach.",
+            "id": [
+                235
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1107.954,
+            "end": 1113.522,
+            "text": "So we could, sorry, yeah. Okay, so then our step one would be to convert",
+            "id": [
+                236
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1113.522,
+            "end": 1117.794,
+            "text": "the input to like a structured JSON, right? And then...",
+            "id": [
+                237
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1113.714,
+            "end": 1113.834,
+            "text": "Yeah.",
+            "id": [
+                238
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1115.554,
+            "end": 1115.674,
+            "text": "Yeah.",
+            "id": [
+                239
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1117.874,
+            "end": 1118.354,
+            "text": "Yes.",
+            "id": [
+                240
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1119.394,
+            "end": 1120.274,
+            "text": "Just sliding.",
+            "id": [
+                241
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1122.714,
+            "end": 1126.354,
+            "text": "Yeah, I think I'm okay with that. What about the rest of me?",
+            "id": [
+                242
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1128.514,
+            "end": 1132.655,
+            "text": "I think second would be better, because we were also talking on the",
+            "id": [
+                243
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1132.655,
+            "end": 1136.431,
+            "text": "knowledge liability thing that we are also implementing that",
+            "id": [
+                244
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1136.431,
+            "end": 1140.634,
+            "text": "then that approach would be helpful to implement that in the future.",
+            "id": [
+                245
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1147.794,
+            "end": 1150.898,
+            "text": "Yeah, I think after cleaning the input we can",
+            "id": [
+                246
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1150.898,
+            "end": 1154.744,
+            "text": "try both of them. Or we can start with trying the second",
+            "id": [
+                247
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1154.744,
+            "end": 1155.554,
+            "text": "one as well.",
+            "id": [
+                248
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1157.234,
+            "end": 1157.354,
+            "text": "Yeah.",
+            "id": [
+                249
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1166.114,
+            "end": 1169.375,
+            "text": "Okay, so then let's at least, okay, today we can keep",
+            "id": [
+                250
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1169.375,
+            "end": 1173.941,
+            "text": "let's at least get a rough idea of, no, okay, this would be step one for us",
+            "id": [
+                251
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1173.941,
+            "end": 1178.744,
+            "text": "given a transcript, try to clean it up, change it to the structured JSON format",
+            "id": [
+                252
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1178.744,
+            "end": 1181.412,
+            "text": "and then, again, approach one, approach two",
+            "id": [
+                253
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1181.412,
+            "end": 1186.394,
+            "text": "we can finalise on such details, I think, once we start to write the code.",
+            "id": [
+                254
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1186.914,
+            "end": 1190.004,
+            "text": "Does is that OK? Like, can we do we can come up with a plan",
+            "id": [
+                255
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1190.004,
+            "end": 1190.674,
+            "text": "today, right?",
+            "id": [
+                256
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1193.714,
+            "end": 1195.634,
+            "text": "Following again the same.",
+            "id": [
+                257
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1196.514,
+            "end": 1198.434,
+            "text": "Flow that Sahil sent the other day.",
+            "id": [
+                258
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 1199.714,
+            "end": 1200.594,
+            "text": "Yeah, we can.",
+            "id": [
+                259
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1201.634,
+            "end": 1202.114,
+            "text": "Okay.",
+            "id": [
+                260
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1203.794,
+            "end": 1207.714,
+            "text": "Shah, see what's up?",
+            "id": [
+                261
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1208.834,
+            "end": 1212.514,
+            "text": "Rishay, Rishay, you had taken some notes, right? Where in the note yesterday?",
+            "id": [
+                262
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1217.154,
+            "end": 1217.274,
+            "text": "So.",
+            "id": [
+                263
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1217.794,
+            "end": 1221.234,
+            "text": "Wait, , they weren't really like nodes, just a few points.",
+            "id": [
+                264
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1219.674,
+            "end": 1219.874,
+            "text": "So.",
+            "id": [
+                265
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 1221.354,
+            "end": 1225.594,
+            "text": "Some, some, you can say.",
+            "id": [
+                266
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 1224.754,
+            "end": 1228.754,
+            "text": "Did you try to cheque how the facilitator is working and what all",
+            "id": [
+                267
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 1228.754,
+            "end": 1231.954,
+            "text": "shortcomings we have in that thing? What have we mentioned?",
+            "id": [
+                268
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1240.434,
+            "end": 1249.234,
+            "text": "Yeah, wait. So yesterday in the meeting, he said, yeah, I think in the flow",
+            "id": [
+                269
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1250.354,
+            "end": 1255.999,
+            "text": "We mentioned something like it should detect the intent. So if it",
+            "id": [
+                270
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1255.999,
+            "end": 1262.572,
+            "text": "we have to define what exactly intentions are there. Like if it's like, okay",
+            "id": [
+                271
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1262.572,
+            "end": 1269.314,
+            "text": "we need to schedule a meeting or we want to make a JIRA thing or make a ticket.",
+            "id": [
+                272
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1269.634,
+            "end": 1275.255,
+            "text": "So like, we can't just accept everything, any intent or like action item we",
+            "id": [
+                273
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1275.255,
+            "end": 1276.594,
+            "text": "have to like define.",
+            "id": [
+                274
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1277.754,
+            "end": 1281.963,
+            "text": "like a couple and then stick to that. And yeah",
+            "id": [
+                275
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1281.963,
+            "end": 1286.874,
+            "text": "he said in Microsoft facilitator, right now it doesn't",
+            "id": [
+                276
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1286.874,
+            "end": 1292.925,
+            "text": "it only takes like the transcript from the meeting or like whatever",
+            "id": [
+                277
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1292.925,
+            "end": 1297.573,
+            "text": "but it doesn't, if there's any like files or PPTs or",
+            "id": [
+                278
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1297.573,
+            "end": 1300.994,
+            "text": "something shared in the chat, it can't.",
+            "id": [
+                279
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1301.034,
+            "end": 1305.943,
+            "text": "use that. So he was like, we should try to like use that as extra",
+            "id": [
+                280
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1305.943,
+            "end": 1309.514,
+            "text": "context as well while making the summaries and.",
+            "id": [
+                281
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1310.834,
+            "end": 1314.114,
+            "text": "Meeting points, whatever, and.",
+            "id": [
+                282
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1316.034,
+            "end": 1318.914,
+            "text": "Yeah, and here's like when we're doing the",
+            "id": [
+                283
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1318.914,
+            "end": 1322.128,
+            "text": "presentation, we should show the like use case",
+            "id": [
+                284
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1322.128,
+            "end": 1327.152,
+            "text": "like we should take easy, medium, and complex use cases and just show that",
+            "id": [
+                285
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1327.152,
+            "end": 1332.644,
+            "text": "on the day of the presentation so that it can show that it's handling any",
+            "id": [
+                286
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1332.644,
+            "end": 1335.859,
+            "text": "input. It's not like only straightforward input",
+            "id": [
+                287
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1335.859,
+            "end": 1339.074,
+            "text": "that's relatively easy to classify or whatever.",
+            "id": [
+                288
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1339.874,
+            "end": 1341.874,
+            "text": "Yeah, that's all I've written.",
+            "id": [
+                289
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1344.594,
+            "end": 1348.254,
+            "text": "Ohh, one more thing. I think I think it should be important",
+            "id": [
+                290
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1348.254,
+            "end": 1351.734,
+            "text": "like it's it's off topic, it's not related to what he is.",
+            "id": [
+                291
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1351.734,
+            "end": 1356.234,
+            "text": "I think any time or date or day or something along the lines of two weeks",
+            "id": [
+                292
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1356.234,
+            "end": 1359.954,
+            "text": "two months is mentioned. RLM should just note it down and the",
+            "id": [
+                293
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1359.954,
+            "end": 1363.014,
+            "text": "timestamp, and then grab information from",
+            "id": [
+                294
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1363.014,
+            "end": 1363.794,
+            "text": "maybe like...",
+            "id": [
+                295
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1363.874,
+            "end": 1366.633,
+            "text": "Five context, five turns before, five turns after",
+            "id": [
+                296
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1366.633,
+            "end": 1370.15,
+            "text": "and try to figure out what date that is for, and then so",
+            "id": [
+                297
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1370.15,
+            "end": 1374.425,
+            "text": "if it's extremely crucial, , you can add it to calendar if it's just a",
+            "id": [
+                298
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1374.425,
+            "end": 1377.13,
+            "text": "discussion about, hey, within the next two weeks",
+            "id": [
+                299
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1377.13,
+            "end": 1380.594,
+            "text": "let's try and complete this. Maybe you don't have the calendar.",
+            "id": [
+                300
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1382.674,
+            "end": 1384.114,
+            "text": "Yeah, I think that's a good idea.",
+            "id": [
+                301
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1387.634,
+            "end": 1391.3,
+            "text": "I think the dates have to be noted that",
+            "id": [
+                302
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1391.3,
+            "end": 1392.914,
+            "text": "been written.",
+            "id": [
+                303
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1431.474,
+            "end": 1434.644,
+            "text": "Yeah, one more thing he mentioned was if there",
+            "id": [
+                304
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1434.644,
+            "end": 1440.176,
+            "text": "are two meetings and if they have taken some decisions about the work to complete",
+            "id": [
+                305
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1440.176,
+            "end": 1444.764,
+            "text": "it before the next meeting, and in the next meeting if they say the",
+            "id": [
+                306
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1444.764,
+            "end": 1448.61,
+            "text": "work is completed, he asked us to track like the work is",
+            "id": [
+                307
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1448.61,
+            "end": 1450.634,
+            "text": "completed, we should track it.",
+            "id": [
+                308
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1453.074,
+            "end": 1455.154,
+            "text": "But then our thing is only...",
+            "id": [
+                309
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1457.314,
+            "end": 1459.899,
+            "text": "Oh, so say something already exists on",
+            "id": [
+                310
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1459.899,
+            "end": 1465.334,
+            "text": "somebody's calendar and then during the meeting they discussed that that work has",
+            "id": [
+                311
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1465.334,
+            "end": 1466.594,
+            "text": "been completed. Oh.",
+            "id": [
+                312
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1465.434,
+            "end": 1468.954,
+            "text": "Yeah, you should be able to capture that, and...",
+            "id": [
+                313
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1471.154,
+            "end": 1472.434,
+            "text": "Change the status, yeah.",
+            "id": [
+                314
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1471.634,
+            "end": 1476.452,
+            "text": "So then remove it off of everyone's calendar who was part of that meeting or",
+            "id": [
+                315
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1476.452,
+            "end": 1477.954,
+            "text": "like, dude, that's hard.",
+            "id": [
+                316
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1479.274,
+            "end": 1481.656,
+            "text": "Yeah, he mentioned it as one of the points, but.",
+            "id": [
+                317
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1481.656,
+            "end": 1481.754,
+            "text": "..",
+            "id": [
+                318
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1482.954,
+            "end": 1483.274,
+            "text": "Yeah.",
+            "id": [
+                319
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1483.514,
+            "end": 1486.114,
+            "text": "That's hard, OK.",
+            "id": [
+                320
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1490.594,
+            "end": 1492.994,
+            "text": "Okay, how would we do that?",
+            "id": [
+                321
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1492.474,
+            "end": 1493.034,
+            "text": "Yeah.",
+            "id": [
+                322
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1494.394,
+            "end": 1497.021,
+            "text": "I don't have any idea, just he mentioned it",
+            "id": [
+                323
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1497.021,
+            "end": 1498.714,
+            "text": "so that's why I mentioned it.",
+            "id": [
+                324
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1499.754,
+            "end": 1501.234,
+            "text": "See, the thing is, this...",
+            "id": [
+                325
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1500.394,
+            "end": 1501.754,
+            "text": "And also, another thing is...",
+            "id": [
+                326
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1502.274,
+            "end": 1503.234,
+            "text": "Ha, Delta.",
+            "id": [
+                327
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 1502.994,
+            "end": 1504.514,
+            "text": "I don't think it was like, okay.",
+            "id": [
+                328
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1503.114,
+            "end": 1503.514,
+            "text": "Yeah.",
+            "id": [
+                329
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1506.394,
+            "end": 1511.517,
+            "text": "Yeah, in the facilitator, he told the action items will be captured",
+            "id": [
+                330
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1511.517,
+            "end": 1517.754,
+            "text": "but there is no attribution to who it was assigned to. He told something like that.",
+            "id": [
+                331
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1518.714,
+            "end": 1523.731,
+            "text": "So we can cheque on the pattern. So but it is already there in the problem",
+            "id": [
+                332
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1523.731,
+            "end": 1526.474,
+            "text": "statement. We must attribute the speaker.",
+            "id": [
+                333
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1524.594,
+            "end": 1526.034,
+            "text": "Okay, sure, let's it.",
+            "id": [
+                334
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1530.914,
+            "end": 1535.967,
+            "text": "Okay, so this adding to the calendar part, right? Let's say two, three team meeting",
+            "id": [
+                335
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1535.967,
+            "end": 1540.188,
+            "text": "like not just one, let's say two, three teams are in the same meeting.",
+            "id": [
+                336
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1540.188,
+            "end": 1543.458,
+            "text": "Like maybe the AI team is on the meet with, let's say",
+            "id": [
+                337
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1543.458,
+            "end": 1546.371,
+            "text": "a data and analytics team. And then in the call",
+            "id": [
+                338
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1546.371,
+            "end": 1550.829,
+            "text": "they say for the AI team, , we have a deadline for this within two",
+            "id": [
+                339
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1550.829,
+            "end": 1552.554,
+            "text": "weeks or something like that.",
+            "id": [
+                340
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1553.794,
+            "end": 1554.674,
+            "text": "Then...",
+            "id": [
+                341
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1557.154,
+            "end": 1560.305,
+            "text": "bro, this will need so much more access to be",
+            "id": [
+                342
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1560.305,
+            "end": 1563.982,
+            "text": "able to add to calendar. Like that's how are we planning to do",
+            "id": [
+                343
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1563.982,
+            "end": 1564.274,
+            "text": "that?",
+            "id": [
+                344
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1726.074,
+            "end": 1729.653,
+            "text": "Hey, by the way, I sent something in the group, right?",
+            "id": [
+                345
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1729.653,
+            "end": 1733.102,
+            "text": "So based on whatever little we had discussed so far",
+            "id": [
+                346
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1733.102,
+            "end": 1736.616,
+            "text": "I gave that input to Lord, and then I said",
+            "id": [
+                347
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1736.616,
+            "end": 1741.757,
+            "text": "I gave the project statement also as well. I gave Sahil, and I said",
+            "id": [
+                348
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1741.757,
+            "end": 1746.834,
+            "text": "give us a skeleton for as to how we can get started on the work and.",
+            "id": [
+                349
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1747.234,
+            "end": 1752.259,
+            "text": "I don't think it's it seems pretty good to have thread till phase",
+            "id": [
+                350
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1752.259,
+            "end": 1752.594,
+            "text": "four.",
+            "id": [
+                351
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1753.434,
+            "end": 1757.376,
+            "text": "If you guys can also take a look at it once, we can at least decide",
+            "id": [
+                352
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1757.376,
+            "end": 1760.819,
+            "text": "whether we want to follow this, add some things, remove some things.",
+            "id": [
+                353
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1760.819,
+            "end": 1764.262,
+            "text": "And then we can get a rough idea of at least what we're going to do",
+            "id": [
+                354
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1764.262,
+            "end": 1767.755,
+            "text": "how we're going to approach it, and then we can generally get started",
+            "id": [
+                355
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1767.755,
+            "end": 1768.354,
+            "text": "pretty soon.",
+            "id": [
+                356
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1915.914,
+            "end": 1916.474,
+            "text": "Hello?",
+            "id": [
+                357
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1920.874,
+            "end": 1921.354,
+            "text": "Hello!",
+            "id": [
+                358
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1920.874,
+            "end": 1922.634,
+            "text": "Yeah, yeah, yeah.",
+            "id": [
+                359
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1922.794,
+            "end": 1928.125,
+            "text": "Yeah, yeah, the plan looks good, but I think we should start doing",
+            "id": [
+                360
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1928.125,
+            "end": 1933.535,
+            "text": "something so that if we face any problems, we can think what to do.",
+            "id": [
+                361
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1933.535,
+            "end": 1937.594,
+            "text": "We have not started it. So the plan is good. Okay.",
+            "id": [
+                362
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1938.954,
+            "end": 1940.634,
+            "text": "And, and also...",
+            "id": [
+                363
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1939.674,
+            "end": 1941.786,
+            "text": "Oh, so you want to start earlier so that we",
+            "id": [
+                364
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1941.786,
+            "end": 1943.994,
+            "text": "don't face any problems going forward, right?",
+            "id": [
+                365
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1945.194,
+            "end": 1950.565,
+            "text": "Or else, if we face any problem, we can think what to do next. If we",
+            "id": [
+                366
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1950.565,
+            "end": 1955.399,
+            "text": "if we just keep on planning, then yeah, in the implementation",
+            "id": [
+                367
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1953.034,
+            "end": 1954.154,
+            "text": "Again, okay, okay, yeah.",
+            "id": [
+                368
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1955.399,
+            "end": 1960.234,
+            "text": "maybe we can face some problems which do not plan, yeah, yeah.",
+            "id": [
+                369
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1957.634,
+            "end": 1958.794,
+            "text": "Yeah, fair enough, that's it.",
+            "id": [
+                370
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1961.034,
+            "end": 1963.738,
+            "text": "Yeah, so that's what I was just trying to get",
+            "id": [
+                371
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1963.738,
+            "end": 1967.794,
+            "text": "out a rough skeleton or whatever to give us an idea of how to start",
+            "id": [
+                372
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1966.154,
+            "end": 1967.274,
+            "text": "Yeah, that is good.",
+            "id": [
+                373
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1967.794,
+            "end": 1971.204,
+            "text": "where to start. So, , if this is okay with you all",
+            "id": [
+                374
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1969.394,
+            "end": 1969.514,
+            "text": "MUM.",
+            "id": [
+                375
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1971.204,
+            "end": 1975.025,
+            "text": "then maybe we can generally get started. Again, today, tomorrow",
+            "id": [
+                376
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 1975.025,
+            "end": 1976.554,
+            "text": "that we'll need to decide.",
+            "id": [
+                377
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1977.034,
+            "end": 1983.319,
+            "text": "Yeah, and before that, one thing we need to search how we can",
+            "id": [
+                378
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1983.319,
+            "end": 1987.274,
+            "text": "inject the PDFs or something PPT and...",
+            "id": [
+                379
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1989.914,
+            "end": 1994.706,
+            "text": "how we can process them because he expected not only text but also PBTs and",
+            "id": [
+                380
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1994.706,
+            "end": 1999.876,
+            "text": "PowerPoints and if the speakers mentioned something from them he expected that it",
+            "id": [
+                381
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 1999.876,
+            "end": 2002.714,
+            "text": "would be it should be able to capture those.",
+            "id": [
+                382
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2011.274,
+            "end": 2011.754,
+            "text": "Hello!",
+            "id": [
+                383
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2013.034,
+            "end": 2014.314,
+            "text": "Wait, can you repeat that?",
+            "id": [
+                384
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2015.274,
+            "end": 2019.006,
+            "text": "Yeah, he mentioned that if we upload any PDF or",
+            "id": [
+                385
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2019.006,
+            "end": 2023.594,
+            "text": "PPT and if the speaker speaks something based on that PDF.",
+            "id": [
+                386
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2025.194,
+            "end": 2028.234,
+            "text": "So he told that that should be taken care of.",
+            "id": [
+                387
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2031.194,
+            "end": 2031.554,
+            "text": "Yeah.",
+            "id": [
+                388
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2031.194,
+            "end": 2036.954,
+            "text": "I, yeah, my bad. I could not hear what happened last one.",
+            "id": [
+                389
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2035.594,
+            "end": 2039.114,
+            "text": "Yeah, you could not hear. OK, yeah, I can repeat again.",
+            "id": [
+                390
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2040.234,
+            "end": 2041.834,
+            "text": "Sorry, sorry, did you say hello it?",
+            "id": [
+                391
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2041.354,
+            "end": 2045.354,
+            "text": "No, no, no, no problem. OK, so what he mentioned was...",
+            "id": [
+                392
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2046.474,
+            "end": 2051.481,
+            "text": "Don't take only text or raw transcript or raw speaking.",
+            "id": [
+                393
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2051.481,
+            "end": 2058.634,
+            "text": "So if you take any file that is uploaded during the meeting and if any speaker.",
+            "id": [
+                394
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2059.434,
+            "end": 2063.289,
+            "text": "speaks based on the content in the PDF or PBT",
+            "id": [
+                395
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2063.289,
+            "end": 2069.523,
+            "text": "then we should be able to capture that. So he's speaking based on that PDF.",
+            "id": [
+                396
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2064.234,
+            "end": 2064.634,
+            "text": "Ohh.",
+            "id": [
+                397
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2069.523,
+            "end": 2072.394,
+            "text": "And so he told something like that.",
+            "id": [
+                398
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2070.874,
+            "end": 2071.594,
+            "text": "Food.",
+            "id": [
+                399
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2075.434,
+            "end": 2078.128,
+            "text": "How would our, how would we even get access?",
+            "id": [
+                400
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2078.128,
+            "end": 2081.241,
+            "text": "Let's say some, what does upload in a meeting mean?",
+            "id": [
+                401
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2081.241,
+            "end": 2084.474,
+            "text": "Like he uploaded to that that Team chat or something?",
+            "id": [
+                402
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2083.194,
+            "end": 2084.474,
+            "text": "Yeah, during a meeting, we...",
+            "id": [
+                403
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2087.194,
+            "end": 2087.834,
+            "text": "Yeah, yeah.",
+            "id": [
+                404
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2090.874,
+            "end": 2093.794,
+            "text": "I don't think that's doable, dude.",
+            "id": [
+                405
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2097.114,
+            "end": 2100.314,
+            "text": "It seems very difficult, no?",
+            "id": [
+                406
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2098.634,
+            "end": 2100.954,
+            "text": "Also, do it once.",
+            "id": [
+                407
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2102.074,
+            "end": 2102.954,
+            "text": "So how to do that?",
+            "id": [
+                408
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2104.154,
+            "end": 2104.714,
+            "text": "MUM.",
+            "id": [
+                409
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2104.714,
+            "end": 2107.954,
+            "text": "I'll ask, but that seems very difficult.",
+            "id": [
+                410
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2110.354,
+            "end": 2111.434,
+            "text": "Okay.",
+            "id": [
+                411
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2116.474,
+            "end": 2116.874,
+            "text": "Teacher.",
+            "id": [
+                412
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2151.274,
+            "end": 2151.914,
+            "text": "Support.",
+            "id": [
+                413
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2288.554,
+            "end": 2291.254,
+            "text": "The thing is for this to work specially, right",
+            "id": [
+                414
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2291.254,
+            "end": 2295.754,
+            "text": "you'll need to have a lot more added permissions. That's all I'm thinking like.",
+            "id": [
+                415
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2297.274,
+            "end": 2301.875,
+            "text": "In implementation also, you'll need to sync what is being said to",
+            "id": [
+                416
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2301.875,
+            "end": 2307.523,
+            "text": "maybe information deciding in the files. And unless someone explicitly mentions",
+            "id": [
+                417
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2307.523,
+            "end": 2312.474,
+            "text": "it's hard to make that connexion even for humans, right? I don't know.",
+            "id": [
+                418
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2313.674,
+            "end": 2316.554,
+            "text": "How are LLM is going to be able to do that?",
+            "id": [
+                419
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2325.514,
+            "end": 2328.02,
+            "text": "See, I guess maybe he was trying to just guide",
+            "id": [
+                420
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2328.02,
+            "end": 2330.42,
+            "text": "us, right? Is it necessary that we implement",
+            "id": [
+                421
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2330.42,
+            "end": 2332.234,
+            "text": "everything he said in the meeting?",
+            "id": [
+                422
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2342.194,
+            "end": 2347.229,
+            "text": "It is not fully necessary, but maybe implementing some of them might",
+            "id": [
+                423
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 2343.914,
+            "end": 2346.954,
+            "text": "Then he just gave it as a suggestion.",
+            "id": [
+                424
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2347.229,
+            "end": 2347.594,
+            "text": "help.",
+            "id": [
+                425
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 2348.394,
+            "end": 2352.411,
+            "text": "He just gave it a suggestion like we can tell him like we can schedule another",
+            "id": [
+                426
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 2352.411,
+            "end": 2355.514,
+            "text": "meeting and we can tell why this is impossible or something.",
+            "id": [
+                427
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2384.554,
+            "end": 2386.439,
+            "text": "Hey, even I think he was probably just",
+            "id": [
+                428
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2386.439,
+            "end": 2389.775,
+            "text": "suggesting how we can make our thing better. And once we start also",
+            "id": [
+                429
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2389.775,
+            "end": 2393.015,
+            "text": "we'll probably get an idea, like every time we implement a certain",
+            "id": [
+                430
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2393.015,
+            "end": 2396.544,
+            "text": "part of this skeleton or the structure we're trying to follow",
+            "id": [
+                431
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2396.544,
+            "end": 2399.832,
+            "text": "we'll get obvious ideas like, hey, , we could also do this",
+            "id": [
+                432
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2399.832,
+            "end": 2403.314,
+            "text": "maybe we could also do this, we can see that this, something like that.",
+            "id": [
+                433
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2403.754,
+            "end": 2406.839,
+            "text": "I think for now, it's more important for us to get started.",
+            "id": [
+                434
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2406.839,
+            "end": 2408.074,
+            "text": "I think like Vamsi said.",
+            "id": [
+                435
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2417.674,
+            "end": 2418.474,
+            "text": "Are you guys there?",
+            "id": [
+                436
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2423.714,
+            "end": 2423.994,
+            "text": ".",
+            "id": [
+                437
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2425.194,
+            "end": 2429.354,
+            "text": "So do we get started today or do we procrastinate and start tomorrow?",
+            "id": [
+                438
+            ]
+        },
+        {
+            "speaker": "Sai Nishanth Segu",
+            "start": 2435.434,
+            "end": 2436.954,
+            "text": "We start today itself, I guess.",
+            "id": [
+                439
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2438.394,
+            "end": 2441.117,
+            "text": "Okay, so one other thing I was thinking about",
+            "id": [
+                440
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2441.117,
+            "end": 2445.913,
+            "text": "just instead of splitting work randomly, maybe we assign two guys or like we are",
+            "id": [
+                441
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2445.913,
+            "end": 2450.472,
+            "text": "assigning work on the same phase so that we can just complete phase by phase",
+            "id": [
+                442
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2450.472,
+            "end": 2454.735,
+            "text": "rather than just completing and then trying to put everything together.",
+            "id": [
+                443
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2454.735,
+            "end": 2457.874,
+            "text": "I feel that will be very, very haphazard at the end.",
+            "id": [
+                444
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2460.874,
+            "end": 2462.074,
+            "text": "Yeah, integrating.",
+            "id": [
+                445
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2461.834,
+            "end": 2461.994,
+            "text": "T.",
+            "id": [
+                446
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2463.514,
+            "end": 2466.714,
+            "text": "All of those pieces would be hard. Like if we...",
+            "id": [
+                447
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2464.314,
+            "end": 2464.474,
+            "text": "MUM.",
+            "id": [
+                448
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2465.914,
+            "end": 2469.194,
+            "text": "Yeah, yeah, so that's what, sorry to speak.",
+            "id": [
+                449
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2469.274,
+            "end": 2473.033,
+            "text": "Yeah, yeah, that one we like, if we try to everyone works on a",
+            "id": [
+                450
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2473.033,
+            "end": 2476.972,
+            "text": "different part and then in the end to integrate everyone's thing",
+            "id": [
+                451
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2476.972,
+            "end": 2480.314,
+            "text": "it would be hard because the assumptions are something.",
+            "id": [
+                452
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2481.354,
+            "end": 2482.394,
+            "text": "Might it be different?",
+            "id": [
+                453
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2483.514,
+            "end": 2484.394,
+            "text": "Okay, so...",
+            "id": [
+                454
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2486.714,
+            "end": 2490.67,
+            "text": "Then, what do we start with? Let's say we're gonna follow this plan",
+            "id": [
+                455
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2490.67,
+            "end": 2493.288,
+            "text": "only, then our phase one would ideally be to",
+            "id": [
+                456
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2493.288,
+            "end": 2496.954,
+            "text": "ingest and normalise input to so input to our structured JSON.",
+            "id": [
+                457
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2498.114,
+            "end": 2499.434,
+            "text": "One sec, bye-bye.",
+            "id": [
+                458
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2605.914,
+            "end": 2608.071,
+            "text": "Okay, so how do we split the work?",
+            "id": [
+                459
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2608.071,
+            "end": 2610.474,
+            "text": "How do we, like, how do we get started?",
+            "id": [
+                460
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2628.234,
+            "end": 2632.234,
+            "text": "So before that, do you have any idea about how?",
+            "id": [
+                461
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2630.314,
+            "end": 2630.474,
+            "text": "MUM.",
+            "id": [
+                462
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2633.274,
+            "end": 2637.963,
+            "text": "We should provide the input, yeah. , should we search any data sets that",
+            "id": [
+                463
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2637.963,
+            "end": 2640.634,
+            "text": "already contain some real world transcripts?",
+            "id": [
+                464
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2642.874,
+            "end": 2646.1,
+            "text": "wait, Sahil had started the transcript of this",
+            "id": [
+                465
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2646.1,
+            "end": 2647.274,
+            "text": "meeting only, right?",
+            "id": [
+                466
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2648.354,
+            "end": 2652.634,
+            "text": "Would we be able to access that? We should be able to access that, right?",
+            "id": [
+                467
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2649.114,
+            "end": 2649.674,
+            "text": "Yeah.",
+            "id": [
+                468
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2653.034,
+            "end": 2653.274,
+            "text": "This.",
+            "id": [
+                469
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2654.514,
+            "end": 2656.794,
+            "text": "I had done that using that.",
+            "id": [
+                470
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2654.714,
+            "end": 2655.354,
+            "text": "So, we can...",
+            "id": [
+                471
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2657.674,
+            "end": 2659.434,
+            "text": "We can feed this as input, correct?",
+            "id": [
+                472
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2661.034,
+            "end": 2662.234,
+            "text": "Can cheque how it's done.",
+            "id": [
+                473
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2661.354,
+            "end": 2665.794,
+            "text": "Yeah, but for the initial time, this is so long right for the moment.",
+            "id": [
+                474
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2666.794,
+            "end": 2668.714,
+            "text": "Ha, okay, like that, maybe.",
+            "id": [
+                475
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2668.394,
+            "end": 2670.394,
+            "text": "To test, we need something small.",
+            "id": [
+                476
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2671.674,
+            "end": 2674.723,
+            "text": "Honestly, bro, at that point we can just fake it, right?",
+            "id": [
+                477
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2674.723,
+            "end": 2679.003,
+            "text": "We can just use AI to create some short speech or some conversation between two",
+            "id": [
+                478
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2679.003,
+            "end": 2680.394,
+            "text": "or three different people.",
+            "id": [
+                479
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2682.074,
+            "end": 2686.048,
+            "text": "Decrease, describe, decrease the transcript size",
+            "id": [
+                480
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2686.048,
+            "end": 2688.274,
+            "text": "split it into half, so long.",
+            "id": [
+                481
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2689.634,
+            "end": 2690.874,
+            "text": "Yeah, we could do that.",
+            "id": [
+                482
+            ]
+        },
+        {
+            "speaker": "Gurram Vamsi Krishna",
+            "start": 2693.674,
+            "end": 2694.954,
+            "text": "OK, we can OK.",
+            "id": [
+                483
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2701.274,
+            "end": 2701.914,
+            "text": "So.",
+            "id": [
+                484
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2702.794,
+            "end": 2706.694,
+            "text": "Yeah, so , anyways, even though looking for data set up",
+            "id": [
+                485
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2706.694,
+            "end": 2707.994,
+            "text": "in fact, if we can...",
+            "id": [
+                486
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2708.954,
+            "end": 2713.053,
+            "text": "We can look for how to test it or things to test it with after we've",
+            "id": [
+                487
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2713.053,
+            "end": 2717.311,
+            "text": "written this or written the code or at least implemented something for this part",
+            "id": [
+                488
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2717.311,
+            "end": 2719.834,
+            "text": "of the phase, right? Or this phase, what is it?",
+            "id": [
+                489
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2860.954,
+            "end": 2864.756,
+            "text": "Hey, honestly, I think we we can take a little time",
+            "id": [
+                490
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2864.756,
+            "end": 2867.554,
+            "text": "right? Our submission is 27th, correct?",
+            "id": [
+                491
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2868.554,
+            "end": 2871.803,
+            "text": "We can take a little time today, we can do a little bit more research",
+            "id": [
+                492
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2871.803,
+            "end": 2875.377,
+            "text": "about how we can get started on phase one. Maybe tomorrow we can meet and we",
+            "id": [
+                493
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2875.377,
+            "end": 2878.394,
+            "text": "generally split the work and get started tomorrow. Is that okay?",
+            "id": [
+                494
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2885.914,
+            "end": 2886.394,
+            "text": "Hello?",
+            "id": [
+                495
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2888.714,
+            "end": 2890.474,
+            "text": "Yeah, works.",
+            "id": [
+                496
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2891.274,
+            "end": 2893.674,
+            "text": "Okay, I also drop off.",
+            "id": [
+                497
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2895.594,
+            "end": 2898.954,
+            "text": "But should we decide to meet time now, or else it's hard to...",
+            "id": [
+                498
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2899.674,
+            "end": 2900.554,
+            "text": "For tomorrow.",
+            "id": [
+                499
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2901.274,
+            "end": 2901.514,
+            "text": "MUM.",
+            "id": [
+                500
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2902.634,
+            "end": 2906.787,
+            "text": "Sure, , I'm okay with anything. Too late in the night",
+            "id": [
+                501
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2906.787,
+            "end": 2911.69,
+            "text": "I and around lunch is difficult. If you guys want to do morning, I can",
+            "id": [
+                502
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2911.69,
+            "end": 2914.074,
+            "text": "we can do that. I want to say 8, 9.",
+            "id": [
+                503
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2913.994,
+            "end": 2919.532,
+            "text": "I think morning would be better so that like at least we can get started.",
+            "id": [
+                504
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2919.532,
+            "end": 2924.695,
+            "text": "Like I feel like once we start, then it's easier to like work on it.",
+            "id": [
+                505
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2924.695,
+            "end": 2925.594,
+            "text": "But once so.",
+            "id": [
+                506
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2926.714,
+            "end": 2930.273,
+            "text": "Okay, , I'm okay with 830 or 9. You guys let me know.",
+            "id": [
+                507
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2930.273,
+            "end": 2934.662,
+            "text": "So I put a message in the group. You guys just either respond or say yes",
+            "id": [
+                508
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2934.662,
+            "end": 2937.866,
+            "text": "no, say, , maybe this time and say something",
+            "id": [
+                509
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2937.866,
+            "end": 2942.908,
+            "text": "at least if we start talking, maybe some, , we can get a response from this.",
+            "id": [
+                510
+            ]
+        },
+        {
+            "speaker": "Anish Sai Nimmagadda",
+            "start": 2942.908,
+            "end": 2944.154,
+            "text": "Okay, fine then. Bye.",
+            "id": [
+                511
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2943.474,
+            "end": 2943.634,
+            "text": "MUM.",
+            "id": [
+                512
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2946.714,
+            "end": 2947.114,
+            "text": "Bye.",
+            "id": [
+                513
+            ]
+        },
+        {
+            "speaker": "Sahil Mengji",
+            "start": 2949.994,
+            "end": 2950.394,
+            "text": "Go.",
+            "id": [
+                514
+            ]
+        },
+        {
+            "speaker": "Prisha Behera",
+            "start": 2954.874,
+            "end": 2955.194,
+            "text": "Support.",
+            "id": [
+                515
+            ]
+        }
+    ],
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish Sai Nimmagadda",
+            "Gurram Vamsi Krishna",
+            "Prisha Behera",
+            "Sahil Mengji",
+            "Sai Nishanth Segu"
+        ],
+        "participant_map": {
+            "Anish": "Anish Sai Nimmagadda",
+            "Gurram": "Gurram Vamsi Krishna",
+            "Prisha": "Prisha Behera",
+            "Sahil": "Sahil Mengji",
+            "Sai": "Sai Nishanth Segu"
+        }
+    },
+    "stats": {
+        "original_count": 546,
+        "after_speaker_normalization": 546,
+        "after_text_cleanup": 546,
+        "after_backchannel_absorption": 516,
+        "removed": 30
+    }
+}

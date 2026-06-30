@@ -1,0 +1,2643 @@
+{
+    "utterances": [
+        {
+            "id": [
+                0,
+                1
+            ],
+            "speaker": "Prisha",
+            "start": 3.274,
+            "end": 8.434,
+            "text": "their own input, it's not like they'll tell that. Oh."
+        },
+        {
+            "id": [
+                2
+            ],
+            "speaker": "Anish",
+            "start": 8.034,
+            "end": 10.5,
+            "text": "Okay, and then when they're testing or this one"
+        },
+        {
+            "id": [
+                3
+            ],
+            "speaker": "Prisha",
+            "start": 9.714,
+            "end": 10.674,
+            "text": "To try something."
+        },
+        {
+            "id": [
+                4,
+                5
+            ],
+            "speaker": "Anish",
+            "start": 10.5,
+            "end": 16.994,
+            "text": "they'll test it on the, like they'll test it on the inputs that we've told them the format or whatever that we're trying to use."
+        },
+        {
+            "id": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "speaker": "Prisha",
+            "start": 17.794,
+            "end": 30.434,
+            "text": "Yeah, like they said that they might ask questions like, okay, if the format input is like this then how will your product or like, , react, but then. They won't test it."
+        },
+        {
+            "id": [
+                10
+            ],
+            "speaker": "Anish",
+            "start": 31.394,
+            "end": 34.114,
+            "text": "So if they do ask, we don't have an answer for that, I know."
+        },
+        {
+            "id": [
+                12
+            ],
+            "speaker": "Anish",
+            "start": 36.354,
+            "end": 36.674,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                13
+            ],
+            "speaker": "Anish",
+            "start": 43.714,
+            "end": 45.114,
+            "text": "Just give me one second."
+        },
+        {
+            "id": [
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "speaker": "Sahil",
+            "start": 54.994,
+            "end": 69.554,
+            "text": "She told about the nature of the input, like example if there is a very long meeting, like expire 6 hours how well it is doing its job. It told us to demonstrate that. Yeah."
+        },
+        {
+            "id": [
+                19
+            ],
+            "speaker": "Sahil",
+            "start": 72.394,
+            "end": 73.314,
+            "text": "I am not audible."
+        },
+        {
+            "id": [
+                21
+            ],
+            "speaker": "Sahil",
+            "start": 77.634,
+            "end": 77.954,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                22,
+                23
+            ],
+            "speaker": "Anish",
+            "start": 149.834,
+            "end": 157.874,
+            "text": "Do we have any idea about how we're going to break the multi-topic meetings into themes or whatever they said in the problem statement?"
+        },
+        {
+            "id": [
+                24
+            ],
+            "speaker": "Anish",
+            "start": 162.434,
+            "end": 162.554,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                25,
+                26,
+                28
+            ],
+            "speaker": "Gurram",
+            "start": 170.114,
+            "end": 185.874,
+            "text": "So, for dividing into topics, I think I have only seen about LLM. Calling an LLM and dividing it into topics. And there is no particular algorithm that can perfectly do this, so we can use LLM."
+        },
+        {
+            "id": [
+                29
+            ],
+            "speaker": "Anish",
+            "start": 186.914,
+            "end": 188.194,
+            "text": "Okay, okay."
+        },
+        {
+            "id": [
+                31,
+                32,
+                33,
+                35
+            ],
+            "speaker": "Anish",
+            "start": 190.674,
+            "end": 204.034,
+            "text": "So... I think one, at least we should get a hint from the meeting name, right? A lot of times meetings have at least relevant names in order to further classify the topics, right?"
+        },
+        {
+            "id": [
+                36
+            ],
+            "speaker": "Gurram",
+            "start": 206.834,
+            "end": 211.954,
+            "text": "Meeting name, OK."
+        },
+        {
+            "id": [
+                37,
+                38,
+                39,
+                40
+            ],
+            "speaker": "Anish",
+            "start": 209.794,
+            "end": 223.394,
+            "text": "If it is useful, then we should have a, we should use it, correct? Like if it says that, okay, hey, the meeting is going to be about this then at least you can get a rough idea about what your meeting topics may be even before any discussion has taken place."
+        },
+        {
+            "id": [
+                41,
+                43
+            ],
+            "speaker": "Gurram",
+            "start": 223.794,
+            "end": 232.959,
+            "text": "Yeah, we can include that in our input, but what if they ask why did you include in the in your input that you are already providing something like the meeting is"
+        },
+        {
+            "id": [
+                44
+            ],
+            "speaker": "Sahil",
+            "start": 229.194,
+            "end": 229.314,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                45
+            ],
+            "speaker": "Anish",
+            "start": 232.074,
+            "end": 235.443,
+            "text": "No, no, so, so you can have a, you can have a suppose"
+        },
+        {
+            "id": [
+                46
+            ],
+            "speaker": "Gurram",
+            "start": 232.959,
+            "end": 233.634,
+            "text": "going to be?"
+        },
+        {
+            "id": [
+                47
+            ],
+            "speaker": "Anish",
+            "start": 235.443,
+            "end": 238.812,
+            "text": "so like you can have like a whatever if state."
+        },
+        {
+            "id": [
+                48
+            ],
+            "speaker": "Gurram",
+            "start": 236.834,
+            "end": 237.154,
+            "text": "There."
+        },
+        {
+            "id": [
+                49,
+                50,
+                51,
+                52,
+                53
+            ],
+            "speaker": "Anish",
+            "start": 238.812,
+            "end": 253.794,
+            "text": "I I don't know how we'd code this but suppose suppose the meeting name was useful enough like suppose it's like 4:30 meeting, then obviously don't use it as an input but suppose it had more depth. to it, then we could probably use it, right?"
+        },
+        {
+            "id": [
+                54
+            ],
+            "speaker": "Gurram",
+            "start": 254.714,
+            "end": 258.306,
+            "text": "Yeah, yeah, using it is not a problem, but who provided it?"
+        },
+        {
+            "id": [
+                55
+            ],
+            "speaker": "Sahil",
+            "start": 256.274,
+            "end": 256.514,
+            "text": "S."
+        },
+        {
+            "id": [
+                56
+            ],
+            "speaker": "Gurram",
+            "start": 258.306,
+            "end": 261.598,
+            "text": "So if we provided that in our input, what if they ask"
+        },
+        {
+            "id": [
+                57
+            ],
+            "speaker": "Anish",
+            "start": 260.114,
+            "end": 265.314,
+            "text": "Oh, okay, like that. Got it, got it. , understood, understood."
+        },
+        {
+            "id": [
+                58
+            ],
+            "speaker": "Gurram",
+            "start": 261.598,
+            "end": 263.874,
+            "text": "why did you provide that in the input?"
+        },
+        {
+            "id": [
+                59
+            ],
+            "speaker": "Gurram",
+            "start": 266.674,
+            "end": 267.154,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                60
+            ],
+            "speaker": "Anish",
+            "start": 266.754,
+            "end": 269.954,
+            "text": "So we have only the transcription to the meeting itself, right?"
+        },
+        {
+            "id": [
+                61
+            ],
+            "speaker": "Sahil",
+            "start": 268.034,
+            "end": 268.274,
+            "text": "Bing."
+        },
+        {
+            "id": [
+                62
+            ],
+            "speaker": "Anish",
+            "start": 269.954,
+            "end": 274.054,
+            "text": "Maybe not other details about what time, when, who was invited, things like that"
+        },
+        {
+            "id": [
+                63
+            ],
+            "speaker": "Sahil",
+            "start": 271.154,
+            "end": 271.474,
+            "text": "S."
+        },
+        {
+            "id": [
+                64
+            ],
+            "speaker": "Gurram",
+            "start": 272.834,
+            "end": 272.954,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                66
+            ],
+            "speaker": "Gurram",
+            "start": 275.314,
+            "end": 276.594,
+            "text": "Yeah, I know."
+        },
+        {
+            "id": [
+                67
+            ],
+            "speaker": "Anish",
+            "start": 276.194,
+            "end": 278.314,
+            "text": "Okay, okay, good. Bye-bye."
+        },
+        {
+            "id": [
+                68
+            ],
+            "speaker": "Gurram",
+            "start": 279.314,
+            "end": 281.154,
+            "text": "And also, he asked to..."
+        },
+        {
+            "id": [
+                69
+            ],
+            "speaker": "Sahil",
+            "start": 280.354,
+            "end": 281.394,
+            "text": "We can't try it."
+        },
+        {
+            "id": [
+                70
+            ],
+            "speaker": "Gurram",
+            "start": 282.674,
+            "end": 283.634,
+            "text": "Yeah, yeah, speak."
+        },
+        {
+            "id": [
+                71,
+                72
+            ],
+            "speaker": "Sahil",
+            "start": 284.354,
+            "end": 291.074,
+            "text": "We can't write the whole transcript as input and tell the LLM to classify because the transcript would be too much."
+        },
+        {
+            "id": [
+                74
+            ],
+            "speaker": "Sahil",
+            "start": 293.794,
+            "end": 296.434,
+            "text": "Yeah, so I like."
+        },
+        {
+            "id": [
+                75,
+                76
+            ],
+            "speaker": "Anish",
+            "start": 294.834,
+            "end": 301.339,
+            "text": "So, so maybe our first step should be to compress the no, but compressing maybe you lose important"
+        },
+        {
+            "id": [
+                77
+            ],
+            "speaker": "Sahil",
+            "start": 297.554,
+            "end": 297.754,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                78
+            ],
+            "speaker": "Sahil",
+            "start": 300.914,
+            "end": 307.173,
+            "text": "Even though, even after, no, no, even after, even after compressing"
+        },
+        {
+            "id": [
+                79
+            ],
+            "speaker": "Anish",
+            "start": 301.339,
+            "end": 302.194,
+            "text": "stuff, right?"
+        },
+        {
+            "id": [
+                80
+            ],
+            "speaker": "Prisha",
+            "start": 301.634,
+            "end": 304.034,
+            "text": "You might lose important information."
+        },
+        {
+            "id": [
+                81
+            ],
+            "speaker": "Anish",
+            "start": 303.474,
+            "end": 304.034,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                82
+            ],
+            "speaker": "Sahil",
+            "start": 307.173,
+            "end": 312.979,
+            "text": "it might be too easy, so we can do like a sliding with the kind"
+        },
+        {
+            "id": [
+                83
+            ],
+            "speaker": "Anish",
+            "start": 311.474,
+            "end": 311.954,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                84
+            ],
+            "speaker": "Gurram",
+            "start": 311.714,
+            "end": 313.554,
+            "text": "Or we can do 2 passes."
+        },
+        {
+            "id": [
+                85
+            ],
+            "speaker": "Sahil",
+            "start": 312.979,
+            "end": 318.603,
+            "text": "of thing. We would extract the, extract the points and check"
+        },
+        {
+            "id": [
+                86
+            ],
+            "speaker": "Anish",
+            "start": 316.994,
+            "end": 317.394,
+            "text": "Ohh."
+        },
+        {
+            "id": [
+                87
+            ],
+            "speaker": "Sahil",
+            "start": 318.603,
+            "end": 319.874,
+            "text": "identify that."
+        },
+        {
+            "id": [
+                88
+            ],
+            "speaker": "Anish",
+            "start": 318.634,
+            "end": 318.754,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                89,
+                90,
+                91
+            ],
+            "speaker": "Sahil",
+            "start": 320.354,
+            "end": 333.944,
+            "text": "topic of discussion for those points and store the topic of discussion somewhere. And in the next upcoming thing, we will cheque from the topic of discussion if those points are related to that thing. If nothing"
+        },
+        {
+            "id": [
+                92
+            ],
+            "speaker": "Anish",
+            "start": 333.794,
+            "end": 334.674,
+            "text": "Okay, okay."
+        },
+        {
+            "id": [
+                93
+            ],
+            "speaker": "Sahil",
+            "start": 333.944,
+            "end": 336.114,
+            "text": "then we will create a newer topic."
+        },
+        {
+            "id": [
+                94,
+                95,
+                97,
+                98,
+                99,
+                100,
+                101,
+                102,
+                103
+            ],
+            "speaker": "Anish",
+            "start": 337.074,
+            "end": 368.114,
+            "text": "Okay, so then, then in so. Instead of having like a sliding window of maybe a fixed size you can just start from the top and then you can work your way until the LLM can figure out, okay, at least still here, this is the point of whatever the conversation or the transcript. And as soon as we get one maybe we can put a, we can resume from that point onwards to the next. Similarly, until you get a next point of topic or next point of conversation."
+        },
+        {
+            "id": [
+                104
+            ],
+            "speaker": "Prisha",
+            "start": 371.314,
+            "end": 375.554,
+            "text": "But like, how exactly would you demark it?"
+        },
+        {
+            "id": [
+                105
+            ],
+            "speaker": "Anish",
+            "start": 372.474,
+            "end": 372.754,
+            "text": "But."
+        },
+        {
+            "id": [
+                106
+            ],
+            "speaker": "Prisha",
+            "start": 376.474,
+            "end": 380.834,
+            "text": "When one topic ends and the other starts, 'cause like sometimes the..."
+        },
+        {
+            "id": [
+                107,
+                109,
+                110,
+                111
+            ],
+            "speaker": "Anish",
+            "start": 380.034,
+            "end": 393.154,
+            "text": "No, you can't perfectly do that, right? So when the LLM has enough confidence that, okay, hey, I've understood that this still here till this point in the meeting, they were probably talking about this. At some point it'll gather enough information."
+        },
+        {
+            "id": [
+                112
+            ],
+            "speaker": "Sahil",
+            "start": 391.874,
+            "end": 395.801,
+            "text": "No, it can be like it can be like I will be"
+        },
+        {
+            "id": [
+                113
+            ],
+            "speaker": "Anish",
+            "start": 394.314,
+            "end": 394.434,
+            "text": "Team."
+        },
+        {
+            "id": [
+                114
+            ],
+            "speaker": "Sahil",
+            "start": 395.801,
+            "end": 400.354,
+            "text": "jumping to and throw towards two different topics."
+        },
+        {
+            "id": [
+                115
+            ],
+            "speaker": "Anish",
+            "start": 402.674,
+            "end": 403.794,
+            "text": "Can you repeat your voice?"
+        },
+        {
+            "id": [
+                116,
+                117
+            ],
+            "speaker": "Sahil",
+            "start": 405.354,
+            "end": 410.674,
+            "text": "No, it can be that I would be jumping across to Enterprise to a remote topic."
+        },
+        {
+            "id": [
+                118,
+                119
+            ],
+            "speaker": "Anish",
+            "start": 409.634,
+            "end": 413.314,
+            "text": "Ohh. Oh, yeah, yeah, you could."
+        },
+        {
+            "id": [
+                120
+            ],
+            "speaker": "Anish",
+            "start": 416.434,
+            "end": 417.074,
+            "text": "Ohh."
+        },
+        {
+            "id": [
+                121
+            ],
+            "speaker": "Anish",
+            "start": 421.394,
+            "end": 421.954,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                122,
+                123,
+                124
+            ],
+            "speaker": "Anish",
+            "start": 424.754,
+            "end": 429.154,
+            "text": "So okay, what do you guys think we should do then here? MUM."
+        },
+        {
+            "id": [
+                125,
+                127,
+                128
+            ],
+            "speaker": "Gurram",
+            "start": 478.354,
+            "end": 486.034,
+            "text": "Hello? Yeah, I'm thinking something like in compilers we will do multi-pass optimization, right?"
+        },
+        {
+            "id": [
+                129
+            ],
+            "speaker": "Anish",
+            "start": 484.234,
+            "end": 484.354,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                130
+            ],
+            "speaker": "Anish",
+            "start": 486.594,
+            "end": 487.074,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                131,
+                132,
+                133
+            ],
+            "speaker": "Gurram",
+            "start": 488.194,
+            "end": 503.738,
+            "text": "So maybe we will try the same here. We will pass some context to the LLM in one pass. Until the end of the means by breaking it, passing it multiple times until we reach"
+        },
+        {
+            "id": [
+                134
+            ],
+            "speaker": "Anish",
+            "start": 498.194,
+            "end": 498.674,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                135,
+                136
+            ],
+            "speaker": "Anish",
+            "start": 501.714,
+            "end": 503.074,
+            "text": "MUM. MUM."
+        },
+        {
+            "id": [
+                137,
+                138
+            ],
+            "speaker": "Gurram",
+            "start": 503.738,
+            "end": 512.114,
+            "text": "the end, and maybe second time we will do the same thing from another point or from the same point somewhere like multi-pass."
+        },
+        {
+            "id": [
+                139,
+                140
+            ],
+            "speaker": "Anish",
+            "start": 513.474,
+            "end": 516.674,
+            "text": "Okay. Yeah, that's one option."
+        },
+        {
+            "id": [
+                141,
+                142
+            ],
+            "speaker": "Gurram",
+            "start": 515.314,
+            "end": 524.994,
+            "text": "Maybe on every pass we will try to collect what is the gist of that context and overall we can maybe try to collect something."
+        },
+        {
+            "id": [
+                143
+            ],
+            "speaker": "Anish",
+            "start": 527.314,
+            "end": 530.514,
+            "text": "Okay, just give me a second, I'll ask."
+        },
+        {
+            "id": [
+                144
+            ],
+            "speaker": "Gurram",
+            "start": 529.754,
+            "end": 530.914,
+            "text": "Yeah, the true dingy."
+        },
+        {
+            "id": [
+                145
+            ],
+            "speaker": "Anish",
+            "start": 532.274,
+            "end": 537.086,
+            "text": "Okay, I asked, so it gave a couple of... Okay, a transcript long sequence."
+        },
+        {
+            "id": [
+                146
+            ],
+            "speaker": "Gurram",
+            "start": 536.434,
+            "end": 536.754,
+            "text": "So."
+        },
+        {
+            "id": [
+                147,
+                148,
+                149
+            ],
+            "speaker": "Anish",
+            "start": 537.086,
+            "end": 550.754,
+            "text": "You need to detect boundaries, group segments, name topics, attached. Okay, approach one is sliding window. Split transcript into overlapping windows of 10 to 15 turns or two to three minutes. Okay, one is, yeah."
+        },
+        {
+            "id": [
+                150
+            ],
+            "speaker": "Gurram",
+            "start": 550.034,
+            "end": 554.274,
+            "text": "Okay, 10 to 15 times maybe, yeah, that's what it is, multi-pass."
+        },
+        {
+            "id": [
+                151,
+                153
+            ],
+            "speaker": "Anish",
+            "start": 554.754,
+            "end": 565.114,
+            "text": "Multipass correct approach to embedding plus clustering often better but I think I could share this chat one sec."
+        },
+        {
+            "id": [
+                154
+            ],
+            "speaker": "Gurram",
+            "start": 566.114,
+            "end": 567.074,
+            "text": "You can."
+        },
+        {
+            "id": [
+                155,
+                156
+            ],
+            "speaker": "Anish",
+            "start": 566.154,
+            "end": 568.234,
+            "text": "Yeah. Ohh."
+        },
+        {
+            "id": [
+                157
+            ],
+            "speaker": "Gurram",
+            "start": 568.834,
+            "end": 570.034,
+            "text": "Maybe share your screen."
+        },
+        {
+            "id": [
+                158
+            ],
+            "speaker": "Anish",
+            "start": 569.074,
+            "end": 571.074,
+            "text": "Okay, wait, do you want me to just, yeah, I can do."
+        },
+        {
+            "id": [
+                159
+            ],
+            "speaker": "Anish",
+            "start": 573.394,
+            "end": 573.914,
+            "text": "One sec."
+        },
+        {
+            "id": [
+                160
+            ],
+            "speaker": "Anish",
+            "start": 579.714,
+            "end": 580.754,
+            "text": "How can you guys see?"
+        },
+        {
+            "id": [
+                161
+            ],
+            "speaker": "Gurram",
+            "start": 579.914,
+            "end": 580.034,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                162
+            ],
+            "speaker": "Gurram",
+            "start": 584.034,
+            "end": 584.994,
+            "text": "Yeah, we can see."
+        },
+        {
+            "id": [
+                163,
+                164,
+                165,
+                166,
+                167,
+                168,
+                169,
+                170,
+                171
+            ],
+            "speaker": "Anish",
+            "start": 585.314,
+            "end": 625.794,
+            "text": "Huh, so, so one was this right, which we said split transcript into overlapping windows of 10 to 15 turns or two to three minutes then approach to embedding plus clustering chunk by. Speaker turns, not by fixed time, three to five consecutive turns per chunk embed each chunk. Yes, it's back in, I... In. I think your team was one minute, like two bus. OK what's strong submission? What do you want me to share like a bunch of screenshots of the same, or do you are you guys?"
+        },
+        {
+            "id": [
+                172
+            ],
+            "speaker": "Gurram",
+            "start": 624.674,
+            "end": 625.474,
+            "text": "Ohh."
+        },
+        {
+            "id": [
+                173
+            ],
+            "speaker": "Sahil",
+            "start": 624.914,
+            "end": 625.474,
+            "text": "Perfect."
+        },
+        {
+            "id": [
+                174
+            ],
+            "speaker": "Gurram",
+            "start": 627.234,
+            "end": 628.194,
+            "text": "Yeah, share it."
+        },
+        {
+            "id": [
+                175
+            ],
+            "speaker": "Anish",
+            "start": 628.994,
+            "end": 634.287,
+            "text": "Okay, yeah, give me one second, I'll check. Okay"
+        },
+        {
+            "id": [
+                176
+            ],
+            "speaker": "Sahil",
+            "start": 629.314,
+            "end": 629.714,
+            "text": "Sure."
+        },
+        {
+            "id": [
+                177
+            ],
+            "speaker": "Gurram",
+            "start": 631.794,
+            "end": 631.914,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                178,
+                179
+            ],
+            "speaker": "Anish",
+            "start": 634.287,
+            "end": 644.834,
+            "text": "so otherwise this is what we're thinking of, like one of these similar approaches. Yeah."
+        },
+        {
+            "id": [
+                180
+            ],
+            "speaker": "Gurram",
+            "start": 651.554,
+            "end": 657.197,
+            "text": "Maybe we can try two to three of them by taking some sample inputs and we decide"
+        },
+        {
+            "id": [
+                181
+            ],
+            "speaker": "Anish",
+            "start": 656.594,
+            "end": 659.954,
+            "text": "Okay, yeah, good idea. Yep, we can do that."
+        },
+        {
+            "id": [
+                182,
+                183,
+                184
+            ],
+            "speaker": "Gurram",
+            "start": 657.197,
+            "end": 660.874,
+            "text": "what to use. Yeah. MUM."
+        },
+        {
+            "id": [
+                185
+            ],
+            "speaker": "Anish",
+            "start": 663.074,
+            "end": 663.434,
+            "text": "OK."
+        },
+        {
+            "id": [
+                186,
+                187,
+                188,
+                189,
+                190,
+                191,
+                192,
+                193
+            ],
+            "speaker": "Anish",
+            "start": 667.794,
+            "end": 693.474,
+            "text": "So, okay, what if, let's at least come up with what are the potential issues we face in our project, right? One is definitely that, , we can break that transcripts into different, like, if you can think... At least going into the next meeting, or.. . Like whenever the next time it is that we meet we can think about what potential solutions or we can do a little bit of research, right? If not, assign anything to everyone today."
+        },
+        {
+            "id": [
+                194
+            ],
+            "speaker": "Sahil",
+            "start": 700.914,
+            "end": 704.194,
+            "text": "May not be this contents in larger context."
+        },
+        {
+            "id": [
+                195
+            ],
+            "speaker": "Anish",
+            "start": 706.354,
+            "end": 706.834,
+            "text": "Per."
+        },
+        {
+            "id": [
+                196
+            ],
+            "speaker": "Anish",
+            "start": 711.434,
+            "end": 712.594,
+            "text": "."
+        },
+        {
+            "id": [
+                197,
+                198
+            ],
+            "speaker": "Anish",
+            "start": 720.034,
+            "end": 728.434,
+            "text": "OK, I've sent the screen, so I'm also reading it just like we can probably take 5 minutes, just read about this, and then we can."
+        },
+        {
+            "id": [
+                199
+            ],
+            "speaker": "Anish",
+            "start": 730.954,
+            "end": 731.554,
+            "text": "Discuss."
+        },
+        {
+            "id": [
+                200,
+                201,
+                202,
+                203,
+                204,
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212
+            ],
+            "speaker": "Anish",
+            "start": 947.794,
+            "end": 995.154,
+            "text": "See, I think. One other thing that we can keep in mind is, see, normally in a meeting you'd have people who have different expertise, right? Like one person for the most part, might talk about one topic, correct? Maybe be giving an update about one topic, maybe speaking a lot about the same topic. But then... See again, like you may have two types of meetings where everybody's like, it's like a brainstorming session and everybody's speaking about the same thing. Then the topic would be only one, right? But then when you start to have multiple people speaking about different topics maybe we can try to note the speaker change as like a change in topic or like. at least a hint in that direction, something like that. Does that make sense?"
+        },
+        {
+            "id": [
+                213
+            ],
+            "speaker": "Anish",
+            "start": 999.314,
+            "end": 999.354,
+            "text": "I."
+        },
+        {
+            "id": [
+                214,
+                215,
+                216
+            ],
+            "speaker": "Gurram",
+            "start": 1003.954,
+            "end": 1011.714,
+            "text": "Yeah, but ultimately the input is going to be ours. We can deal with either case. The worst case is everyone speaking. We have different terms."
+        },
+        {
+            "id": [
+                217
+            ],
+            "speaker": "Anish",
+            "start": 1013.394,
+            "end": 1013.714,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                218
+            ],
+            "speaker": "Gurram",
+            "start": 1014.634,
+            "end": 1015.074,
+            "text": "Yeah, we should."
+        },
+        {
+            "id": [
+                219
+            ],
+            "speaker": "Anish",
+            "start": 1014.834,
+            "end": 1019.074,
+            "text": "If everyone speaking about different talk, oh, everyone speaking about now."
+        },
+        {
+            "id": [
+                220
+            ],
+            "speaker": "Gurram",
+            "start": 1018.194,
+            "end": 1020.114,
+            "text": "No, not different, yeah."
+        },
+        {
+            "id": [
+                221
+            ],
+            "speaker": "Anish",
+            "start": 1020.514,
+            "end": 1022.274,
+            "text": "About the same topic, right? Yeah, same."
+        },
+        {
+            "id": [
+                222,
+                223
+            ],
+            "speaker": "Gurram",
+            "start": 1023.554,
+            "end": 1026.434,
+            "text": "maybe they can switch in between the topics, right?"
+        },
+        {
+            "id": [
+                224,
+                225
+            ],
+            "speaker": "Anish",
+            "start": 1027.154,
+            "end": 1032.194,
+            "text": "Okay, okay. Like A brainstorming session would be very hard for this one to take care of, correct?"
+        },
+        {
+            "id": [
+                226,
+                227
+            ],
+            "speaker": "Anish",
+            "start": 1034.794,
+            "end": 1040.354,
+            "text": "Where people are just throwing different ideas together and it becomes hard to track."
+        },
+        {
+            "id": [
+                228,
+                230
+            ],
+            "speaker": "Gurram",
+            "start": 1040.474,
+            "end": 1047.314,
+            "text": "It is working for a multiple people speaking conversation. Not a single speaker."
+        },
+        {
+            "id": [
+                233,
+                234
+            ],
+            "speaker": "Anish",
+            "start": 1051.754,
+            "end": 1053.874,
+            "text": "Outlook. To."
+        },
+        {
+            "id": [
+                235,
+                236
+            ],
+            "speaker": "Gurram",
+            "start": 1055.074,
+            "end": 1062.954,
+            "text": "And also I think the first approach is something we can try. The sliding window and multiple parts."
+        },
+        {
+            "id": [
+                237,
+                239
+            ],
+            "speaker": "Anish",
+            "start": 1061.554,
+            "end": 1066.114,
+            "text": "Yeah, even I think so, right? Refine boundaries in a second pass on the merge points, it seems."
+        },
+        {
+            "id": [
+                240,
+                241
+            ],
+            "speaker": "Gurram",
+            "start": 1066.274,
+            "end": 1076.834,
+            "text": "Yeah, and also in the third screenshot, I think there is something called the structured JSON format from the transcript."
+        },
+        {
+            "id": [
+                242
+            ],
+            "speaker": "Anish",
+            "start": 1077.954,
+            "end": 1078.674,
+            "text": "Correct, yeah."
+        },
+        {
+            "id": [
+                243
+            ],
+            "speaker": "Gurram",
+            "start": 1078.514,
+            "end": 1082.514,
+            "text": "Have you seen the the utterance ID and the text on the speaker?"
+        },
+        {
+            "id": [
+                244,
+                245
+            ],
+            "speaker": "Anish",
+            "start": 1079.874,
+            "end": 1083.554,
+            "text": "Ask for structured JSON, yes, yes. Yep."
+        },
+        {
+            "id": [
+                246,
+                248,
+                249,
+                250
+            ],
+            "speaker": "Gurram",
+            "start": 1083.794,
+            "end": 1106.522,
+            "text": "Yeah, yeah, I have worked on something, means just cleaning the input. Yeah, whenever we get a R transcript, it will convert into a structured JSON containing the utterance ID, the speaker, and the text. So I think we can clean it like that. And then we can"
+        },
+        {
+            "id": [
+                251
+            ],
+            "speaker": "Anish",
+            "start": 1104.034,
+            "end": 1105.714,
+            "text": "Okay, so then, then..."
+        },
+        {
+            "id": [
+                252
+            ],
+            "speaker": "Gurram",
+            "start": 1106.522,
+            "end": 1109.794,
+            "text": "and then we can try the first approach."
+        },
+        {
+            "id": [
+                253,
+                255
+            ],
+            "speaker": "Anish",
+            "start": 1107.954,
+            "end": 1117.794,
+            "text": "So we could, sorry, yeah. Okay, so then our step one would be to convert the input to like a structured JSON, right? And then..."
+        },
+        {
+            "id": [
+                256,
+                257
+            ],
+            "speaker": "Gurram",
+            "start": 1113.714,
+            "end": 1115.674,
+            "text": "Yeah. Yeah."
+        },
+        {
+            "id": [
+                258
+            ],
+            "speaker": "Gurram",
+            "start": 1117.874,
+            "end": 1118.354,
+            "text": "Yes."
+        },
+        {
+            "id": [
+                259
+            ],
+            "speaker": "Anish",
+            "start": 1119.394,
+            "end": 1120.274,
+            "text": "Just sliding."
+        },
+        {
+            "id": [
+                260
+            ],
+            "speaker": "Anish",
+            "start": 1122.714,
+            "end": 1126.354,
+            "text": "Yeah, I think I'm okay with that. What about the rest of me?"
+        },
+        {
+            "id": [
+                261,
+                262,
+                263
+            ],
+            "speaker": "Sahil",
+            "start": 1128.514,
+            "end": 1140.634,
+            "text": "I think second would be better, because we were also talking on the knowledge liability thing that we are also implementing that then that approach would be helpful to implement that in the future."
+        },
+        {
+            "id": [
+                264,
+                265,
+                266,
+                267
+            ],
+            "speaker": "Gurram",
+            "start": 1147.794,
+            "end": 1157.354,
+            "text": "Yeah, I think after cleaning the input we can try both of them. Or we can start with trying the second one as well. Yeah."
+        },
+        {
+            "id": [
+                268,
+                269,
+                270,
+                271,
+                272,
+                273,
+                274
+            ],
+            "speaker": "Anish",
+            "start": 1166.114,
+            "end": 1190.674,
+            "text": "Okay, so then let's at least, okay, today we can keep let's at least get a rough idea of, no, okay, this would be step one for us given a transcript, try to clean it up, change it to the structured JSON format and then, again, approach one, approach two we can finalise on such details, I think, once we start to write the code. Does is that OK? Like, can we do we can come up with a plan today, right?"
+        },
+        {
+            "id": [
+                275,
+                276
+            ],
+            "speaker": "Anish",
+            "start": 1193.714,
+            "end": 1198.434,
+            "text": "Following again the same. Flow that Sahil sent the other day."
+        },
+        {
+            "id": [
+                277
+            ],
+            "speaker": "Sai",
+            "start": 1199.714,
+            "end": 1200.594,
+            "text": "Yeah, we can."
+        },
+        {
+            "id": [
+                278,
+                279
+            ],
+            "speaker": "Anish",
+            "start": 1201.634,
+            "end": 1207.714,
+            "text": "Okay. Shah, see what's up?"
+        },
+        {
+            "id": [
+                280
+            ],
+            "speaker": "Sahil",
+            "start": 1208.834,
+            "end": 1212.514,
+            "text": "Rishay, Rishay, you had taken some notes, right? Where in the note yesterday?"
+        },
+        {
+            "id": [
+                282
+            ],
+            "speaker": "Sahil",
+            "start": 1217.154,
+            "end": 1217.274,
+            "text": "So."
+        },
+        {
+            "id": [
+                283
+            ],
+            "speaker": "Prisha",
+            "start": 1217.794,
+            "end": 1221.234,
+            "text": "Wait, , they weren't really like nodes, just a few points."
+        },
+        {
+            "id": [
+                284,
+                285
+            ],
+            "speaker": "Sahil",
+            "start": 1219.674,
+            "end": 1225.594,
+            "text": "So. Some, some, you can say."
+        },
+        {
+            "id": [
+                286,
+                287
+            ],
+            "speaker": "Sai",
+            "start": 1224.754,
+            "end": 1231.954,
+            "text": "Did you try to cheque how the facilitator is working and what all shortcomings we have in that thing? What have we mentioned?"
+        },
+        {
+            "id": [
+                288,
+                289,
+                290,
+                291,
+                292,
+                293,
+                295,
+                296,
+                297,
+                298,
+                299,
+                300,
+                301,
+                302,
+                303,
+                304,
+                305,
+                306,
+                307,
+                308,
+                309
+            ],
+            "speaker": "Prisha",
+            "start": 1240.434,
+            "end": 1341.874,
+            "text": "Yeah, wait. So yesterday in the meeting, he said, yeah, I think in the flow We mentioned something like it should detect the intent. So if it we have to define what exactly intentions are there. Like if it's like, okay we need to schedule a meeting or we want to make a JIRA thing or make a ticket. So like, we can't just accept everything, any intent or like action item we have to like define. like a couple and then stick to that. And yeah he said in Microsoft facilitator, right now it doesn't it only takes like the transcript from the meeting or like whatever but it doesn't, if there's any like files or PPTs or something shared in the chat, it can't. use that. So he was like, we should try to like use that as extra context as well while making the summaries and. Meeting points, whatever, and. Yeah, and here's like when we're doing the presentation, we should show the like use case like we should take easy, medium, and complex use cases and just show that on the day of the presentation so that it can show that it's handling any input. It's not like only straightforward input that's relatively easy to classify or whatever. Yeah, that's all I've written."
+        },
+        {
+            "id": [
+                310,
+                311,
+                312,
+                313,
+                314,
+                315,
+                316,
+                317,
+                318,
+                319,
+                320
+            ],
+            "speaker": "Anish",
+            "start": 1344.594,
+            "end": 1380.594,
+            "text": "Ohh, one more thing. I think I think it should be important like it's it's off topic, it's not related to what he is. I think any time or date or day or something along the lines of two weeks two months is mentioned. RLM should just note it down and the timestamp, and then grab information from maybe like... Five context, five turns before, five turns after and try to figure out what date that is for, and then so if it's extremely crucial, , you can add it to calendar if it's just a discussion about, hey, within the next two weeks let's try and complete this. Maybe you don't have the calendar."
+        },
+        {
+            "id": [
+                321
+            ],
+            "speaker": "Prisha",
+            "start": 1382.674,
+            "end": 1384.114,
+            "text": "Yeah, I think that's a good idea."
+        },
+        {
+            "id": [
+                322,
+                323
+            ],
+            "speaker": "Anish",
+            "start": 1387.634,
+            "end": 1392.914,
+            "text": "I think the dates have to be noted that been written."
+        },
+        {
+            "id": [
+                324,
+                325,
+                326,
+                327,
+                328
+            ],
+            "speaker": "Gurram",
+            "start": 1431.474,
+            "end": 1450.634,
+            "text": "Yeah, one more thing he mentioned was if there are two meetings and if they have taken some decisions about the work to complete it before the next meeting, and in the next meeting if they say the work is completed, he asked us to track like the work is completed, we should track it."
+        },
+        {
+            "id": [
+                329
+            ],
+            "speaker": "Anish",
+            "start": 1453.074,
+            "end": 1455.154,
+            "text": "But then our thing is only..."
+        },
+        {
+            "id": [
+                330,
+                331,
+                333
+            ],
+            "speaker": "Anish",
+            "start": 1457.314,
+            "end": 1466.594,
+            "text": "Oh, so say something already exists on somebody's calendar and then during the meeting they discussed that that work has been completed. Oh."
+        },
+        {
+            "id": [
+                334
+            ],
+            "speaker": "Gurram",
+            "start": 1465.434,
+            "end": 1468.954,
+            "text": "Yeah, you should be able to capture that, and..."
+        },
+        {
+            "id": [
+                335
+            ],
+            "speaker": "Gurram",
+            "start": 1471.154,
+            "end": 1472.434,
+            "text": "Change the status, yeah."
+        },
+        {
+            "id": [
+                336,
+                337
+            ],
+            "speaker": "Anish",
+            "start": 1471.634,
+            "end": 1477.954,
+            "text": "So then remove it off of everyone's calendar who was part of that meeting or like, dude, that's hard."
+        },
+        {
+            "id": [
+                338,
+                339,
+                340
+            ],
+            "speaker": "Gurram",
+            "start": 1479.274,
+            "end": 1483.274,
+            "text": "Yeah, he mentioned it as one of the points, but. .. Yeah."
+        },
+        {
+            "id": [
+                341
+            ],
+            "speaker": "Anish",
+            "start": 1483.514,
+            "end": 1486.114,
+            "text": "That's hard, OK."
+        },
+        {
+            "id": [
+                343
+            ],
+            "speaker": "Anish",
+            "start": 1490.594,
+            "end": 1492.994,
+            "text": "Okay, how would we do that?"
+        },
+        {
+            "id": [
+                344,
+                345,
+                346
+            ],
+            "speaker": "Gurram",
+            "start": 1492.474,
+            "end": 1498.714,
+            "text": "Yeah. I don't have any idea, just he mentioned it so that's why I mentioned it."
+        },
+        {
+            "id": [
+                347
+            ],
+            "speaker": "Anish",
+            "start": 1499.754,
+            "end": 1501.234,
+            "text": "See, the thing is, this..."
+        },
+        {
+            "id": [
+                348
+            ],
+            "speaker": "Gurram",
+            "start": 1500.394,
+            "end": 1501.754,
+            "text": "And also, another thing is..."
+        },
+        {
+            "id": [
+                349
+            ],
+            "speaker": "Anish",
+            "start": 1502.274,
+            "end": 1503.234,
+            "text": "Ha, Delta."
+        },
+        {
+            "id": [
+                350
+            ],
+            "speaker": "Prisha",
+            "start": 1502.994,
+            "end": 1504.514,
+            "text": "I don't think it was like, okay."
+        },
+        {
+            "id": [
+                351
+            ],
+            "speaker": "Gurram",
+            "start": 1503.114,
+            "end": 1503.514,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                352,
+                353,
+                354,
+                355
+            ],
+            "speaker": "Gurram",
+            "start": 1506.394,
+            "end": 1526.474,
+            "text": "Yeah, in the facilitator, he told the action items will be captured but there is no attribution to who it was assigned to. He told something like that. So we can cheque on the pattern. So but it is already there in the problem statement. We must attribute the speaker."
+        },
+        {
+            "id": [
+                356
+            ],
+            "speaker": "Anish",
+            "start": 1524.594,
+            "end": 1526.034,
+            "text": "Okay, sure, let's it."
+        },
+        {
+            "id": [
+                358,
+                359,
+                360,
+                361,
+                362,
+                363,
+                364
+            ],
+            "speaker": "Anish",
+            "start": 1530.914,
+            "end": 1554.674,
+            "text": "Okay, so this adding to the calendar part, right? Let's say two, three team meeting like not just one, let's say two, three teams are in the same meeting. Like maybe the AI team is on the meet with, let's say a data and analytics team. And then in the call they say for the AI team, , we have a deadline for this within two weeks or something like that. Then..."
+        },
+        {
+            "id": [
+                365,
+                366,
+                367
+            ],
+            "speaker": "Anish",
+            "start": 1557.154,
+            "end": 1564.274,
+            "text": "bro, this will need so much more access to be able to add to calendar. Like that's how are we planning to do that?"
+        },
+        {
+            "id": [
+                368,
+                369,
+                370,
+                371,
+                372,
+                373,
+                374,
+                375,
+                376,
+                377,
+                378,
+                379
+            ],
+            "speaker": "Anish",
+            "start": 1726.074,
+            "end": 1768.354,
+            "text": "Hey, by the way, I sent something in the group, right? So based on whatever little we had discussed so far I gave that input to Lord, and then I said I gave the project statement also as well. I gave Sahil, and I said give us a skeleton for as to how we can get started on the work and. I don't think it's it seems pretty good to have thread till phase four. If you guys can also take a look at it once, we can at least decide whether we want to follow this, add some things, remove some things. And then we can get a rough idea of at least what we're going to do how we're going to approach it, and then we can generally get started pretty soon."
+        },
+        {
+            "id": [
+                380
+            ],
+            "speaker": "Gurram",
+            "start": 1915.914,
+            "end": 1916.474,
+            "text": "Hello?"
+        },
+        {
+            "id": [
+                381
+            ],
+            "speaker": "Gurram",
+            "start": 1920.874,
+            "end": 1921.354,
+            "text": "Hello!"
+        },
+        {
+            "id": [
+                382
+            ],
+            "speaker": "Anish",
+            "start": 1920.874,
+            "end": 1922.634,
+            "text": "Yeah, yeah, yeah."
+        },
+        {
+            "id": [
+                383,
+                384,
+                385,
+                387
+            ],
+            "speaker": "Gurram",
+            "start": 1922.794,
+            "end": 1940.634,
+            "text": "Yeah, yeah, the plan looks good, but I think we should start doing something so that if we face any problems, we can think what to do. We have not started it. So the plan is good. Okay. And, and also..."
+        },
+        {
+            "id": [
+                388,
+                389
+            ],
+            "speaker": "Anish",
+            "start": 1939.674,
+            "end": 1943.994,
+            "text": "Oh, so you want to start earlier so that we don't face any problems going forward, right?"
+        },
+        {
+            "id": [
+                390,
+                391
+            ],
+            "speaker": "Gurram",
+            "start": 1945.194,
+            "end": 1955.399,
+            "text": "Or else, if we face any problem, we can think what to do next. If we if we just keep on planning, then yeah, in the implementation"
+        },
+        {
+            "id": [
+                392
+            ],
+            "speaker": "Anish",
+            "start": 1953.034,
+            "end": 1954.154,
+            "text": "Again, okay, okay, yeah."
+        },
+        {
+            "id": [
+                393
+            ],
+            "speaker": "Gurram",
+            "start": 1955.399,
+            "end": 1960.234,
+            "text": "maybe we can face some problems which do not plan, yeah, yeah."
+        },
+        {
+            "id": [
+                394
+            ],
+            "speaker": "Anish",
+            "start": 1957.634,
+            "end": 1958.794,
+            "text": "Yeah, fair enough, that's it."
+        },
+        {
+            "id": [
+                395,
+                396
+            ],
+            "speaker": "Anish",
+            "start": 1961.034,
+            "end": 1967.794,
+            "text": "Yeah, so that's what I was just trying to get out a rough skeleton or whatever to give us an idea of how to start"
+        },
+        {
+            "id": [
+                397
+            ],
+            "speaker": "Gurram",
+            "start": 1966.154,
+            "end": 1967.274,
+            "text": "Yeah, that is good."
+        },
+        {
+            "id": [
+                398
+            ],
+            "speaker": "Anish",
+            "start": 1967.794,
+            "end": 1971.204,
+            "text": "where to start. So, , if this is okay with you all"
+        },
+        {
+            "id": [
+                399
+            ],
+            "speaker": "Gurram",
+            "start": 1969.394,
+            "end": 1969.514,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                400,
+                401
+            ],
+            "speaker": "Anish",
+            "start": 1971.204,
+            "end": 1976.554,
+            "text": "then maybe we can generally get started. Again, today, tomorrow that we'll need to decide."
+        },
+        {
+            "id": [
+                402,
+                403
+            ],
+            "speaker": "Gurram",
+            "start": 1977.034,
+            "end": 1987.274,
+            "text": "Yeah, and before that, one thing we need to search how we can inject the PDFs or something PPT and..."
+        },
+        {
+            "id": [
+                404,
+                405,
+                406
+            ],
+            "speaker": "Gurram",
+            "start": 1989.914,
+            "end": 2002.714,
+            "text": "how we can process them because he expected not only text but also PBTs and PowerPoints and if the speakers mentioned something from them he expected that it would be it should be able to capture those."
+        },
+        {
+            "id": [
+                407
+            ],
+            "speaker": "Gurram",
+            "start": 2011.274,
+            "end": 2011.754,
+            "text": "Hello!"
+        },
+        {
+            "id": [
+                408
+            ],
+            "speaker": "Prisha",
+            "start": 2013.034,
+            "end": 2014.314,
+            "text": "Wait, can you repeat that?"
+        },
+        {
+            "id": [
+                409,
+                410,
+                411
+            ],
+            "speaker": "Gurram",
+            "start": 2015.274,
+            "end": 2028.234,
+            "text": "Yeah, he mentioned that if we upload any PDF or PPT and if the speaker speaks something based on that PDF. So he told that that should be taken care of."
+        },
+        {
+            "id": [
+                412
+            ],
+            "speaker": "Gurram",
+            "start": 2031.194,
+            "end": 2031.554,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                413
+            ],
+            "speaker": "Anish",
+            "start": 2031.194,
+            "end": 2036.954,
+            "text": "I, yeah, my bad. I could not hear what happened last one."
+        },
+        {
+            "id": [
+                414
+            ],
+            "speaker": "Gurram",
+            "start": 2035.594,
+            "end": 2039.114,
+            "text": "Yeah, you could not hear. OK, yeah, I can repeat again."
+        },
+        {
+            "id": [
+                415
+            ],
+            "speaker": "Anish",
+            "start": 2040.234,
+            "end": 2041.834,
+            "text": "Sorry, sorry, did you say hello it?"
+        },
+        {
+            "id": [
+                416,
+                417,
+                419,
+                420,
+                422
+            ],
+            "speaker": "Gurram",
+            "start": 2041.354,
+            "end": 2069.523,
+            "text": "No, no, no, no problem. OK, so what he mentioned was... Don't take only text or raw transcript or raw speaking. So if you take any file that is uploaded during the meeting and if any speaker. speaks based on the content in the PDF or PBT then we should be able to capture that. So he's speaking based on that PDF."
+        },
+        {
+            "id": [
+                423
+            ],
+            "speaker": "Anish",
+            "start": 2064.234,
+            "end": 2064.634,
+            "text": "Ohh."
+        },
+        {
+            "id": [
+                424
+            ],
+            "speaker": "Gurram",
+            "start": 2069.523,
+            "end": 2072.394,
+            "text": "And so he told something like that."
+        },
+        {
+            "id": [
+                425
+            ],
+            "speaker": "Anish",
+            "start": 2070.874,
+            "end": 2071.594,
+            "text": "Food."
+        },
+        {
+            "id": [
+                426,
+                427,
+                428
+            ],
+            "speaker": "Anish",
+            "start": 2075.434,
+            "end": 2084.474,
+            "text": "How would our, how would we even get access? Let's say some, what does upload in a meeting mean? Like he uploaded to that that Team chat or something?"
+        },
+        {
+            "id": [
+                429
+            ],
+            "speaker": "Gurram",
+            "start": 2083.194,
+            "end": 2084.474,
+            "text": "Yeah, during a meeting, we..."
+        },
+        {
+            "id": [
+                430
+            ],
+            "speaker": "Gurram",
+            "start": 2087.194,
+            "end": 2087.834,
+            "text": "Yeah, yeah."
+        },
+        {
+            "id": [
+                431
+            ],
+            "speaker": "Anish",
+            "start": 2090.874,
+            "end": 2093.794,
+            "text": "I don't think that's doable, dude."
+        },
+        {
+            "id": [
+                432
+            ],
+            "speaker": "Anish",
+            "start": 2097.114,
+            "end": 2100.314,
+            "text": "It seems very difficult, no?"
+        },
+        {
+            "id": [
+                433,
+                434,
+                435
+            ],
+            "speaker": "Gurram",
+            "start": 2098.634,
+            "end": 2104.714,
+            "text": "Also, do it once. So how to do that? MUM."
+        },
+        {
+            "id": [
+                436
+            ],
+            "speaker": "Anish",
+            "start": 2104.714,
+            "end": 2107.954,
+            "text": "I'll ask, but that seems very difficult."
+        },
+        {
+            "id": [
+                437
+            ],
+            "speaker": "Anish",
+            "start": 2110.354,
+            "end": 2111.434,
+            "text": "Okay."
+        },
+        {
+            "id": [
+                438
+            ],
+            "speaker": "Anish",
+            "start": 2116.474,
+            "end": 2116.874,
+            "text": "Teacher."
+        },
+        {
+            "id": [
+                439
+            ],
+            "speaker": "Anish",
+            "start": 2151.274,
+            "end": 2151.914,
+            "text": "Support."
+        },
+        {
+            "id": [
+                440,
+                441,
+                442,
+                443,
+                444,
+                445
+            ],
+            "speaker": "Anish",
+            "start": 2288.554,
+            "end": 2316.554,
+            "text": "The thing is for this to work specially, right you'll need to have a lot more added permissions. That's all I'm thinking like. In implementation also, you'll need to sync what is being said to maybe information deciding in the files. And unless someone explicitly mentions it's hard to make that connexion even for humans, right? I don't know. How are LLM is going to be able to do that?"
+        },
+        {
+            "id": [
+                446,
+                447,
+                448
+            ],
+            "speaker": "Anish",
+            "start": 2325.514,
+            "end": 2332.234,
+            "text": "See, I guess maybe he was trying to just guide us, right? Is it necessary that we implement everything he said in the meeting?"
+        },
+        {
+            "id": [
+                449
+            ],
+            "speaker": "Gurram",
+            "start": 2342.194,
+            "end": 2347.229,
+            "text": "It is not fully necessary, but maybe implementing some of them might"
+        },
+        {
+            "id": [
+                450
+            ],
+            "speaker": "Sai",
+            "start": 2343.914,
+            "end": 2346.954,
+            "text": "Then he just gave it as a suggestion."
+        },
+        {
+            "id": [
+                451
+            ],
+            "speaker": "Gurram",
+            "start": 2347.229,
+            "end": 2347.594,
+            "text": "help."
+        },
+        {
+            "id": [
+                452,
+                454
+            ],
+            "speaker": "Sai",
+            "start": 2348.394,
+            "end": 2355.514,
+            "text": "He just gave it a suggestion like we can tell him like we can schedule another meeting and we can tell why this is impossible or something."
+        },
+        {
+            "id": [
+                455,
+                456,
+                457,
+                458,
+                459,
+                460,
+                461,
+                462
+            ],
+            "speaker": "Anish",
+            "start": 2384.554,
+            "end": 2408.074,
+            "text": "Hey, even I think he was probably just suggesting how we can make our thing better. And once we start also we'll probably get an idea, like every time we implement a certain part of this skeleton or the structure we're trying to follow we'll get obvious ideas like, hey, , we could also do this maybe we could also do this, we can see that this, something like that. I think for now, it's more important for us to get started. I think like Vamsi said."
+        },
+        {
+            "id": [
+                463
+            ],
+            "speaker": "Anish",
+            "start": 2417.674,
+            "end": 2418.474,
+            "text": "Are you guys there?"
+        },
+        {
+            "id": [
+                465,
+                466
+            ],
+            "speaker": "Anish",
+            "start": 2423.714,
+            "end": 2429.354,
+            "text": ". So do we get started today or do we procrastinate and start tomorrow?"
+        },
+        {
+            "id": [
+                467
+            ],
+            "speaker": "Sai",
+            "start": 2435.434,
+            "end": 2436.954,
+            "text": "We start today itself, I guess."
+        },
+        {
+            "id": [
+                468,
+                469,
+                470,
+                471,
+                472
+            ],
+            "speaker": "Anish",
+            "start": 2438.394,
+            "end": 2457.874,
+            "text": "Okay, so one other thing I was thinking about just instead of splitting work randomly, maybe we assign two guys or like we are assigning work on the same phase so that we can just complete phase by phase rather than just completing and then trying to put everything together. I feel that will be very, very haphazard at the end."
+        },
+        {
+            "id": [
+                473
+            ],
+            "speaker": "Prisha",
+            "start": 2460.874,
+            "end": 2462.074,
+            "text": "Yeah, integrating."
+        },
+        {
+            "id": [
+                474
+            ],
+            "speaker": "Anish",
+            "start": 2461.834,
+            "end": 2461.994,
+            "text": "T."
+        },
+        {
+            "id": [
+                475
+            ],
+            "speaker": "Prisha",
+            "start": 2463.514,
+            "end": 2466.714,
+            "text": "All of those pieces would be hard. Like if we..."
+        },
+        {
+            "id": [
+                476,
+                477
+            ],
+            "speaker": "Anish",
+            "start": 2464.314,
+            "end": 2469.194,
+            "text": "MUM. Yeah, yeah, so that's what, sorry to speak."
+        },
+        {
+            "id": [
+                478,
+                479,
+                480,
+                481
+            ],
+            "speaker": "Prisha",
+            "start": 2469.274,
+            "end": 2482.394,
+            "text": "Yeah, yeah, that one we like, if we try to everyone works on a different part and then in the end to integrate everyone's thing it would be hard because the assumptions are something. Might it be different?"
+        },
+        {
+            "id": [
+                482
+            ],
+            "speaker": "Anish",
+            "start": 2483.514,
+            "end": 2484.394,
+            "text": "Okay, so..."
+        },
+        {
+            "id": [
+                483,
+                484,
+                485,
+                486
+            ],
+            "speaker": "Anish",
+            "start": 2486.714,
+            "end": 2499.434,
+            "text": "Then, what do we start with? Let's say we're gonna follow this plan only, then our phase one would ideally be to ingest and normalise input to so input to our structured JSON. One sec, bye-bye."
+        },
+        {
+            "id": [
+                487,
+                488
+            ],
+            "speaker": "Anish",
+            "start": 2605.914,
+            "end": 2610.474,
+            "text": "Okay, so how do we split the work? How do we, like, how do we get started?"
+        },
+        {
+            "id": [
+                489
+            ],
+            "speaker": "Gurram",
+            "start": 2628.234,
+            "end": 2632.234,
+            "text": "So before that, do you have any idea about how?"
+        },
+        {
+            "id": [
+                490
+            ],
+            "speaker": "Anish",
+            "start": 2630.314,
+            "end": 2630.474,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                491,
+                492
+            ],
+            "speaker": "Gurram",
+            "start": 2633.274,
+            "end": 2640.634,
+            "text": "We should provide the input, yeah. , should we search any data sets that already contain some real world transcripts?"
+        },
+        {
+            "id": [
+                493,
+                494,
+                495
+            ],
+            "speaker": "Anish",
+            "start": 2642.874,
+            "end": 2652.634,
+            "text": "wait, Sahil had started the transcript of this meeting only, right? Would we be able to access that? We should be able to access that, right?"
+        },
+        {
+            "id": [
+                496
+            ],
+            "speaker": "Sahil",
+            "start": 2649.114,
+            "end": 2649.674,
+            "text": "Yeah."
+        },
+        {
+            "id": [
+                497,
+                498
+            ],
+            "speaker": "Sahil",
+            "start": 2653.034,
+            "end": 2656.794,
+            "text": "This. I had done that using that."
+        },
+        {
+            "id": [
+                499
+            ],
+            "speaker": "Anish",
+            "start": 2654.714,
+            "end": 2655.354,
+            "text": "So, we can..."
+        },
+        {
+            "id": [
+                500,
+                501
+            ],
+            "speaker": "Anish",
+            "start": 2657.674,
+            "end": 2662.234,
+            "text": "We can feed this as input, correct? Can cheque how it's done."
+        },
+        {
+            "id": [
+                502
+            ],
+            "speaker": "Gurram",
+            "start": 2661.354,
+            "end": 2665.794,
+            "text": "Yeah, but for the initial time, this is so long right for the moment."
+        },
+        {
+            "id": [
+                503
+            ],
+            "speaker": "Anish",
+            "start": 2666.794,
+            "end": 2668.714,
+            "text": "Ha, okay, like that, maybe."
+        },
+        {
+            "id": [
+                504
+            ],
+            "speaker": "Gurram",
+            "start": 2668.394,
+            "end": 2670.394,
+            "text": "To test, we need something small."
+        },
+        {
+            "id": [
+                505,
+                506,
+                507
+            ],
+            "speaker": "Anish",
+            "start": 2671.674,
+            "end": 2680.394,
+            "text": "Honestly, bro, at that point we can just fake it, right? We can just use AI to create some short speech or some conversation between two or three different people."
+        },
+        {
+            "id": [
+                508,
+                510
+            ],
+            "speaker": "Sahil",
+            "start": 2682.074,
+            "end": 2688.274,
+            "text": "Decrease, describe, decrease the transcript size split it into half, so long."
+        },
+        {
+            "id": [
+                511
+            ],
+            "speaker": "Anish",
+            "start": 2689.634,
+            "end": 2690.874,
+            "text": "Yeah, we could do that."
+        },
+        {
+            "id": [
+                512
+            ],
+            "speaker": "Gurram",
+            "start": 2693.674,
+            "end": 2694.954,
+            "text": "OK, we can OK."
+        },
+        {
+            "id": [
+                513,
+                514,
+                515,
+                516,
+                517,
+                518
+            ],
+            "speaker": "Anish",
+            "start": 2701.274,
+            "end": 2719.834,
+            "text": "So. Yeah, so , anyways, even though looking for data set up in fact, if we can... We can look for how to test it or things to test it with after we've written this or written the code or at least implemented something for this part of the phase, right? Or this phase, what is it?"
+        },
+        {
+            "id": [
+                519,
+                520,
+                521,
+                522,
+                523
+            ],
+            "speaker": "Anish",
+            "start": 2860.954,
+            "end": 2878.394,
+            "text": "Hey, honestly, I think we we can take a little time right? Our submission is 27th, correct? We can take a little time today, we can do a little bit more research about how we can get started on phase one. Maybe tomorrow we can meet and we generally split the work and get started tomorrow. Is that okay?"
+        },
+        {
+            "id": [
+                524
+            ],
+            "speaker": "Anish",
+            "start": 2885.914,
+            "end": 2886.394,
+            "text": "Hello?"
+        },
+        {
+            "id": [
+                525
+            ],
+            "speaker": "Prisha",
+            "start": 2888.714,
+            "end": 2890.474,
+            "text": "Yeah, works."
+        },
+        {
+            "id": [
+                526
+            ],
+            "speaker": "Anish",
+            "start": 2891.274,
+            "end": 2893.674,
+            "text": "Okay, I also drop off."
+        },
+        {
+            "id": [
+                527
+            ],
+            "speaker": "Prisha",
+            "start": 2895.594,
+            "end": 2898.954,
+            "text": "But should we decide to meet time now, or else it's hard to..."
+        },
+        {
+            "id": [
+                528
+            ],
+            "speaker": "Anish",
+            "start": 2899.674,
+            "end": 2900.554,
+            "text": "For tomorrow."
+        },
+        {
+            "id": [
+                529
+            ],
+            "speaker": "Prisha",
+            "start": 2901.274,
+            "end": 2901.514,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                530,
+                531,
+                532
+            ],
+            "speaker": "Anish",
+            "start": 2902.634,
+            "end": 2914.074,
+            "text": "Sure, , I'm okay with anything. Too late in the night I and around lunch is difficult. If you guys want to do morning, I can we can do that. I want to say 8, 9."
+        },
+        {
+            "id": [
+                533,
+                534,
+                535
+            ],
+            "speaker": "Prisha",
+            "start": 2913.994,
+            "end": 2925.594,
+            "text": "I think morning would be better so that like at least we can get started. Like I feel like once we start, then it's easier to like work on it. But once so."
+        },
+        {
+            "id": [
+                536,
+                537,
+                538,
+                539,
+                541
+            ],
+            "speaker": "Anish",
+            "start": 2926.714,
+            "end": 2944.154,
+            "text": "Okay, , I'm okay with 830 or 9. You guys let me know. So I put a message in the group. You guys just either respond or say yes no, say, , maybe this time and say something at least if we start talking, maybe some, , we can get a response from this. Okay, fine then. Bye."
+        },
+        {
+            "id": [
+                542
+            ],
+            "speaker": "Prisha",
+            "start": 2943.474,
+            "end": 2943.634,
+            "text": "MUM."
+        },
+        {
+            "id": [
+                543
+            ],
+            "speaker": "Prisha",
+            "start": 2946.714,
+            "end": 2947.114,
+            "text": "Bye."
+        },
+        {
+            "id": [
+                544
+            ],
+            "speaker": "Sahil",
+            "start": 2949.994,
+            "end": 2950.394,
+            "text": "Go."
+        },
+        {
+            "id": [
+                545
+            ],
+            "speaker": "Prisha",
+            "start": 2954.874,
+            "end": 2955.194,
+            "text": "Support."
+        }
+    ],
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish",
+            "Gurram",
+            "Prisha",
+            "Sahil",
+            "Sai"
+        ],
+        "participant_map": {
+            "Anish": "Anish Sai Nimmagadda",
+            "Gurram": "Gurram Vamsi Krishna",
+            "Prisha": "Prisha Behera",
+            "Sahil": "Sahil Mengji",
+            "Sai": "Sai Nishanth Segu"
+        }
+    }
+}

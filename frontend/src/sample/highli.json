@@ -1,0 +1,291 @@
+{
+    "key_moments": [
+        {
+            "id": "km-1",
+            "type": "event",
+            "text": "The team discusses the challenge of testing their product with limited input from the user.",
+            "confidence": 0.8,
+            "source_ids": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "id": "km-2",
+            "type": "quote",
+            "text": "Anish suggests using the meeting name to get a rough idea of the meeting topics.",
+            "confidence": 0.8,
+            "source_ids": [
+                "31",
+                "32",
+                "33",
+                "35"
+            ]
+        },
+        {
+            "id": "km-3",
+            "type": "statement",
+            "text": "Gurram proposes using a multi-pass approach to divide the meeting into topics.",
+            "confidence": 0.8,
+            "source_ids": [
+                "125",
+                "127",
+                "128"
+            ]
+        },
+        {
+            "id": "km-4",
+            "type": "event",
+            "text": "The team considers using a sliding window approach to split the transcript into overlapping windows.",
+            "confidence": 0.8,
+            "source_ids": [
+                "147",
+                "148",
+                "149"
+            ]
+        },
+        {
+            "id": "km-5",
+            "type": "quote",
+            "text": "Anish shares a possible approach of embedding plus clustering to detect boundaries and group segments.",
+            "confidence": 0.8,
+            "source_ids": [
+                "163",
+                "164",
+                "165",
+                "166",
+                "167",
+                "168",
+                "169",
+                "170",
+                "171"
+            ]
+        },
+        {
+            "id": "km-6",
+            "type": "important event",
+            "text": "The team discusses the importance of capturing action items and deadlines from meeting transcripts",
+            "confidence": 0.8,
+            "source_ids": [
+                "310",
+                "311",
+                "312",
+                "313",
+                "314",
+                "315",
+                "316",
+                "317",
+                "318",
+                "319",
+                "320",
+                "321",
+                "322",
+                "323",
+                "324",
+                "325",
+                "326",
+                "327",
+                "328",
+                "329",
+                "330",
+                "331",
+                "333",
+                "334",
+                "335",
+                "336",
+                "337",
+                "338",
+                "339",
+                "340",
+                "341",
+                "343"
+            ]
+        },
+        {
+            "id": "km-7",
+            "type": "critical statement",
+            "text": "The team decides to start by converting the input to a structured JSON format and then try both approaches",
+            "confidence": 0.8,
+            "source_ids": [
+                "252",
+                "253",
+                "255",
+                "256",
+                "257",
+                "258",
+                "259",
+                "260",
+                "261",
+                "262",
+                "263",
+                "264",
+                "265",
+                "266",
+                "267",
+                "268",
+                "269",
+                "270",
+                "271",
+                "272",
+                "273",
+                "274"
+            ]
+        },
+        {
+            "id": "km-8",
+            "type": "insightful quote",
+            "text": "The team identifies the need to attribute action items to specific speakers",
+            "confidence": 0.8,
+            "source_ids": [
+                "352",
+                "353",
+                "354",
+                "355"
+            ]
+        },
+        {
+            "id": "km-9",
+            "type": "important event",
+            "text": "The team discusses the challenge of adding calendar events for multiple teams and the need for access to calendars",
+            "confidence": 0.8,
+            "source_ids": [
+                "358",
+                "359",
+                "360",
+                "361",
+                "362",
+                "363",
+                "364",
+                "365",
+                "366",
+                "367"
+            ]
+        },
+        {
+            "id": "km-10",
+            "type": "critical statement",
+            "text": "The team decides to start working on the project and finalize the plan",
+            "confidence": 0.8,
+            "source_ids": [
+                "383",
+                "384",
+                "385",
+                "387",
+                "388",
+                "389",
+                "390",
+                "391",
+                "392",
+                "393",
+                "394",
+                "395",
+                "396",
+                "397",
+                "398",
+                "399",
+                "400",
+                "401"
+            ]
+        },
+        {
+            "id": "km-11",
+            "type": "important event",
+            "text": "Gurram mentions that the system should be able to capture content from uploaded files during meetings, not just text or raw transcripts.",
+            "confidence": 0.9,
+            "source_ids": [
+                "416",
+                "417",
+                "419",
+                "420",
+                "422"
+            ]
+        },
+        {
+            "id": "km-12",
+            "type": "critical statement",
+            "text": "Anish expresses concerns about the feasibility of the task, citing the need for additional permissions and the difficulty of syncing spoken information with file content.",
+            "confidence": 0.8,
+            "source_ids": [
+                "440",
+                "441",
+                "442",
+                "443",
+                "444",
+                "445"
+            ]
+        },
+        {
+            "id": "km-13",
+            "type": "insightful quote",
+            "text": "Anish suggests that the team focus on getting started with the project rather than trying to implement everything suggested in the meeting.",
+            "confidence": 0.8,
+            "source_ids": [
+                "455",
+                "456",
+                "457",
+                "458",
+                "459",
+                "460",
+                "461",
+                "462"
+            ]
+        },
+        {
+            "id": "km-14",
+            "type": "important event",
+            "text": "The team discusses the importance of integrating their work and decides to assign tasks phase by phase to avoid difficulties in the end.",
+            "confidence": 0.9,
+            "source_ids": [
+                "468",
+                "469",
+                "470",
+                "471",
+                "472"
+            ]
+        },
+        {
+            "id": "km-15",
+            "type": "critical statement",
+            "text": "Anish proposes using a small, fake dataset to test their system, rather than trying to use a large, real-world transcript.",
+            "confidence": 0.8,
+            "source_ids": [
+                "505",
+                "506",
+                "507"
+            ]
+        },
+        {
+            "id": "km-16",
+            "type": "important event",
+            "text": "The team decides to take some time to research and prepare before starting work on the project, with the goal of meeting again the next day to split tasks and begin work.",
+            "confidence": 0.9,
+            "source_ids": [
+                "519",
+                "520",
+                "521",
+                "522",
+                "523"
+            ]
+        }
+    ],
+    "metadata": {
+        "title": "Test-Meeting",
+        "recorded_at": null,
+        "source_type": "vtt",
+        "participants": [
+            "Anish",
+            "Gurram",
+            "Prisha",
+            "Sahil",
+            "Sai"
+        ]
+    }
+}
