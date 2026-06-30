@@ -212,3 +212,18 @@ When the pipeline generates `MeetingActionItem` entities, an asynchronous webhoo
 ### Google Calendar Integration
 * **Pre-Meeting Context**: Meet-Ink syncs with Google Calendar. When a meeting ends, the `team_prep` graph drafts announcements. These announcements are automatically patched into the Google Calendar Event Description, ensuring anyone who missed the meeting can read the executive summary directly in their calendar app.
 * **Participant Sync**: The system maps Google Calendar attendees to Meet-Ink Voice Profiles, accelerating AssemblyAI's diarization accuracy by pre-loading known speakers.
+
+
+<img width="1920" height="1200" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/51b29d87-65c7-434b-8653-ca3a54ca3307" />
+<img width="1920" height="1200" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/a289daf0-fda4-4321-89ed-50681e6f67c9" />
+<img width="1920" height="1200" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/4d41f1d9-3e61-45a6-bbea-66129a741edc" />
+<img width="1920" height="1200" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/d0b16fda-3ebf-499d-8fcc-21691f4f4266" />
+<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/530c5656-cb82-4b6f-bcba-f4e0ed29b744" />
+<img width="1920" height="1200" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/c4610892-effa-4845-9696-51e29e5ba41a" />
+<img width="1920" height="1200" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/81b1fd29-5d0b-4296-a760-75ba729705c7" />
+<img width="1920" height="1200" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/38a19318-41bf-4593-8a4f-32193fd348d5" />
+<img width="1920" height="1200" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/0c0fa19e-171d-4825-9ddc-6a8a96608ad3" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-27 034944" src="https://github.com/user-attachments/assets/f88a6cfb-a42a-44aa-b327-ff6c559778d5" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-27 035008" src="https://github.com/user-attachments/assets/d0dd5cb9-497e-47cb-b398-2bd526911276" />
+
+
