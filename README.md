@@ -213,17 +213,25 @@ When the pipeline generates `MeetingActionItem` entities, an asynchronous webhoo
 * **Pre-Meeting Context**: Meet-Ink syncs with Google Calendar. When a meeting ends, the `team_prep` graph drafts announcements. These announcements are automatically patched into the Google Calendar Event Description, ensuring anyone who missed the meeting can read the executive summary directly in their calendar app.
 * **Participant Sync**: The system maps Google Calendar attendees to Meet-Ink Voice Profiles, accelerating AssemblyAI's diarization accuracy by pre-loading known speakers.
 
-
-<img width="1920" height="1200" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/51b29d87-65c7-434b-8653-ca3a54ca3307" />
-<img width="1920" height="1200" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/a289daf0-fda4-4321-89ed-50681e6f67c9" />
-<img width="1920" height="1200" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/4d41f1d9-3e61-45a6-bbea-66129a741edc" />
-<img width="1920" height="1200" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/d0b16fda-3ebf-499d-8fcc-21691f4f4266" />
-<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/530c5656-cb82-4b6f-bcba-f4e0ed29b744" />
-<img width="1920" height="1200" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/c4610892-effa-4845-9696-51e29e5ba41a" />
-<img width="1920" height="1200" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/81b1fd29-5d0b-4296-a760-75ba729705c7" />
-<img width="1920" height="1200" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/38a19318-41bf-4593-8a4f-32193fd348d5" />
-<img width="1920" height="1200" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/0c0fa19e-171d-4825-9ddc-6a8a96608ad3" />
+<img width="1920" height="1200" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/02a1a26d-2904-4c33-a47e-f43be666d14f" />
+<img width="1920" height="1200" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/bb07a326-c23f-4d35-a784-e9b0ac6e88b6" />
+<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/77f6ef0e-db4c-4727-9785-d8f1ac7f399c" />
+<img width="1920" height="1200" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/40504b36-8db6-430c-a005-76ee156137fe" />
 <img width="1920" height="1200" alt="Screenshot 2026-06-27 034944" src="https://github.com/user-attachments/assets/f88a6cfb-a42a-44aa-b327-ff6c559778d5" />
+<img width="1920" height="1200" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/b4aa0848-a3b8-4fe2-bd1a-be9408f248c0" />
+<img width="1920" height="1200" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/572d4717-3af4-41d8-a7cf-a2228e2e17ec" />
+<img width="1920" height="1200" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/81827789-2492-4d40-866c-e4a19428c75f" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-27 035321" src="https://github.com/user-attachments/assets/d348881e-879a-4526-aee7-57b40ae042b0" />
 <img width="1920" height="1200" alt="Screenshot 2026-06-27 035008" src="https://github.com/user-attachments/assets/d0dd5cb9-497e-47cb-b398-2bd526911276" />
+<img width="1920" height="1200" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/6bf3b363-c5df-43e1-9210-d8aac32085f9" />
+<img width="1920" height="1200" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/2f9a1f5a-1958-4cae-a36b-b286451dfb5f" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-29 155227" src="https://github.com/user-attachments/assets/83d412c3-01df-4b2d-aace-96cbeceb0ab8" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-27 034944" src="https://github.com/user-attachments/assets/5490c94c-0a03-4761-9b3c-e564190c1de7" />
+<img width="1920" height="1200" alt="Screenshot 2026-06-27 035008" src="https://github.com/user-attachments/assets/6f8ddc07-c97f-4ede-a94a-9b9fb211129b" />
+
+
+
+
+
 
 
